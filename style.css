@@ -106,7 +106,8 @@ header{
 .counter{
     font-family: "7seg";
     padding:2px 0px -20px 0px;
-    border:2px solid aqua;
+    /* border:2px solid aqua; */
+    border: 2px ridge rgba(211, 220, 50, .6);
     color: red;
     margin: auto 0px;
     font-size: 30px;
