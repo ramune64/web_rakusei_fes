@@ -133,6 +133,7 @@ header a{
     }
 }
 
+
 .sp_nav{
     transform: translateX(-105%);
     opacity: 0;
@@ -201,7 +202,7 @@ header a{
     height: 300px;
     margin: -20% 5% 0 2%;
 } */
-.serch,nav,.side_content{
+.serch,nav,.side_content,.counter{
     display: none;
 }
 #hontai{
