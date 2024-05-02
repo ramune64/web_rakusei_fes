@@ -62,17 +62,17 @@ function show(){
     day2.innerHTML = day2_str;
     day3.innerHTML = day3_str;
 
-    if(sec1_str != leg_s1){/* アニメーション用のクラスをつける */}
-    if(sec2_str != leg_s2){/* 文字一つにつき要素ふたついるやんけー */}
-    if(min1_str != leg_m1){/* めんどー */}
-    if(min2_str != leg_m2){/* 頼まれない限り実装せんとこー */}
-    if(hour1_str != leg_h1){}
+    /* if(sec1_str != leg_s1){ *//* アニメーション用のクラスをつける *//* } */
+    /* if(sec2_str != leg_s2){ *//* 文字一つにつき要素ふたついるやんけー *//* } */
+    /* if(min1_str != leg_m1){ *//* めんどー *//* } */
+    /* if(min2_str != leg_m2){ *//* 頼まれない限り実装せんとこー *//* } */
+    /* if(hour1_str != leg_h1){}
     if(hour2_str != leg_h2){}
     if(day1_str != leg_d1){}
     if(day2_str != leg_d2){}
-    if(day3_str != leg_d3){}
+    if(day3_str != leg_d3){} */
 
-    leg_s1 = sec1_str;
+    /* leg_s1 = sec1_str;
     leg_s2 = sec2_str;
     leg_m1 = min1_str;
     leg_m2 = min2_str;
@@ -80,7 +80,7 @@ function show(){
     leg_h2 = hour2_str;
     leg_d1 = day1_str;
     leg_d2 = day2_str;
-    leg_d3 = day3_str;
+    leg_d3 = day3_str; */
     /* counter.innerHTML = day+'日'+hour+'時間'+min+'分'+sec+'秒'; */
 }
 setInterval(show,1000);

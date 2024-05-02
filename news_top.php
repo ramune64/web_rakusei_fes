@@ -18,10 +18,12 @@
         <?php
             /* session_cache_limiter("private_no_expire"); */
             mb_internal_encoding("UTF-8");
-            $news_files = glob("*news.php");
+            $news_files = glob("news/*news.php");
             $index = 0;
             foreach($news_files as $news){
-                $news_files[$index]=str_replace("news.php","",$news);
+                $newsnum_str = str_replace("news/","",$news);
+                $newsnum_str = str_replace("news.php","",$newsnum_str);
+                $news_files[$index]=(int)$newsnum_str;
                 $index++;
             }
             rsort($news_files);
@@ -33,7 +35,7 @@
             $count = 0;
             $index = 0;
             foreach($news_files as $news){
-                $news = $news."news.php";
+                $news = "news/".$news."news.php";
                 $news_files[$index]=$news;
                 $index++;
             }

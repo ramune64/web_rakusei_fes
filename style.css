@@ -105,15 +105,15 @@ header{
 }
 @font-face{
     font-family: "dot_12";
-    src: url("font/JF-Dot-Shinonome12.ttf");
+    src: url("font/JF-Dot-Shinonome12.ttf") format("truetype");
 }
 @font-face{
     font-family: "makinas_flat";
-    src: url("font/Makinas-4-Flat.otf");
+    src: url("font/Makinas-4-Flat.otf") format("opentype");
 }
 @font-face{
     font-family: "makinas_square";
-    src: url("font/Makinas-4-Square.otf");
+    src: url("font/Makinas-4-Square.otf") format("opentype");
 }
 .counter{
     font-family: "7seg";
