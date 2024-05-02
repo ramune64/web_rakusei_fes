@@ -561,3 +561,7 @@ div.news_topics a p{
     transform: translateX(-50%);
     width: 35%;
 }
+
+td:hover{
+    background-color: purple;
+}

@@ -23,11 +23,13 @@ function show(){
     date1 = new Date(setting_year, setting_month-1, setting_day,setting_hour,setting_minute,0,0);
     date2 = new Date(/* 2023, 4-1, 29,7,40,0,0 */);
     date3 = date1 - date2;
+    
     sec = Math.floor(date3 / 1000 % 60);
     min = Math.floor(date3 / 1000 / 60 % 60);
     hour = Math.floor(date3 / 1000 / 60 / 60 % 24);
     day = Math.floor(date3 / 1000 / 60 / 60 / 24);
     
+    if(date3<0){sec=0;min=0;hour=0;day=0;}
 
     sec1_str = sec%10;
     sec2_str = Math.floor(sec/10)%10
