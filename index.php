@@ -105,7 +105,7 @@
         </div>
     </div>
     <div class="inner_content" id="page0-4">
-        <h1>index3</h1>
+        <h1 class="index3">index3</h1>
         <div class="all_view">
             <div class="view">
                 <h3>○○</h3>

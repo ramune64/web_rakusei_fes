@@ -44,6 +44,7 @@
         echo "「".$word."」"; echo"の検索結果：";
         $count = 0;//class.innercontentの有無
         $aaaa = glob("*php");
+        $aaaa = array_merge($aaaa,glob("news/*php"));
         $key = array_search("searchbox.php",$aaaa);
         if(!is_bool($key)){
           unset($aaaa[$key]);
@@ -56,6 +57,7 @@
         if(!is_bool($key)){
           unset($aaaa[$key]);
         }
+        /* var_dump($aaaa); */
         foreach($aaaa as $files){//ファイルを開く
           $file = fopen($files,"r");
           while($data = fgets($file)){//行を読み込む

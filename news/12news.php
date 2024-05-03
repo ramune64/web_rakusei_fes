@@ -12,23 +12,22 @@
     <div class="wrap">
     <div id="hontai">
     <div class="main_content">
-        <div class="inner_content news" id="news3">
-            <h1>school</h1>
-        <div id="news3-1">
-            <h2>洛南</h2>
-            <p>洛星よりすごい説ある
-            </p>
-        </div>
-        <div id="news3-2">
-            <h2>灘</h2>
-            <p>めっちゃすごい<br>化け物の集団
-            </p>
-        </div>
-        <div id="news3-3">
-            <h2>ネタ切れ</h2>
-            <p>ユユユユユユユ
-            </p>
-        </div>
+        <div class="inner_content news" id="news12">
+            <h1>表</h1>
+            
+            <table border="2" class="test_table">
+                <tr>
+                    <th>aaa</th><th>bbb</th>
+                    </tr>
+                    <tr>
+                <td>10</td><td>20</td>
+                </tr>
+                <tr>
+                    
+                <td>15</td><td>25</td>
+                </rh>
+            </table>
+
         </div>
     </div>
     <div class="side_content">

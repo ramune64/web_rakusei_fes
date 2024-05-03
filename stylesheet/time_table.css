@@ -1,0 +1,45 @@
+.time_st{
+    margin-left: -5em;
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+}
+.time_st::after{
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: -18.5px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: red;
+}
+.time_table_ul{
+    min-width: 393px;
+    margin:0 100px 0 100px;
+    border-left: 8px solid red;
+    background-color: white;
+    list-style: none;
+}
+.sch_box{
+    min-width: 410px;
+    display: inline-block;
+    padding-left: 25px;
+    font-size: 25px;
+}
+.time_table_ul li{
+    
+    background-color: lightslategray;
+    padding: 5px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+p.sch_title{
+    font-weight: 600;
+}
+p.sch_txt{
+    font-size: 20px;
+}

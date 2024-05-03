@@ -19,11 +19,11 @@
                 <div class="hum_1" id="middle_hum"></div>
                 <div class="hum_2" id="bottom_hum"></div>
         </div>
-    <header id="header"><a href="index.php"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs-dD6FVC-TSZ202BJxiOKISjOv4KwTX5XecfC2emynQ&s" alt="logo" id="logo"></a>
+    <header id="header"><a href="../index.php"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs-dD6FVC-TSZ202BJxiOKISjOv4KwTX5XecfC2emynQ&s" alt="logo" id="logo"></a>
     <div id="counter" class="counter">
-        <span id="day3"></span><span id="day2"></span><span id="day1"></span><span class="counter_str">日</span><span id="hour2"></span><span id="hour1"></span><span class="counter_str">時間</span><span id="min2"></span><span id="min1"></span><span class="counter_str">分</span><span id="sec2"></span><span id="sec1"></span><span class="counter_str">秒</span></div>    
+        <span id="day3">0</span><span id="day2">0</span><span id="day1">0</span><span class="counter_str">日</span><span id="hour2">0</span><span id="hour1">0</span><span class="counter_str">時間</span><span id="min2">0</span><span id="min1">0</span><span class="counter_str">分</span><span id="sec2">0</span><span id="sec1">0</span><span class="counter_str">秒</span></div>    
     <div id="serch" class="serch">
-            <form method="get" action="./searchbox.php" required>
+            <form method="get" action="../searchbox.php" required>
                 <div>
                     <label>
                       ページ内検索欄
@@ -41,7 +41,7 @@
             for($i=0;$i<$var_count-1;$i++){
                 $under = "";
                 for($j=0;$j<=count($var_link_list_id[$i])-1;$j++){
-                    $under =  $under."<a href=".$var_link_list[$i].$var_link_list_id[$i][$j].'><li>'.$var_name_list[$i][$j].'</li></a>';
+                    $under =  $under."<a href=../".$var_link_list[$i].$var_link_list_id[$i][$j].'><li>'.$var_name_list[$i][$j].'</li></a>';
                 }
                     $txtdata = <<< EOM
                         <li class="ze">
@@ -63,7 +63,7 @@
                 <ul>
                     <li id="ze_last" class="fi last"><?php echo end($var_list) ?></li> 
                         <div id="suflast" class="sub">
-                            <a href="/news_top.php"><li class="last">ニュース一覧</li></a>
+                            <a href="../news_top.php"><li class="last">ニュース一覧</li></a>
                         </div>
                 </ul>
             </div>
@@ -75,7 +75,7 @@
             <?php 
                 $c=0;
                 foreach($var_list as $li){
-                    echo '<a href="'.$var_link_list[$c].'" class="sp_nav_a"><li class="sp_nav_li"><p>'.$li.'</p></li></a>';
+                    echo '<a href="../'.$var_link_list[$c].'" class="sp_nav_a"><li class="sp_nav_li"><p>'.$li.'</p></li></a>';
                     $c++;
                 }
             ?>

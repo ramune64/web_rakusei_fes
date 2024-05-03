@@ -1,3 +1,5 @@
+tableのwidth２つをけせばok!
+
 ⇓一覧テンプレ
 <div class="inner_content" id="page1-1">
             <h1>一覧ﾀﾞﾖ</h1>

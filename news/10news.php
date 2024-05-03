@@ -88,50 +88,50 @@ rt
             <h1>洛星10</h1>
             <div id="Book1111_26098"x:publishsource="Excel">
 
-<table border=0 cellpadding=0 cellspacing=0 width=504 style='border-collapse:collapse;table-layout:fixed;width:378pt'>
+<table border="2" cellpadding=0 cellspacing=0 width=504 style='table-layout:fixed;width:378pt'>
  <col width=72 span=7 style='width:54pt'>
  <tr height=27 style='height:20.25pt'>
-  <td colspan=3 rowspan=4 height=108 class=xl6526098 width=216style='height:81.0pt;width:162pt'> </td>
-  <td colspan=4 rowspan=2 class=xl6526098 width=288 style='width:216pt'> </td>
+  <td colspan=3 rowspan=4 height=108 class="target_cell" width=216 style="height:81.0pt;width:162pt;">aaa</td>
+  <td colspan=4 rowspan=2 class="target_cell" width=288 style='width:108pt'>aaa</td><td colspan=4 rowspan=2 class="target_cell" width=288 style='width:108pt'>bbb</td>
  </tr>
  <tr height=27 style='height:20.25pt'>
  </tr>
  <tr height=27 style='height:20.25pt'>
-  <td rowspan=2 height=54 class=xl6526098 style='height:40.5pt;border-top:none'> </td>
-  <td rowspan=2 class=xl6526098 style='border-top:none'> </td>
-  <td rowspan=2 class=xl6526098 style='border-top:none'> </td>
-  <td class=xl6626098 style='border-top:none;border-left:none'> </td>
+  <td rowspan=2 height=54 class=xl6526098 style='height:40.5pt;'> </td>
+  <td rowspan=2 class=xl6526098 > </td>
+  <td rowspan=2 class=xl6526098 > </td>
+  <td class=xl6626098 > </td>
  </tr>
  <tr height=27 style='height:20.25pt'>
-  <td height=27 class=xl6626098 style='height:20.25pt;border-top:none;border-left:none'> </td>
+  <td height=27 class=xl6626098 style='height:20.25pt;;'> </td>
  </tr>
  <tr height=27 style='height:20.25pt'>
-  <td height=27 class=xl6626098 style='height:20.25pt;border-top:none'> </td>
-  <td class=xl6626098 style='border-top:none;border-left:none'> </td>
-  <td class=xl6626098 style='border-top:none;border-left:none'> </td>
-  <td class=xl6626098 style='border-top:none;border-left:none'> </td>
+  <td height=27 class=xl6626098 style='height:20.25pt;'> </td>
+  <td class=xl6626098 > </td>
+  <td class=xl6626098 > </td>
+  <td class=xl6626098 > </td>
   <td colspan=3 rowspan=3 class=xl6526098> </td>
  </tr>
  <tr height=27 style='height:20.25pt'>
-  <td height=27 class=xl6626098 style='height:20.25pt;border-top:none'> </td>
-  <td class=xl6626098 style='border-top:none;border-left:none'> </td>
-  <td class=xl6626098 style='border-top:none;border-left:none'> </td>
-  <td class=xl6626098 style='border-top:none;border-left:none'> </td>
+  <td height=27 class=xl6626098 style='height:20.25pt;'>aaa</td>
+  <td class=xl6626098 > </td>
+  <td class=xl6626098 > </td>
+  <td class=xl6626098 > </td>
  </tr>
  <tr height=27 style='height:20.25pt'>
-  <td height=27 class=xl6626098 style='height:20.25pt;border-top:none'> </td>
-  <td class=xl6626098 style='border-top:none;border-left:none'> </td>
-  <td class=xl6626098 style='border-top:none;border-left:none'> </td>
-  <td class=xl6626098 style='border-top:none;border-left:none'> </td>
+  <td height=27 class=xl6626098 style='height:20.25pt;'> </td>
+  <td class=xl6626098 > </td>
+  <td class=xl6626098 > </td>
+  <td class=xl6626098 > </td>
  </tr>
  <tr height=27 style='height:20.25pt'>
   <td colspan=5 rowspan=2 height=54 class=xl6526098 style='height:40.5pt'> </td>
-  <td class=xl6626098 style='border-top:none;border-left:none'> </td>
-  <td class=xl6626098 style='border-top:none;border-left:none'> </td>
+  <td class=xl6626098 > </td>
+  <td class=xl6626098 > </td>
  </tr>
  <tr height=27 style='height:20.25pt'>
-  <td height=27 class=xl6626098 style='height:20.25pt;border-top:none;border-left:none'> </td>
-  <td class=xl6626098 style='border-top:none;border-left:none'> </td>
+  <td height=27 class=xl6626098 style='height:20.25pt;;'> </td>
+  <td class=xl6626098 > </td>
  </tr>
  <![if supportMisalignedColumns]>
  <tr height=0 style='display:none'>
