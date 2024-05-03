@@ -23,7 +23,7 @@
     <div id="counter" class="counter">
         <span id="day3"></span><span id="day2"></span><span id="day1"></span><span class="counter_str">日</span><span id="hour2"></span><span id="hour1"></span><span class="counter_str">時間</span><span id="min2"></span><span id="min1"></span><span class="counter_str">分</span><span id="sec2"></span><span id="sec1"></span><span class="counter_str">秒</span></div>    
     <div id="serch" class="serch">
-            <form method="get" action="searchbox.php" required>
+            <form method="get" action="./searchbox.php" required>
                 <div>
                     <label>
                       ページ内検索欄

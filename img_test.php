@@ -2,8 +2,6 @@
 <html lang="ja">
 <head>
   <title>練習中2</title>
-  <!-- <link rel="stylesheet" href="aaa.css" type="text/css">
-  <link rel="icon" href="image\favicon.ico"> -->
   <?php include "links.html" ?>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="UTF-8">
@@ -34,11 +32,9 @@
                 <ul class="img_link">
                     <li class="a1_cell" id="a1_cell">A1のセル</li>
                     <li class="d3_cell" id="d3_cell">C5のセル</li>
-                    <!-- <li id="posx">bbb</li> -->
                 </ul> 
                     </div>
                     </div>
-                
         </div>
         </div>
     <div class="side_content">

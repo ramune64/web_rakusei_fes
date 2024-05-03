@@ -52,15 +52,15 @@
                 <td class=xl65 style='border-top:solid;border-left:solid'> </td>
                 <td class=xl65 style='border-top:solid;border-left:solid'> </td>
                 </tr>
-                <!-- <![if supportMisalignedColumns]>
+                <![if supportMisalignedColumns]>
                 <tr height=0 style='display:block'>
                 <td width=72 style='width:54pt'></td>
                 <td width=72 style='width:54pt'></td>
                 <td width=72 style='width:54pt'></td>
                 <td width=72 style='width:54pt'></td>
                 </tr>
-                <![endif]> -->
-                </table>
+                <![endif]>
+            </table>
         </div>
     </div>
     <div class="side_content">

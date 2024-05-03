@@ -88,12 +88,10 @@ rt
             <h1>洛星10</h1>
             <div id="Book1111_26098"x:publishsource="Excel">
 
-<table border=0 cellpadding=0 cellspacing=0 width=504 style='border-collapse:
- collapse;table-layout:fixed;width:378pt'>
+<table border=0 cellpadding=0 cellspacing=0 width=504 style='border-collapse:collapse;table-layout:fixed;width:378pt'>
  <col width=72 span=7 style='width:54pt'>
  <tr height=27 style='height:20.25pt'>
-  <td colspan=3 rowspan=4 height=108 class=xl6526098 width=216
-  style='height:81.0pt;width:162pt'> </td>
+  <td colspan=3 rowspan=4 height=108 class=xl6526098 width=216style='height:81.0pt;width:162pt'> </td>
   <td colspan=4 rowspan=2 class=xl6526098 width=288 style='width:216pt'> </td>
  </tr>
  <tr height=27 style='height:20.25pt'>
@@ -105,8 +103,7 @@ rt
   <td class=xl6626098 style='border-top:none;border-left:none'> </td>
  </tr>
  <tr height=27 style='height:20.25pt'>
-  <td height=27 class=xl6626098 style='height:20.25pt;border-top:none;
-  border-left:none'> </td>
+  <td height=27 class=xl6626098 style='height:20.25pt;border-top:none;border-left:none'> </td>
  </tr>
  <tr height=27 style='height:20.25pt'>
   <td height=27 class=xl6626098 style='height:20.25pt;border-top:none'> </td>
@@ -133,8 +130,7 @@ rt
   <td class=xl6626098 style='border-top:none;border-left:none'> </td>
  </tr>
  <tr height=27 style='height:20.25pt'>
-  <td height=27 class=xl6626098 style='height:20.25pt;border-top:none;
-  border-left:none'> </td>
+  <td height=27 class=xl6626098 style='height:20.25pt;border-top:none;border-left:none'> </td>
   <td class=xl6626098 style='border-top:none;border-left:none'> </td>
  </tr>
  <![if supportMisalignedColumns]>
