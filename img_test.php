@@ -8,6 +8,13 @@
 </head>
 <body>
         <?php include "header-nav.php" ?>
+        <!-- <div class="kotei">
+        <div class="img_front">
+            <div class="gray_back off" id="gray_back"></div>
+            <img src="image\cherry2.png" alt="桜" class="over_img front_cherry off" id="front_cherry">
+            <img src="image\flower.png" alt="モッコウバラ" class="over_img front_flower off" id="front_flower">
+        </div>
+        </div> -->
         <div class="wrap">
         <div id="hontai">
         <div class="main_content">

@@ -28,13 +28,17 @@
                     <h3>野球部</h3>
                     <p>大谷</p>
                 </div>
-                <div class="view">
+                <div class="view" id="tennis">
                     <h3>テニス部</h3>
                     <p>ジョコビッチ</p>
                 </div>
                 <div class="view">
                     <h3>生物部</h3>
                     <p>アリ</p>
+                </div>
+                <div class="view" id="mokei">
+                    <h3>模型同好会</h3>
+                    <p>空力に喧嘩を売ろう！！</p>
                 </div>
             </div>
             </div>
@@ -117,6 +121,7 @@
     <?php include "Side_bar.html" ?>
     </div>
     </div>
+    <script src="../js/jump.js"></script>
     <?php include "footer.html" ?>
         </div>
     

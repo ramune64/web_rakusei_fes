@@ -29,6 +29,11 @@ html {scroll-behavior: smooth;}
 .side_content{
     margin: 0 5% 0 2%;
 }
+@media screen and (max-width:1190px){
+    .side_content{
+        display: none;
+    }   
+}
 /* .twitter-tweet{
     padding: 0 60px 0 60px;
 } */
@@ -82,7 +87,7 @@ header{
 }
 .wrap{
     position: relative;
-    min-height: 90vh;
+    min-height: 95vh;
     padding-bottom: 78px;
 }
 .footer{
@@ -343,14 +348,14 @@ nav ul li ul li:hover{
 }
 
 
-h1{
+.inner_content h1{
     font-size: 40px;
     min-width: 50%;
     border-left: 20px solid lightblue;
     border-bottom: 4px dotted lightblue;
     margin-bottom: 40px;
 }
-h2{
+.inner_content h2{
     min-width: 20%;
     max-width: 60%;
     font-size: 30px;
@@ -556,7 +561,7 @@ div.news_topics a p{
 .over_img{
     position: absolute;
     z-index: 5;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%);
     width: 35%;

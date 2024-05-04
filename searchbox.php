@@ -57,6 +57,10 @@
         if(!is_bool($key)){
           unset($aaaa[$key]);
         }
+        $key = array_search("map_demo.php",$aaaa);
+        if(!is_bool($key)){
+          unset($aaaa[$key]);
+        }
         /* var_dump($aaaa); */
         foreach($aaaa as $files){//ファイルを開く
           $file = fopen($files,"r");
@@ -87,6 +91,8 @@
 
         array_push($Contents,$content);
         /* 内容の配列化完了 */
+        /* var_dump(count($Contents)); */
+        /* var_dump($h1s); */
         /* ここから検索開始 */
         
         $counter = 0;

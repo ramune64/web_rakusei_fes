@@ -14,7 +14,7 @@
     <div class="main_content">
         <div class="inner_content news" id="news11">
             <h1>洛星8</h1>
-            <p>堕ちた</p>
+            <p>堕ちてなぁい8</p>
         </div>
     </div>
     <div class="side_content">

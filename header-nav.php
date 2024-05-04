@@ -45,7 +45,7 @@
                 }
                     $txtdata = <<< EOM
                         <li class="ze">
-                            <div id="$var_id[$i]">
+                            <div id="$var_id[$i]" class="var_id">
                                 <ul>
                                     <li id="$li_id[$i]" class="fi">$var_list[$i]</li>
                                     <div id="$suf_id[$i]" class="sub">
@@ -59,7 +59,7 @@
             }
         ?>
         <li class="ze">
-            <div  id="last">
+            <div  id="last" class="var_id">
                 <ul>
                     <li id="ze_last" class="fi last"><?php echo end($var_list) ?></li> 
                         <div id="suflast" class="sub">
@@ -90,3 +90,5 @@
             </form>
     </div>
     </div>
+    <script src="../js/time_counter.js"></script>
+    <script src="../js/var_drop.js"></script>

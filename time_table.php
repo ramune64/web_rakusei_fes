@@ -20,13 +20,24 @@
                     <div class="sch_box">
                     <p class="sch_title">日ハム</p>
                     <p class="sch_txt">新庄田宮万波マルティネス郡司中島</p>
+                    <span class="time_fi">22:02</span>
                     </div>
+                    
                 </li>
                 <li>
                 <span class="time_st">22:22</span>
                     <div class="sch_box">
                     <p class="sch_title">横浜</p>
                     <p class="sch_txt">三浦桑原牧佐野宮崎関根筒香蝦名山崎</p>
+                    <span class="time_fi">33:13</span>
+                    </div>
+                </li>
+                <li>
+                <span class="time_st">33:33</span>
+                    <div class="sch_box">
+                    <p class="sch_title">中日</p>
+                    <p class="sch_txt">立浪細川中田カリステ大島石川岡林木下</p>
+                    <span class="time_fi">44:24</span>
                     </div>
                 </li>
             </ul>
