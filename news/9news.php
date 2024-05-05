@@ -20,7 +20,7 @@
   </div>
   <div class="gray_back_map" id="gray_back_map"></div>
   <div class="over_view_box" id="ovh1b">
-    <h1 class="over_view_map">Aクラス</h1>
+    <h1 class="over_view_map">Bクラス</h1>
     <h2 class="over_view_map">テニス部　明日は我が身</h2>
     <p class="over_view_map">ネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れネタ切れ</p>
     <p class="over_view_map"><a href='javascript:jump("tennis")'>展示紹介を一覧で見る</a></p>
