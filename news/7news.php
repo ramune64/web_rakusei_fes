@@ -5,10 +5,12 @@
 <meta charset="UTF-8">
   <title>練習中4</title>
   <!-- <link rel="stylesheet" href="aaa.css" type="text/css"> -->
-  <?php include "links.html" ?>
+  <?php 
+    $path = dirname(__FILE__);$path = str_replace("\\news","",$path);
+    include $path."/links.html" ?>
 </head>
 <body>
-    <?php include "header-nav.php" ?>
+    <?php include $path."/header-nav.php" ?>
     <div class="wrap">
     <div id="hontai">
     <div class="main_content">
@@ -18,10 +20,10 @@
         </div>
     </div>
     <div class="side_content">
-    <?php include "Side_bar.html" ?>
+    <?php include $path."/Side_bar.html" ?>
     </div>
     </div>
-    <?php include "footer.html" ?>
+    <?php include $path."/footer.html" ?>
     </div>
 </body>
 </html>
