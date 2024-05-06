@@ -47,7 +47,7 @@
                         <li class="ze">
                             <div id="$var_id[$i]" class="var_id">
                                 <ul>
-                                    <a href="$var_link_list[$i]"><li id="$li_id[$i]" class="fi">$var_list[$i]</li></a>
+                                    <a href="../$var_link_list[$i]"><li id="$li_id[$i]" class="fi">$var_list[$i]</li></a>
                                     <div id="$suf_id[$i]" class="sub">
                                         $under
                                     </div>
