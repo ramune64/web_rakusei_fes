@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
   <title>map</title>
   <!-- <link rel="stylesheet" href="aaa.css" type="text/css"> -->
-  <?php include "../links.html" ?>
+  <?php include "links.html" ?>
   
 </head>
 <body>
@@ -28,7 +28,7 @@
     <img src="../image/cherry2.png" alt="桜" class="over_view_map"> -->
   </div>
 
-    <?php include "../header-nav.php" ?>
+    <?php include "header-nav.php" ?>
     <div class="wrap">
     <div id="hontai">
     <div class="main_content">
@@ -103,11 +103,11 @@
         </div>
     </div>
     <div class="side_content">
-    <?php include "../Side_bar.html" ?>
+    <?php include "Side_bar.html" ?>
     </div>
     </div>
     <script src="../js/map.js"></script>
-    <?php include "../footer.html" ?>
+    <?php include "footer.html" ?>
     </div>
 </body>
 </html>

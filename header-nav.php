@@ -80,7 +80,7 @@
                 }
             ?>
         </ul>
-            <form method="get" action="searchbox.php" required>
+            <form method="get" action="../searchbox.php" required>
                     <label>
                       <p class="search_guid">ページ内検索欄</p>
                       <input type="text" name="word" placeholder="ここに入力ｩｩｩｩｩｩｩ!!" class="serchbox">

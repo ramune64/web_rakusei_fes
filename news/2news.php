@@ -5,11 +5,11 @@
 <meta charset="UTF-8">
   <title>練習中4</title>
   <!-- <link rel="stylesheet" href="aaa.css" type="text/css"> -->
-  <?php include "../links.html" ?>
+  <?php include "links.html" ?>
 </head>
 <body>
 <div class="wrap">
-    <?php include "../header-nav.php" ?>
+    <?php include "header-nav.php" ?>
     <div id="hontai">
     <div class="main_content">
         <div class="inner_content news" id="news2">
@@ -18,10 +18,10 @@
         </div>
     </div>
     <div class="side_content">
-    <?php include "../Side_bar.html" ?>
+    <?php include "Side_bar.html" ?>
     </div>
     </div>
-    <?php include "../footer.html" ?>
+    <?php include "footer.html" ?>
 </div>
 </body>
 </html>
