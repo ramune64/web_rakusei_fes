@@ -1,8 +1,8 @@
 <?php 
-    $var_list = ["page1","page0","お花","news"];
-    $var_link_list = ["/test.php","/index.php","img_test.php","/news_top.php"];
-    $var_link_list_id = [["#page1-1","#page1-2","#page1-3"],["#page0-1","#page0-2","#page0-3","#page0-4"],["#page4-1","#page4-2","#page4-3"]];
-    $var_name_list = [["page1-1","page1-2","page1-3"],["page0-1","page0-2","page0-3","page0-4"],["モッコウバラ","桜","エクセル"]];
+    $var_list = ["page1","page0","お花","map","news"];
+    $var_link_list = ["/test.php","/index.php","img_test.php","map_demo.php","/news_top.php"];
+    $var_link_list_id = [["#page1-1","#page1-2","#page1-3"],["#page0-1","#page0-2","#page0-3","#page0-4"],["#page4-1","#page4-2","#page4-3"],[]];
+    $var_name_list = [["page1-1","page1-2","page1-3"],["page0-1","page0-2","page0-3","page0-4"],["モッコウバラ","桜","エクセル"],[]];
     $var_id = ["first","second","third","fourth","fifth","sixth"];
     $li_id = ["ze_fi","ze_se","ze_th","ze_fo","ze_fi"];
     $suf_id = ["suf1","suf2","suf3","suf4","suf5"];
@@ -47,7 +47,7 @@
                         <li class="ze">
                             <div id="$var_id[$i]" class="var_id">
                                 <ul>
-                                    <li id="$li_id[$i]" class="fi">$var_list[$i]</li>
+                                    <a href="$var_link_list[$i]"><li id="$li_id[$i]" class="fi">$var_list[$i]</li></a>
                                     <div id="$suf_id[$i]" class="sub">
                                         $under
                                     </div>
@@ -61,9 +61,9 @@
         <li class="ze">
             <div  id="last" class="var_id">
                 <ul>
-                    <li id="ze_last" class="fi last"><?php echo end($var_list) ?></li> 
+                    <a href="../news_top.php"><li id="ze_last" class="fi last"><?php echo end($var_list) ?></li></a> 
                         <div id="suflast" class="sub">
-                            <a href="../news_top.php"><li class="last">ニュース一覧</li></a>
+                            <!-- <a href="../news_top.php"><li class="last">ニュース一覧</li></a> -->
                         </div>
                 </ul>
             </div>
