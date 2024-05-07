@@ -15,6 +15,11 @@
     text-align: center;
 }
 
+.button_ts:hover{
+    background-color: aqua;
+}
+
+
 .buttons_top,.buttons_buttom{
     margin-bottom: 0px;
     justify-content: center;
@@ -26,6 +31,7 @@
     padding: 10px 5px;
     /* margin: 0 20px 60px 20px; */
 }
+
 .buttons_top{
     margin-bottom: 30px;
 }
@@ -77,16 +83,16 @@
     content: "";
     position: absolute;
     top: 2px;
-    right: -2.4em;
+    right: -2.125em;
     display: inline-block;
-    /* width: 15px;
-    height: 15px; */
-    border-top: 13px solid greenyellow;
-    border-right: 13px solid transparent;
+    width: 15px;
+    height: 15px;
+    border: 2px solid purple;
+    /* border-right: 13px solid transparent;
     border-bottom: 13px solid transparent;
-    border-left: 13px solid transparent;
-    /* border-radius: 50%; */
-    /* background-color: red; */
+    border-left: 13px solid transparent; */
+    border-radius: 50%;
+    background-color: purple;
 }
 .time_table_ul{
     min-width: 393px;

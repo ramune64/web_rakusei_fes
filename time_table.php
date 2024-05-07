@@ -17,27 +17,27 @@
             <h1>タイムテーブル</h1>
             <div class="buttons">
                 <ul class="buttons_top">
-                    <a href="javascript:tt_day(1)" class="button_ts b_days"><li class="button_li">ここクリック1</li></a>
-                    <a href="javascript:tt_day(2)" class="button_ts b_days"><li class="button_li">ここクリック2</li></a>
-                    <a href="javascript:tt_day(3)" class="button_ts b_days"><li class="button_li">ここクリック3</li></a>
+                    <a href="javascript:tt_day(1)" class="button_ts b_days" id="d1b"><li class="button_li">ここクリック1</li></a>
+                    <a href="javascript:tt_day(2)" class="button_ts b_days" id="d2b"><li class="button_li">ここクリック2</li></a>
+                    <a href="javascript:tt_day(3)" class="button_ts b_days" id="d3b"><li class="button_li">ここクリック3</li></a>
                 </ul>
                 <ul class="buttons_buttom place_button" id="d1">
-                    <a href="javascript:tt_place(1)" class="button_ts"><li class="button_li">ここクリック1</li></a>
-                    <a href="javascript:tt_place(2)" class="button_ts"><li class="button_li">ここクリック2</li></a>
-                    <a href="javascript:tt_place(3)" class="button_ts"><li class="button_li">ここクリック3</li></a>
-                    <a href="javascript:tt_place(4)" class="button_ts"><li class="button_li">ここクリック4</li></a>
+                    <a href="javascript:tt_place(1)" class="button_ts" id="d1p1b"><li class="button_li">ここクリック1</li></a>
+                    <a href="javascript:tt_place(2)" class="button_ts" id="d1p2b"><li class="button_li">ここクリック2</li></a>
+                    <a href="javascript:tt_place(3)" class="button_ts" id="d1p3b"><li class="button_li">ここクリック3</li></a>
+                    <a href="javascript:tt_place(4)" class="button_ts" id="d1p4b"><li class="button_li">ここクリック4</li></a>
                 </ul>
                 <ul class="buttons_buttom place_button" id="d2">
-                    <a href="javascript:tt_place(1)" class="button_ts"><li class="button_li">ここクリック21</li></a>
-                    <a href="javascript:tt_place(2)" class="button_ts"><li class="button_li">ここクリック22</li></a>
-                    <a href="javascript:tt_place(3)" class="button_ts"><li class="button_li">ここクリック23</li></a>
+                    <a href="javascript:tt_place(1)" class="button_ts" id="d2p1b"><li class="button_li">ここクリック21</li></a>
+                    <a href="javascript:tt_place(2)" class="button_ts" id="d2p2b"><li class="button_li">ここクリック22</li></a>
+                    <a href="javascript:tt_place(3)" class="button_ts" id="d2p3b"><li class="button_li">ここクリック23</li></a>
                 </ul>
                 <ul class="buttons_buttom place_button" id="d3">
-                    <a href="javascript:tt_place(1)" class="button_ts"><li class="button_li">ここクリック31</li></a>
-                    <a href="javascript:tt_place(2)" class="button_ts"><li class="button_li">ここクリック32</li></a>
-                    <a href="javascript:tt_place(3)" class="button_ts"><li class="button_li">ここクリック33</li></a>
-                    <a href="javascript:tt_place(4)" class="button_ts"><li class="button_li">ここクリック34</li></a>
-                    <a href="javascript:tt_place(5)" class="button_ts"><li class="button_li">ここクリック35</li></a>
+                    <a href="javascript:tt_place(1)" class="button_ts" id="d3p1b"><li class="button_li">ここクリック31</li></a>
+                    <a href="javascript:tt_place(2)" class="button_ts" id="d3p2b"><li class="button_li">ここクリック32</li></a>
+                    <a href="javascript:tt_place(3)" class="button_ts" id="d3p3b"><li class="button_li">ここクリック33</li></a>
+                    <a href="javascript:tt_place(4)" class="button_ts" id="d3p4b"><li class="button_li">ここクリック34</li></a>
+                    <a href="javascript:tt_place(5)" class="button_ts" id="d3p5b"><li class="button_li">ここクリック35</li></a>
                 </ul>
             </div>
             <?php
