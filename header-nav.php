@@ -90,5 +90,4 @@
             </form>
     </div>
     </div>
-    <script src="../js/time_counter.js"></script>
-    <script src="../js/var_drop.js"></script>
+    
