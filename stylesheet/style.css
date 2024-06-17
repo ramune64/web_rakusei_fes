@@ -59,7 +59,7 @@ html {scroll-behavior: smooth;}
     text-align: center;
 }
 body{
-    background: linear-gradient(135deg,white,rgb(151, 225, 227));
+    background: linear-gradient(-45deg,#bc3435 10%,white);
     background-attachment:fixed;
 }
 .red{
@@ -151,6 +151,19 @@ header{
     width: 300px;
     font-size: 20px;
 }
+/* .serchbox::after{
+    content:url("image/magnifying_glass2.png");
+    width: 25px;
+    position: absolute;
+    cursor: pointer;
+    right: 18px;
+    bottom: 11px;
+    padding-left: 30px;
+} */
+div.serchbox_parent{
+    position: relative;
+    margin: auto 10px;
+}
 .rens img{
     width: 25px;
     position: absolute;
@@ -168,11 +181,12 @@ nav#line1{
     width: 100%;
     height: 75px;
     font-size: 50px;
-    background-color: lightblue;
+    background-color:darkblue;
     z-index: 3;
 }
 #logo{
     /* display: table-cell; */
+    mix-blend-mode: multiply;
     height: 75px;
     padding: 0%;
     margin: 0%;

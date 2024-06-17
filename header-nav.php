@@ -19,17 +19,17 @@
                 <div class="hum_1" id="middle_hum"></div>
                 <div class="hum_2" id="bottom_hum"></div>
         </div>
-    <header id="header"><a href="../index.php"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs-dD6FVC-TSZ202BJxiOKISjOv4KwTX5XecfC2emynQ&s" alt="logo" id="logo"></a>
+    <header id="header"><a href="../index.php"><img src="/image/logo2.png" alt="logo" id="logo"></a>
     <div id="counter" class="counter">
         <span id="day3">0</span><span id="day2">0</span><span id="day1">0</span><span class="counter_str">日</span><span id="hour2">0</span><span id="hour1">0</span><span class="counter_str">時間</span><span id="min2">0</span><span id="min1">0</span><span class="counter_str">分</span><span id="sec2">0</span><span id="sec1">0</span><span class="counter_str">秒</span></div>    
     <div id="serch" class="serch">
             <form method="get" action="../searchbox.php" required>
-                <div>
-                    <label>
-                      ページ内検索欄
+                <div class="serchbox_parent">
+                    <!-- <label> -->
+                      <!-- ページ内検索欄 -->
                       <input type="text" name="word" placeholder="ここに入力ｩｩｩｩｩｩｩ!!" class="serchbox">
                       <button type="submit" class="rens"><img src="/image/magnifying_glass2.png" alt="rens"></button>
-                    </label>
+                    <!-- </label> -->
                   </div>
             </form>
         </div>
