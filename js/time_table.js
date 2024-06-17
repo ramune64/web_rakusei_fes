@@ -1,22 +1,22 @@
-setting_day = 1;
-setting_place = 1;
-show_id = "d1p1";
-pb_show_id = "d1";//場所選択ボタンの表示用id
+var setting_day = 1;
+var setting_place = 1;
+var show_id = "d1p1";
+var pb_show_id = "d1";//場所選択ボタンの表示用id
 
-c_change_d = "d1b";
-c_change_p = "d1p1b";
-legacy_ccd = c_change_d;
-legacy_ccp = c_change_p;
+var c_change_d = "d1b";
+var c_change_p = "d1p1b";
+var legacy_ccd = c_change_d;
+var legacy_ccp = c_change_p;
 document.getElementById(c_change_d).style.backgroundColor = "yellow";
 document.getElementById(c_change_p).style.backgroundColor = "yellow";
 
 
-ele_day = document.getElementById("d2");
+var ele_day = document.getElementById("d2");
 ele_day.style.display = "none";
 ele_day = document.getElementById("d3");
 ele_day.style.display = "none";
 
-ele_all_tt = document.getElementsByClassName("time_table_ul");
+var ele_all_tt = document.getElementsByClassName("time_table_ul");
 var ele_all_tt_array = Array.from(ele_all_tt);
 /* var ele_all_tt_array = Array.from(ele_all_tt);
 window.addEventListener("load",function(){
