@@ -27,6 +27,7 @@ html {scroll-behavior: smooth;}
     width: 90%;
 }
 .side_content{
+    display: none;
     margin: 0 5% 0 2%;
 }
 @media screen and (max-width:1190px){

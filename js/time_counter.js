@@ -11,7 +11,7 @@ const sec1 = document.getElementById("sec1");
 
 let setting_year = 2024;
 let setting_month = 9;
-let setting_day = 13;
+let setting_day_counter = 13;
 let setting_hour = 9;
 let setting_minute = 40;
 
@@ -20,7 +20,7 @@ let date2;
 let date3;
 let sec,min,hour,day;
 function show(){
-    date1 = new Date(setting_year, setting_month-1, setting_day,setting_hour,setting_minute,0,0);
+    date1 = new Date(setting_year, setting_month-1, setting_day_counter,setting_hour,setting_minute,0,0);
     date2 = new Date(/* 2023, 4-1, 29,7,40,0,0 */);
     date3 = date1 - date2;
     
