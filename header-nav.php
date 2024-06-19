@@ -66,10 +66,10 @@
                 
                     <label>
                       <!-- ページ内検索欄 -->
-                      <div class="serchbox"><input type="text" name="word" placeholder="ここに入力ｩｩｩｩｩｩｩ!!" ></div>
-                      <!-- <input type="image" src="/image/magnifying_glass2.png" alt="rens" class="rens"> -->
+                      <input type="text" name="word" placeholder="ここに入力ｩｩｩｩｩｩｩ!!" class="serchbox">
+                      <input type="image" src="/image/magnifying_glass2.png" alt="rens" class="rens">
                     </label>
-                  
+                 
             </form>
         </div>
     <!-- <ul class="table">

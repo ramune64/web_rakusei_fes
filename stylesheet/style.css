@@ -169,23 +169,34 @@ header p span{
 
 
 .serch{
-    /* position: relative; */
+    position: relative;
     /* margin: auto 40px auto auto; */
 }
-input{
+input.serchbox{
     top: 0;
-    position: absolute;
     padding: 5px 36px 5px 12px;
     height: 35px;
     width: 300px;
     font-size: 20px;
-    margin:auto 0 auto 160px;
+    margin-left:160px;
+    vertical-align:middle
+}
+.rens{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    cursor: pointer;
+    left: 480px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+
 }
 /* input.serchbox::before{
     content: url();
 } */
 
-.serchbox::after{
+/* .serchbox::after{
     content:url("image/magnifying_glass2.png");
     width: 25px;
     position: absolute;
@@ -194,18 +205,12 @@ input{
     top: 0px;
     display: block;
     
-}
-/* div.serchbox_parent{
+} */
+div.serchbox_parent{
     position: relative;
     margin: auto 10px;
-} */
-.rens{
-    width: 25px;
-    position: absolute;
-    cursor: pointer;
-    left: 480px;
-    top: 34px;
 }
+
 
 
 
