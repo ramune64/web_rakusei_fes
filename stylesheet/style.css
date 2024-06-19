@@ -194,10 +194,12 @@ nav#line1{
 }
 #logo{
     /* display: table-cell; */
-    mix-blend-mode: multiply;
-    height: 75px;
-    padding: 0%;
-    margin: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 157px;
+    z-index: 7;
+    opacity: 1.5;
 }
 
 header ul li ul li,header ul li ul div a li{

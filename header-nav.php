@@ -19,8 +19,9 @@
                 <div class="hum_1" id="middle_hum"></div>
                 <div class="hum_2" id="bottom_hum"></div>
         </div>
-    <header id="header">
         <a href="../index.php"><img src="/image/logo.png" alt="logo" id="logo"></a>
+    <header id="header">
+        
         <ul class="table">
         <?php
             $var_count = count($var_link_list);
