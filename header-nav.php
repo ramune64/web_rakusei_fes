@@ -1,6 +1,6 @@
 <?php 
     $var_list = ["page1","page0","お花","map","time_table","news"];
-    $var_link_list = ["/test.php","/index.php","img_test.php","map_demo.php","time_table.php","/news_top.php"];
+    $var_link_list = ["/test.php","/ichiran.php","img_test.php","map_demo.php","time_table.php","/news_top.php"];
     $var_link_list_id = [["#page1-1","#page1-2","#page1-3"],["#page0-1","#page0-2","#page0-3","#page0-4"],["#page4-1","#page4-2","#page4-3"],[],[]];
     $var_name_list = [["page1-1","page1-2","page1-3"],["page0-1","page0-2","page0-3","page0-4"],["モッコウバラ","桜","エクセル"],[],[]];
     $var_id = ["first","second","third","fourth","fifth","sixth","sevn"];
@@ -21,7 +21,7 @@
         </div>
         <a href="../index.php"><img src="/image/logo.png" alt="logo" id="logo"></a>
     <header id="header">
-        
+        <p>洛星高校・中学　第73回文化祭～<b>宴</b>～</p>
         <ul class="table">
         <?php
             $var_count = count($var_link_list);
@@ -57,20 +57,21 @@
         </li>
     </ul>
         <!-- <div id="counter" class="counter">
-            <span id="day3">0</span><span id="day2">0</span><span id="day1">0</span><span class="counter_str">日</span><span id="hour2">0</span><span id="hour1">0</span><span class="counter_str">時間</span><span id="min2">0</span><span id="min1">0</span><span class="counter_str">分</span><span id="sec2">0</span><span id="sec1">0</span><span class="counter_str">秒</span></div> -->    
-        <!-- <div id="serch" class="serch">
-            <form method="get" action="../searchbox.php" required>
-                <div class="serchbox_parent"> -->
-                    <!-- <label> -->
-                      <!-- ページ内検索欄 -->
-                      <!-- <input type="text" name="word" placeholder="ここに入力ｩｩｩｩｩｩｩ!!" class="serchbox">
-                      <button type="submit" class="rens"><img src="/image/magnifying_glass2.png" alt="rens"></button> -->
-                    <!-- </label> -->
-                  <!-- </div>
-            </form>
-        </div> -->
+            <span id="day3">0</span><span id="day2">0</span><span id="day1">0</span><span class="counter_str">日</span><span id="hour2">0</span><span id="hour1">0</span><span class="counter_str">時間</span><span id="min2">0</span><span id="min1">0</span><span class="counter_str">分</span><span id="sec2">0</span><span id="sec1">0</span><span class="counter_str">秒</span></div> -->
+        
     </header>
     <nav id="line1">
+    <div id="serch" class="serch">
+            <form method="get" action="../searchbox.php" required>
+                
+                    <label>
+                      <!-- ページ内検索欄 -->
+                      <div class="serchbox"><input type="text" name="word" placeholder="ここに入力ｩｩｩｩｩｩｩ!!" ></div>
+                      <!-- <input type="image" src="/image/magnifying_glass2.png" alt="rens" class="rens"> -->
+                    </label>
+                  
+            </form>
+        </div>
     <!-- <ul class="table">
         <?php
             /* $var_count = count($var_link_list);

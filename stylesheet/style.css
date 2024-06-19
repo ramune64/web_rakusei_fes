@@ -2,6 +2,9 @@
     margin: 0px; 
     padding: 0px;
 }
+p,h1,h2,h3{
+    color: white;
+}
 /* .humbergar{
     display: none;
 } */
@@ -89,6 +92,21 @@ header{
     padding: 0;
     margin: 0;
     z-index: 5;
+    
+}
+header p{
+    color: black;
+    margin:auto 0 auto 160px;    
+    font-size: 30pt;
+    font-family: "HG行書体";
+}
+header b{
+    font-size: 40pt;
+    background:linear-gradient(white,red,rgb(0, 0, 83));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.05px black;
+    
 }
 .wrap{
     position: relative;
@@ -147,41 +165,46 @@ header{
 
 
 .serch{
-    position: relative;
-    margin: auto 40px auto auto;
+    /* position: relative; */
+    /* margin: auto 40px auto auto; */
 }
-.serchbox{
+input{
+    top: 0;
+    position: absolute;
     padding: 5px 36px 5px 12px;
     height: 35px;
     width: 300px;
     font-size: 20px;
+    margin:auto 0 auto 160px;
 }
-/* .serchbox::after{
+/* input.serchbox::before{
+    content: url();
+} */
+
+.serchbox::after{
     content:url("image/magnifying_glass2.png");
     width: 25px;
     position: absolute;
     cursor: pointer;
-    right: 18px;
-    bottom: 11px;
-    padding-left: 30px;
-} */
-div.serchbox_parent{
+    left: 480px;
+    top: 0px;
+    display: block;
+    
+}
+/* div.serchbox_parent{
     position: relative;
     margin: auto 10px;
-}
-.rens img{
+} */
+.rens{
     width: 25px;
     position: absolute;
     cursor: pointer;
-    right: 18px;
-    bottom: 11px;
-    padding-left: 30px;
+    left: 480px;
+    top: 34px;
 }
 
 
-p,h1,h2,h3{
-    color: white;
-}
+
 
 nav#line1{
     position: relative;
