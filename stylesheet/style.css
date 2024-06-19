@@ -60,8 +60,9 @@ html {scroll-behavior: smooth;}
     text-align: center;
 }
 body{
-    background: linear-gradient(-45deg,#bc3435 10%,white);
-    background-attachment:fixed;
+    /* background: linear-gradient(-45deg,#bc3435 10%,white); */
+    /* background-attachment:fixed; */
+    background-color: white;
 }
 .red{
     color: red;
