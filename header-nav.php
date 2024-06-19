@@ -19,23 +19,9 @@
                 <div class="hum_1" id="middle_hum"></div>
                 <div class="hum_2" id="bottom_hum"></div>
         </div>
-    <header id="header"><a href="../index.php"><img src="/image/logo2.png" alt="logo" id="logo"></a>
-    <div id="counter" class="counter">
-        <span id="day3">0</span><span id="day2">0</span><span id="day1">0</span><span class="counter_str">日</span><span id="hour2">0</span><span id="hour1">0</span><span class="counter_str">時間</span><span id="min2">0</span><span id="min1">0</span><span class="counter_str">分</span><span id="sec2">0</span><span id="sec1">0</span><span class="counter_str">秒</span></div>    
-    <div id="serch" class="serch">
-            <form method="get" action="../searchbox.php" required>
-                <div class="serchbox_parent">
-                    <!-- <label> -->
-                      <!-- ページ内検索欄 -->
-                      <input type="text" name="word" placeholder="ここに入力ｩｩｩｩｩｩｩ!!" class="serchbox">
-                      <button type="submit" class="rens"><img src="/image/magnifying_glass2.png" alt="rens"></button>
-                    <!-- </label> -->
-                  </div>
-            </form>
-        </div>
-    </header>
-    <nav id="line1">
-    <ul class="table">
+    <header id="header">
+        <a href="../index.php"><img src="/image/logo.png" alt="logo" id="logo"></a>
+        <ul class="table">
         <?php
             $var_count = count($var_link_list);
             for($i=0;$i<$var_count-1;$i++){
@@ -69,6 +55,53 @@
             </div>
         </li>
     </ul>
+        <!-- <div id="counter" class="counter">
+            <span id="day3">0</span><span id="day2">0</span><span id="day1">0</span><span class="counter_str">日</span><span id="hour2">0</span><span id="hour1">0</span><span class="counter_str">時間</span><span id="min2">0</span><span id="min1">0</span><span class="counter_str">分</span><span id="sec2">0</span><span id="sec1">0</span><span class="counter_str">秒</span></div> -->    
+        <!-- <div id="serch" class="serch">
+            <form method="get" action="../searchbox.php" required>
+                <div class="serchbox_parent"> -->
+                    <!-- <label> -->
+                      <!-- ページ内検索欄 -->
+                      <!-- <input type="text" name="word" placeholder="ここに入力ｩｩｩｩｩｩｩ!!" class="serchbox">
+                      <button type="submit" class="rens"><img src="/image/magnifying_glass2.png" alt="rens"></button> -->
+                    <!-- </label> -->
+                  <!-- </div>
+            </form>
+        </div> -->
+    </header>
+    <nav id="line1">
+    <!-- <ul class="table">
+        <?php
+            /* $var_count = count($var_link_list);
+            for($i=0;$i<$var_count-1;$i++){
+                $under = "";
+                for($j=0;$j<=count($var_link_list_id[$i])-1;$j++){
+                    $under =  $under."<a href=../".$var_link_list[$i].$var_link_list_id[$i][$j].'><li>'.$var_name_list[$i][$j].'</li></a>';
+                }
+                    $txtdata = <<< EOM
+                        <li class="ze">
+                            <div id="$var_id[$i]" class="var_id">
+                                <ul>
+                                    <a href="../$var_link_list[$i]"><li id="$li_id[$i]" class="fi">$var_list[$i]</li></a>
+                                    <div id="$suf_id[$i]" class="sub">
+                                        $under
+                                    </div>
+                                </ul>
+                            </div>
+                        </li>
+                    EOM;
+                    echo $txtdata;
+            } */
+        ?>
+        <li class="ze">
+            <div  id="last" class="var_id">
+                <ul>
+                    <a href="../news_top.php"><li id="ze_last" class="fi last"><?php echo end($var_list) ?></li></a> 
+                        
+                </ul>
+            </div>
+        </li>
+    </ul> -->
     </nav>
     <div class="sp_nav" id="sp_nav">
         <ul class="sp_nav_ul">

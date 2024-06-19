@@ -74,9 +74,12 @@ body{
     background-color: yellow;
 }
 .table{
-    height: 75px;
+    height: 82px;
     border-collapse:collapse;
-    display: table;
+    display:flex;/* headerに入れるならblock varに入れるならtable */
+    position: relative;
+    z-index: 10;
+    margin: auto 0 auto auto;
 }
 header{
     background-color: white;
@@ -85,7 +88,7 @@ header{
     width: 100%;
     padding: 0;
     margin: 0;
-    z-index: 3;
+    z-index: 5;
 }
 .wrap{
     position: relative;
@@ -187,6 +190,7 @@ nav#line1{
     font-size: 50px;
     background-color:#c53d43;
     z-index: 3;
+
 }
 #logo{
     /* display: table-cell; */
@@ -196,23 +200,18 @@ nav#line1{
     margin: 0%;
 }
 
-nav ul{
-    position: relative;
-    z-index: 10;
-    margin: 0 auto;
-}
-nav ul li ul li,nav ul li ul div a li{
-    height: 55px;
+header ul li ul li,header ul li ul div a li{
+    height: 62px;
     text-align: center;
     width: 170px;
     font-size: 20px;
-    padding-top: 20px;
+    padding-top: 23.5px;
     margin: 0%;
     background-color:/* rgb(142, 233, 236) */darkblue;
     color: white;
     border-top:1.5px solid white;
 }
-nav ul li ul a{
+header ul li ul a{
     text-decoration: none;
 }
 /* nav ul li ul :last-child{
@@ -351,7 +350,7 @@ nav ul li ul a{
 
 .ze{
     list-style: none;
-    display: table-cell;
+    /* display: table-cell; */
 }
 .fi{
     border-top:1.5px none white;
@@ -361,7 +360,7 @@ nav ul li ul a{
 .last{
     border-right: 3px none white;
 }
-nav ul li ul li:hover{
+header ul li ul li:hover{
     color: blueviolet;
 }
 
