@@ -21,7 +21,7 @@
         </div>
         <a href="../index.php"><img src="/image/logo.png" alt="logo" id="logo"></a>
     <header id="header">
-        <p>洛星高校・中学　第73回文化祭～<b>宴</b>～</p>
+        <p><span>洛星</span><span>高校・中学</span><span>第73回</span><span>文化祭</span><span>～<b>宴</b>～</span></p>
         <ul class="table">
         <?php
             $var_count = count($var_link_list);
