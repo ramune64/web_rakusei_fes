@@ -14,7 +14,7 @@
         <div id="hontai">
           	<div class="main_content">
             	<div class="inner_content" id="front">
-					<h1>aaaa</h1>
+					
 
 				</div>
 			</div>
