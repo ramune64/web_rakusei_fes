@@ -308,17 +308,20 @@ header ul li ul a{
     }
 }
 
+
+
+
 #suf1{
     z-index: 2;
     position: relative;
     list-style: none;
     display: none;
-    /* visibility: hidden; */
+    
     opacity: 0;
 }
 #suf1.fi_line_anime{
     display: block;
-    /* visibility: visible; */
+    
     animation: view 0.5s forwards;
 }
 #suf1.fi_line_anime_remove{
@@ -333,12 +336,12 @@ header ul li ul a{
     position: relative;
     list-style: none;
     display: none;
-    /* visibility: hidden; */
+    
     opacity: 0;
 }
 #suf2.fi_line_anime{
     display: block;
-    /* visibility: visible; */
+    
     animation: view 0.5s forwards;
 }
 #suf2.fi_line_anime_remove{
@@ -353,12 +356,12 @@ header ul li ul a{
     position: relative;
     list-style: none;
     display: none;
-    /* visibility: hidden; */
+    
     opacity: 0;
 }
 #suf3.fi_line_anime{
     display: block;
-    /* visibility: visible; */
+    
     animation: view 0.5s forwards;
 }
 #suf3.fi_line_anime_remove{
@@ -373,12 +376,12 @@ header ul li ul a{
     position: relative;
     list-style: none;
     display: none;
-    /* visibility: hidden; */
+    
     opacity: 0;
 }
 #suf4.fi_line_anime{
     display: block;
-    /* visibility: visible; */
+    
     animation: view 0.5s forwards;
 }
 #suf4.fi_line_anime_remove{
@@ -393,12 +396,12 @@ header ul li ul a{
     position: relative;
     list-style: none;
     display: none;
-    /* visibility: hidden; */
+    
     opacity: 0;
 }
 #suflast.fi_line_anime{
     display: block;
-    /* visibility: visible; */
+    
     animation: view 0.5s forwards;
 }
 #suflast.fi_line_anime_remove{
@@ -432,7 +435,6 @@ header ul li ul li:hover{
     min-width: 50%;
     border-left: 20px solid lightblue;
     border-bottom: 4px dotted lightblue;
-    margin-bottom: 40px;
 }
 .inner_content h2{
     min-width: 20%;
@@ -723,6 +725,55 @@ td.target_cell{
     background-color: aqua;
 } */
 
-.intro{
-    margin: 0 auto;
+
+.inner_content h1.part_h1{
+    text-align: center;
+    width: fit-content;
+    border: none;
+    margin: 30px auto;
+}
+.part{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin:5px 0 30px 0 ;
+    font-size: 20px;
+    background-color: #4d5aaf;
+}
+.part h2{
+    position:relative;
+    border: none;
+    font-size: 25px;
+    margin: 0;
+    margin: 0 0 0 1em;
+}
+.part p{
+    margin: 0 2em 1em 2em;
+    background-color: #c53d43;
+    border-radius: 10px;
+}
+.iro_change{
+    color: #c53d43;
+}
+
+.part h2::before{
+    content: "";
+    background-color: white;
+    width: 1em;
+    height: 0.2em;
+    position: absolute;
+    left: -0.5em;
+    top: 0.6em;
+    rotate: 0deg;
+    transform: translateX(-50%) translateY(-50%) rotateZ(45deg);
+}
+.part h2::after{
+    content: "";
+    background-color: white;
+    width: 0.2em;
+    height: 1em;
+    position: absolute;
+    left: -0.5em;
+    top: 0.6em;
+    rotate: 0deg;
+    transform: translateX(-50%) translateY(-50%) rotateZ(45deg);
 }

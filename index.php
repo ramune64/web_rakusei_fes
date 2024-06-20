@@ -12,7 +12,12 @@
         <?php include "header-nav.php" ?>
         <div class="wrap">
         <div id="hontai">
-        
+          	<div class="main_content">
+            	<div class="inner_content" id="front">
+					<h1>aaaa</h1>
+
+				</div>
+			</div>
         <div class="side_content">
     <?php include "Side_bar.html" ?>
     </div>

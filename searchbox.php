@@ -61,12 +61,16 @@
         if(!is_bool($key)){
           unset($aaaa[$key]);
         }
+        $key = array_search("index.php",$aaaa);
+        if(!is_bool($key)){
+          unset($aaaa[$key]);
+        }
         /* var_dump($aaaa); */
         foreach($aaaa as $files){//ファイルを開く
           $file = fopen($files,"r");
           while($data = fgets($file)){//行を読み込む
             $a = mb_strpos($data,"inner_content");
-            if(!is_bool($a)){
+            if(!is_bool($a)){//"inner_contentがあったら"
               if($content != "dumy"){
                 array_push($Contents,$content);
               }
@@ -77,7 +81,7 @@
               array_push($ids,$id);
             }else{
               if($count == 1){//class.innercontent配下である
-                $h1 = mb_strpos($data,"<h1>");//見出しの有無
+                $h1 = mb_strpos($data,"<h1");//見出しの有無
                 if($h1 != false){//見出しがある時
                   $h1 = strip_tags($data);
                   array_push($h1s,$h1);
@@ -85,14 +89,20 @@
                   /* echo"<".$h1.">"; */
                 }else{//見出しがない時
                   $title = mb_strpos($data,"title");
+                  
                   if(is_bool($title)){//titleタグじゃなかったら
-                  $content = $content.strip_tags($data);
-                  }}}}}}
+                  $content = $content.strip_tags($data);//$content  """+"""  strip_tags($data)!!!!!
+                  
+                  }else{
+                    $count = 0;
+                  }
+                }}}}}
 
         array_push($Contents,$content);
         /* 内容の配列化完了 */
-        /* var_dump(count($Contents)); */
-        /* var_dump($h1s); */
+        /* var_dump(count($Contents));
+        
+        var_dump(count($h1s)); */
         /* ここから検索開始 */
         
         $counter = 0;
