@@ -733,10 +733,11 @@ td.target_cell{
     margin: 30px auto;
 }
 .part{
+    position: relative;
     border: 2px solid white;
     border-radius: 10px;
     margin:5px 0 30px 0 ;
-    font-size: 20px;
+    font-size: 25px;
     background-color: #4d5aaf;
 }
 .part h2{
@@ -750,6 +751,7 @@ td.target_cell{
     margin: 0 2em 1em 2em;
     background-color: #c53d43;
     border-radius: 10px;
+    font-size: 20px;
 }
 .iro_change{
     color: black;
@@ -777,3 +779,28 @@ td.target_cell{
     rotate: 0deg;
     transform: translateX(-50%) translateY(-50%) rotateZ(45deg);
 }
+
+.batsu{
+    content:"";
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    background-color: white;
+    opacity: 0;
+    left: -1em;
+    top: 0.1em;
+    z-index: 7;
+    cursor: pointer;
+}
+/* .part::before{
+    content:"";
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    background-color: white;
+    opacity: 0;
+    left: 2px;
+    top: 2px;
+    z-index: 7;
+    cursor: pointer;
+} */
