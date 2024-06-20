@@ -762,6 +762,9 @@ td.target_cell{
 .iro_change3{
     color: blue;
 }
+.iro_change4{
+    color: rgba(255, 255, 255, 0.5);
+}
 .uwaaaaa{
     color: purple;
 }
