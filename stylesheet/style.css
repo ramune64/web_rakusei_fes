@@ -756,6 +756,15 @@ td.target_cell{
 .iro_change{
     color: black;
 }
+.iro_change2{
+    color: yellow;
+}
+.iro_change3{
+    color: blue;
+}
+.uwaaaaa{
+    color: purple;
+}
 
 .part h2::before{
     content: "";
