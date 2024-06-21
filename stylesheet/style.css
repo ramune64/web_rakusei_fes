@@ -27,7 +27,7 @@ html {scroll-behavior: smooth;}
     z-index: 1;
 }
 .main_content{
-    width: 90%;
+    width: 100%;
 }
 .side_content{
     display: none;
@@ -104,6 +104,11 @@ header p{
     font-size: 30pt;
     font-family: "HG行書体";
     overflow-wrap: break-word;
+}
+@media screen and (max-width:1135px){
+    header p{
+        display: none;
+    }   
 }
 header b{
     font-size: 40pt;
@@ -452,9 +457,9 @@ div.news p{
 
 
 .inner_content{
-    padding: 165px 10px 10px 10px;
+    /* padding: 165px 10px 10px 10px; */
     margin-top: -157px;
-    margin-left: 7%;
+    /* margin-left: 7%; */
     /* width: 75%; */
     /* margin-bottom: 100px; */
 }
