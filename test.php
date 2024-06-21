@@ -83,7 +83,7 @@
                 <h1>演劇　一覧</h1>
                 <div class="all_view">
                     <div class="view">
-                        <h3>京都の男子校最後の砦　洛星物語</h3>
+                        <h3>REVIVAL</h3>
                         <p>ヴィアトール会が撤退しウィリアム神父も帰ってしまういまこの混沌とした洛星は新たな変化を遂げる？！？！</p>
                     </div>
                     <div class="view">
