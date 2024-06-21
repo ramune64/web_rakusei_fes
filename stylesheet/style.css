@@ -726,7 +726,7 @@ td.target_cell{
 } */
 
 
-.inner_content h1.part_h1{
+.inner_content h1.part_h1,.front_content h1.front{
     text-align: center;
     width: fit-content;
     border: none;
@@ -816,3 +816,11 @@ td.target_cell{
     z-index: 7;
     cursor: pointer;
 } */
+
+.front_content{
+    text-align: center;
+}
+.front_content img{
+    width: 60%;
+
+}
