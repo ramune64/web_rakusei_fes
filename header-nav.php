@@ -1,6 +1,6 @@
 <?php 
-    $var_list = ["waaaaa","page0","お花","パート紹介","map","time_table","news"];
-    $var_name_list = [["waaaa-1","page1-2","page1-3"],["page0-1","page0-2","page0-3","page0-4"],["モッコウバラ","桜","エクセル"],[],[],[],[]];
+    $var_list = ["団体一覧","goods","お花","パート紹介","map","time_table","news"];
+    $var_name_list = [["展示","模擬店","演劇"],["page0-1","page0-2","page0-3","page0-4"],["モッコウバラ","桜","エクセル"],[],[],[],[]];
 
     $var_link_list = ["/test.php","/ichiran.php","img_test.php","intro_part.php","map_demo.php","time_table.php","/news_top.php"];
     $var_link_list_id = [["#page1-1","#page1-2","#page1-3"],["#page0-1","#page0-2","#page0-3","#page0-4"],["#page4-1","#page4-2","#page4-3"],[],[],[],[]];

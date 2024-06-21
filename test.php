@@ -14,7 +14,7 @@
         <div id="hontai">
         <div class="main_content">
             <div class="inner_content" id="page1-1">
-            <h1>一覧ﾀﾞﾖ</h1>
+            <h1>展示一覧ﾀﾞﾖ</h1>
             <div class="all_view">
                 <div class="view">
                     <h3>ロボット研究部</h3>
@@ -43,11 +43,11 @@
             </div>
             </div>
             <div class="inner_content" id="page1-2">
-                <h1>きゃあああああ</h1>
+                <h1>模擬店一覧だよ</h1>
                 <div class="all_view">
                     <div class="view">
-                        <h3>○○</h3>
-                        <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+                        <h3>一蘭</h3>
+                        <p>いわずと知れたラーメン屋。常に行列で並ぶ気なくすよね。あと値上げとブランド化してぼったくり価格。</p>
                     </div>
                     <div class="view">
                         <h3>○○</h3>
@@ -80,11 +80,11 @@
                 </div>
             </div>
             <div class="inner_content" id="page1-3">
-                <h1>いいい</h1>
+                <h1>演劇　一覧</h1>
                 <div class="all_view">
                     <div class="view">
-                        <h3>○○</h3>
-                        <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+                        <h3>京都の男子校最後の砦　洛星物語</h3>
+                        <p>ヴィアトール会が撤退しウィリアム神父も帰ってしまういまこの混沌とした洛星は新たな変化を遂げる？！？！</p>
                     </div>
                     <div class="view">
                         <h3>○○</h3>
