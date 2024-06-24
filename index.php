@@ -13,8 +13,9 @@
         <div class="wrap">
         <div id="hontai">
           	<div class="main_content">
-            	<div class="inner_content" id="front">
-					
+            	<div class="inner_content front_content" id="front">
+					<h1 class="front">宴へようこそ(仮)(てきとう)</h1>
+					<img src="image/cherry.png" alt="なんかの画像">
 
 				</div>
 			</div>
