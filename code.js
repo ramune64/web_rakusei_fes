@@ -166,7 +166,6 @@ function resize(){
 }
 const header2 = document.querySelector('#header');
 const inner_content = document.getElementsByClassName("inner_content");
-console.log(inner_content);
 
 
 
@@ -194,3 +193,17 @@ const resizeObserver = new ResizeObserver((entries) => {
 });
 
 resizeObserver.observe(header); */
+
+const other_op = document.getElementById("other_op");
+const index_op = document.getElementById("index_op");
+const index_video = document.getElementById("index_video");
+function animation_index(){
+    index_op.classList.add("out_anime");
+    //index_op.style.display="none";
+    setTimeout(() => {
+        other_op.style.display = "block";
+        other_op.classList.add("in_anime");
+    }, 500);
+    
+}
+index_video.addEventListener("ended",animation_index);

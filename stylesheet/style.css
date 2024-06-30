@@ -2,7 +2,10 @@
     margin: 0px; 
     padding: 0px;
 }
-p,h1,h2,h3{
+p,h2,h3{
+    color: white;
+}
+h1{
     color: white;
 }
 /* .humbergar{
@@ -65,7 +68,7 @@ html {scroll-behavior: smooth;}
 body{
     /* background: linear-gradient(-45deg,#bc3435 10%,white); */
     /* background-attachment:fixed; */
-    background-color: /* rgb(0, 0, 83) */#44617b;
+    background-color: /* rgb(0, 0, 83) *//* #44617b */#293A4E;
 }
 .red{
     color: red;
@@ -438,8 +441,8 @@ header ul li ul li:hover{
 .inner_content h1{
     font-size: 40px;
     min-width: 50%;
-    border-left: 20px solid lightblue;
-    border-bottom: 4px dotted lightblue;
+    border-left: 20px solid /* lightblue */#CEA34F;
+    border-bottom: 4px dotted /* lightblue */#CEA34F;
 }
 .inner_content h2{
     min-width: 20%;
@@ -494,6 +497,7 @@ div.news_topics{
     margin-left:20px ;
     margin-bottom: 30px;
     width: 90%;
+    background-color: #44617b;
     box-shadow: 10px 10px 10px 0px black;
     border: 3px solid black;
     animation: news_hover_re 0.2s linear forwards;
@@ -739,7 +743,7 @@ td.target_cell{
 }
 .part{
     position: relative;
-    border: 2px solid white;
+    border: 2px solid /* white */#CEA34F;
     border-radius: 10px;
     margin:5px 0 30px 0 ;
     font-size: 25px;
@@ -822,10 +826,43 @@ td.target_cell{
     cursor: pointer;
 } */
 
-.front_content{
+.front_content,.opening{
     text-align: center;
 }
 .front_content img{
     width: 60%;
-
+}
+.opening video{
+    height: 99vh;
+    width: 99vw;
+}
+#index_op.out_anime{
+    animation: out_video 1s ease-in-out forwards;
+}
+@keyframes out_video{
+    0%{
+        opacity: 1;
+        transform: translateY(0vh);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-100vh);
+        display: none;
+    }
+}
+#other_op{
+    display: none;
+}
+#other_op.in_anime{
+    animation: in_other 1s ease-in-out forwards;
+}
+@keyframes in_other{
+    0%{
+        opacity: 0;
+        transform: translateY(100vh);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

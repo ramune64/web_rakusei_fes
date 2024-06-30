@@ -9,13 +9,18 @@
   <meta charset="UTF-8">
 </head>
 <body>
+        <div class="opening" id="index_op">
+          <video src="video/宴アニメーション.mp4" autoplay muted playsinline id="index_video"></video>
+        </div>
+        <div id="other_op">
         <?php include "header-nav.php" ?>
         <div class="wrap">
         <div id="hontai">
           	<div class="main_content">
             	<div class="inner_content front_content" id="front">
 					<h1 class="front">宴へようこそ(仮)(てきとう)</h1>
-					<img src="image/cherry.png" alt="なんかの画像">
+					<img src="image/ウェブサイト用画像.png" alt="なんかの画像">
+           
 
 				</div>
 			</div>
@@ -25,6 +30,8 @@
     </div>
     <?php include "footer.html" ?>
         </div>
+        </div>
+        
     
 </body>
 </html>
