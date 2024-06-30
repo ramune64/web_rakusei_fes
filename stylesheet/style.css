@@ -101,9 +101,11 @@ header p a.utage{
     text-decoration: none;
     color: black;
 }
+header a.utage{
+    margin:auto 0 auto 160px;
+}
 header p{
-    color: black;
-    margin:auto 0 auto 160px;    
+    color: black;    
     font-size: 30pt;
     font-family: "HG行書体";
     overflow-wrap: break-word;
@@ -115,7 +117,7 @@ header p{
 }
 header b{
     font-size: 40pt;
-    background:linear-gradient(white,red,rgb(0, 0, 83));
+    background:linear-gradient(#CEA34F 35%,red,white);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.05px black;
@@ -827,6 +829,7 @@ td.target_cell{
 } */
 
 .front_content,.opening{
+    position: relative;
     text-align: center;
 }
 .front_content img{
@@ -865,4 +868,18 @@ td.target_cell{
         opacity: 1;
         transform: translateY(0);
     }
+}
+.skip{
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    position: absolute;
+    border-radius: 30px;
+    right: 20px;
+    bottom: 20px;
+    border: 2px solid #CEA34F;
+    cursor: pointer;
+}
+.skip p{
+    color: #CEA34F;
+    font-size: 25px;
 }

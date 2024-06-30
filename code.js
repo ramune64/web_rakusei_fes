@@ -197,13 +197,16 @@ resizeObserver.observe(header); */
 const other_op = document.getElementById("other_op");
 const index_op = document.getElementById("index_op");
 const index_video = document.getElementById("index_video");
+const skip = document.getElementById("skip");
 function animation_index(){
+    skip.style.display="none";
     index_op.classList.add("out_anime");
     //index_op.style.display="none";
     setTimeout(() => {
         other_op.style.display = "block";
         other_op.classList.add("in_anime");
     }, 500);
-    
 }
+
 index_video.addEventListener("ended",animation_index);
+skip.addEventListener("click",animation_index);
