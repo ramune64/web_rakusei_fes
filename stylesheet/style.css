@@ -68,7 +68,7 @@ html {scroll-behavior: smooth;}
 body{
     /* background: linear-gradient(-45deg,#bc3435 10%,white); */
     /* background-attachment:fixed; */
-    background-color: /* rgb(0, 0, 83) *//* #44617b */#293A4E;
+    background-color: /* rgb(0, 0, 83) *//* #44617b */#283A4D;
 }
 .red{
     color: red;
@@ -880,6 +880,6 @@ td.target_cell{
     cursor: pointer;
 }
 .skip p{
-    color: #CEA34F;
+    color: black;
     font-size: 25px;
 }
