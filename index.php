@@ -11,7 +11,7 @@
 <body>
         <div class="opening" id="index_op">
           <video src="video/宴アニメーション.mp4" autoplay muted playsinline id="index_video"></video>
-          <div id="skip" class="skip"><p>スキップ→</p></div>
+          <div id="skip" class="skip"><p><b>スキップ→</b></p></div>
         </div>
         <div id="other_op">
         <?php include "header-nav.php" ?>

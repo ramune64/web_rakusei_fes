@@ -878,8 +878,9 @@ td.target_cell{
     bottom: 20px;
     border: 2px solid #CEA34F;
     cursor: pointer;
+    background-color: #44617bdc;
 }
 .skip p{
-    color: black;
+    color: red;
     font-size: 25px;
 }
