@@ -65,6 +65,14 @@
         if(!is_bool($key)){
           unset($aaaa[$key]);
         }
+        $key = array_search("index_novideo.php",$aaaa);
+        if(!is_bool($key)){
+          unset($aaaa[$key]);
+        }
+        $key = array_search("pamphlet.php",$aaaa);
+        if(!is_bool($key)){
+          unset($aaaa[$key]);
+        }
         /* var_dump($aaaa); */
         foreach($aaaa as $files){//ファイルを開く
           $file = fopen($files,"r");
