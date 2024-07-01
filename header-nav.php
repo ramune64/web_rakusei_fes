@@ -1,9 +1,9 @@
 <?php 
-    $var_list = ["団体一覧","goods","お花","パート紹介","map","time_table","news"];
-    $var_name_list = [["展示","模擬店","演劇"],["page0-1","page0-2","page0-3","page0-4"],["モッコウバラ","桜","エクセル"],[],[],[],[]];
+    $var_list = ["団体一覧","goods","お花","パート紹介","map","time_table","news","ホーム"];
+    $var_name_list = [["展示","模擬店","演劇"],["page0-1","page0-2","page0-3","page0-4"],["モッコウバラ","桜","エクセル"],[],[],[],[],[]];
 
-    $var_link_list = ["/test.php","/ichiran.php","img_test.php","intro_part.php","map_demo.php","time_table.php","/news_top.php"];
-    $var_link_list_id = [["#page1-1","#page1-2","#page1-3"],["#page0-1","#page0-2","#page0-3","#page0-4"],["#page4-1","#page4-2","#page4-3"],[],[],[],[]];
+    $var_link_list = ["/test.php","/ichiran.php","img_test.php","intro_part.php","map_demo.php","time_table.php","news_top.php","/index_novideo.php"];
+    $var_link_list_id = [["#page1-1","#page1-2","#page1-3"],["#page0-1","#page0-2","#page0-3","#page0-4"],["#page4-1","#page4-2","#page4-3"],[],[],[],[],[]];
     
     $var_id = ["first","second","third","fourth","fifth","sixth","sevn","eight"];
     $li_id = ["ze_fi","ze_se","ze_th","ze_fo","ze_fiv","ze_si","ze_sev","ze_eight"];
@@ -50,7 +50,7 @@
         <li class="ze">
             <div  id="last" class="var_id">
                 <ul>
-                    <a href="../news_top.php"><li id="ze_last" class="fi last"><?php echo end($var_list) ?></li></a> 
+                    <a href=<?php echo end($var_link_list) ?>><li id="ze_last" class="fi last"><?php echo end($var_list) ?></li></a> 
                         <div id="suflast" class="sub">
                             <!-- <a href="../news_top.php"><li class="last">ニュース一覧</li></a> -->
                         </div>

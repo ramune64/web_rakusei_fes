@@ -402,6 +402,27 @@ header ul li ul a{
     animation: view_out 0.5s forwards;
 }
 
+
+#suf5{
+    position: relative;
+    list-style: none;
+    display: none;
+    
+    opacity: 0;
+}
+#suf5.fi_line_anime{
+    display: block;
+    
+    animation: view 0.5s forwards;
+}
+#suf5.fi_line_anime_remove{
+    position: relative;
+    list-style: none;
+    display: none;
+    opacity: 0;
+    animation: view_out 0.5s forwards;
+}
+
 #suflast{
     position: relative;
     list-style: none;

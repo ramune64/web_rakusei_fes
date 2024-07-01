@@ -210,3 +210,4 @@ function animation_index(){
 
 index_video.addEventListener("ended",animation_index);
 skip.addEventListener("click",animation_index);
+
