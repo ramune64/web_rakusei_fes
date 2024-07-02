@@ -24,8 +24,8 @@ async function page_show_pdf(page_num){
     const aspect = viewport.width/viewport.height;
     canvas.width = Math.floor(viewport.width * outputScale);
     canvas.height = Math.floor(viewport.height * outputScale);
-    canvas.style.width = Math.floor((window.screen.height - kotei.clientHeight)*aspect/outputScale*0.9) + "px";
-    canvas.style.height = Math.floor((window.screen.height - kotei.clientHeight)/outputScale*0.9) + "px";
+    canvas.style.width = Math.floor((window.screen.height - kotei.clientHeight)*aspect/outputScale*0.8) + "px";
+    canvas.style.height = Math.floor((window.screen.height - kotei.clientHeight)/outputScale*0.8) + "px";
   
     const transform = outputScale !== 1 
       ? [outputScale, 0, 0, outputScale, 0, 0] 
