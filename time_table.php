@@ -13,7 +13,7 @@
     <div class="wrap">
     <div id="hontai">
     <div class="main_content">
-        <div class="inner_content" id="time_table">
+        <div class="inner_content inner_top" id="time_table">
             <h1>タイムテーブル</h1>
             <div class="buttons">
                 <ul class="buttons_top">

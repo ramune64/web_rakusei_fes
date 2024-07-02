@@ -18,7 +18,7 @@
         <div class="wrap">
         <div id="hontai">
         <div class="main_content">
-            <div class="inner_content" id="page4-1">
+            <div class="inner_content inner_top" id="page4-1">
                 <h1>モッコウバラ</h1>
                 <img src="image\flower.png" alt="お花" class="base">    
             </div>

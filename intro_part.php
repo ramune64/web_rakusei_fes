@@ -13,7 +13,7 @@
     <div class="wrap">
         <div id="hontai">
         <div class="main_content">
-            	<div class="inner_content" id="intro_part">
+            	<div class="inner_content inner_top" id="intro_part">
                     <h1 class="part_h1">パート紹介</h1>
                     <div class="part">
                         <h2><a href="#" class="batsu"></a>本部パート</h2>

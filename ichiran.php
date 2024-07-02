@@ -13,7 +13,7 @@
     <div class="wrap">
     <div id="hontai" class="hontai">
         <div class="main_content">
-        <div class="inner_content" id="page0-1">
+        <div class="inner_content inner_top" id="page0-1">
         <h1>一蘭</h1>
         <div class="all_view">
             <div class="view">

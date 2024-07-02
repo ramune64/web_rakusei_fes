@@ -171,9 +171,12 @@ const inner_content = document.getElementsByClassName("inner_content");
 
 const resizeObserver = new ResizeObserver((entries) => {
     for(let index = 0; index < inner_content.length;index++){
-        /* inner_content[index].style.marginTop = `${(entries[0].contentRect.height+75)*-2}px`; */
-        /* console.log((entries[0].contentRect.height+75)*-1); */
-        inner_content[index].style.padding = `${(entries[0].contentRect.height+75)*1}px 10px 10px 10px`
+        /* inner_content[index].style.margin = `${((entries[0].contentRect.height+75)-157)*-1}px 0px 0px 0px`; */
+        inner_content[index].style.padding = `${(entries[0].contentRect.height+75)-157+20}px 10px 10px 10px`;
+        if(inner_content[index].classList.indexOf("inner_top")){}
+        else{
+            inner_content[index].style.margin = `${((entries[0].contentRect.height+75)-157)*-1}px 0px 0px 0px`;
+        }
     }
     /* inner_content.forEach(content => {
         content.style.marginLeft = `-${entries[0].contentRect.height+5}px`

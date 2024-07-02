@@ -11,7 +11,7 @@
         <?php include "header-nav.php" ?>
         <div class="wrap">
         <div id="hontai">
-        <div class="main_content pamph">
+        <div class="main_content pamph inner_top">
             <div class="pdf_page">
                 <span id="next_pdf"></span>
                 <canvas id="pdf"></canvas>

@@ -13,7 +13,7 @@
     <div class="wrap">
     <div id="hontai">
     <div class="main_content">
-    <div class="inner_content" id="page3-1">
+    <div class="inner_content inner_top" id="page3-1">
         <h1>トピック(更新順)</h1>
         <?php
             /* session_cache_limiter("private_no_expire"); */

@@ -37,7 +37,7 @@
     <div class="wrap">
     <div id="hontai">
     <div class="main_content">
-        <div class="inner_content" id="map_0">
+        <div class="inner_content inner_top" id="map_0">
         <h1>map_test</h1>
         <div id="Book1_21830" class="map" x:publishsource="Excel">
 
