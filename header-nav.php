@@ -68,7 +68,7 @@
                 
                     <label>
                       <!-- ページ内検索欄 -->
-                      <input type="text" name="word" placeholder="ここに入力ｩｩｩｩｩｩｩ!!" class="serchbox">
+                      <input type="text" name="word" placeholder="ここに入力ｩｩｩ!!" class="serchbox">
                       <input type="image" src="/image/magnifying_glass2.png" alt="rens" class="rens">
                     </label>
                  
