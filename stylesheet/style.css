@@ -877,7 +877,7 @@ td.target_cell{
 }
 .front_content img.Topimg{
     width: 100%;
-    aspect-ratio: 8.5/5;
+    aspect-ratio: 4/3;
 }
 .opening video{
     height: 99vh;
