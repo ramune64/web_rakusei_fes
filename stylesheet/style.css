@@ -766,6 +766,9 @@ td.target_cell{
     margin: 30px auto;
     -webkit-text-stroke: 2px #000000;
 }
+.inner_top h1.front{
+    font-family:"HG行書体";
+}
 .inner_content h2.part_h1,.front_content h2.front{
     text-align: center;
     width: fit-content;
