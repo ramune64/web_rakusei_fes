@@ -761,7 +761,7 @@ td.target_cell{
 
 
 .inner_content h1.part_h1,.front_content h1.front{
-    font-size: 75px;
+    font-size: 60px;
     text-align: center;
     width: fit-content;
     border: none;
@@ -877,7 +877,7 @@ td.target_cell{
 }
 .front_content img.Topimg{
     width: 100%;
-    aspect-ratio: 4/3;
+    aspect-ratio: 16/9;
 }
 .opening video{
     height: 99vh;
