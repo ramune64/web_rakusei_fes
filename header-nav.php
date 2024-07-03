@@ -1,13 +1,32 @@
 <?php 
-    $var_list = ["団体一覧","goods","パンフレット","パート紹介","map","time_table","news","ホーム"];
-    $var_name_list = [["展示","模擬店","演劇"],["page0-1","page0-2","page0-3","page0-4"],[],[],[],[],[],[]];
+    $var_list = ["ダウンロード","パート紹介","雑貨","時刻表","校内地図","団体一覧","ホーム"];
+    $var_name_list = [[],
+                        ["page0-1","page0-2","page0-3","page0-4"],
+                        [],
+                        [],
+                        [],
+                        ["展示","模擬店","演劇"],
+                        []];
 
-    $var_link_list = ["/test.php","/ichiran.php","pamphlet.php","intro_part.php","map_demo.php","time_table.php","news_top.php","/index_novideo.php"];
-    $var_link_list_id = [["#page1-1","#page1-2","#page1-3"],["#page0-1","#page0-2","#page0-3","#page0-4"],[],[],[],[],[],[]];
+    $var_link_list = ["download.php",
+                        "intro_part.php",
+                        "test.php",
+                        "time_table.php",
+                        "map_demo.php",
+                        "ichiran.php",
+                        "index_novideo.php"];
+    $var_link_list_id = [[],
+                        ["#page0-1","#page0-2","#page0-3","#page0-4"],
+                        [],
+                        [],
+                        [],
+                        ["#page1-1","#page1-2","#page1-3"],
+                        [],
+                        []];
     
     $var_id = ["first","second","third","fourth","fifth","sixth","sevn","eight"];
     $li_id = ["ze_fi","ze_se","ze_th","ze_fo","ze_fiv","ze_si","ze_sev","ze_eight"];
-    $suf_id = ["suf1","suf2","suf3","suf4","suf5","suf6","suf7","suf8"];
+    $suf_id = ["suf1","suf2","suf3","suf4","suf5","suf6","suf7","suf8","suf9"];
 ?>
 <span class="back_ground" id="aaaaa"></span>
 <div id="kotei" class="kotei">

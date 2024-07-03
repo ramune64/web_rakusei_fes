@@ -13,7 +13,7 @@
           <video autoplay muted playsinline id="index_video">
             <source src="video/宴アニメーション.mp4" type="video/mp4">
           </video>
-          <div id="skip" class="skip"><p><b>スキップ→</b></p></div>
+          <div id="skip" class="skip"><span></span></div>
         </div>
         <div id="other_op">
           <?php include "front_content.php" ?>

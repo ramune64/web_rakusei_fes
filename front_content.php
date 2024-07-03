@@ -4,7 +4,7 @@
         <div id="hontai">
           	<div class="main_content">
             	<div class="inner_content front_content inner_top" id="front">
-					<h1 class="front">第７３回　洛星中高文化祭</h1>
+					<!-- <h1 class="front">第７３回　洛星中高文化祭</h1> -->
 					<img src="image/thumbnail.png" alt="なんかの画像" class="Topimg">
 				</div>
                 <div class="inner_content front_content">

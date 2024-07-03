@@ -23,7 +23,6 @@ html {scroll-behavior: smooth;}
 }
 #hontai{
     /* top: 157px; */
-    padding-top: 157px;
     /* margin-top:-157px; */
     position: relative;
     display: flex;
@@ -31,6 +30,7 @@ html {scroll-behavior: smooth;}
 }
 .main_content{
     width: 100%;
+    
 }
 .side_content{
     display: none;
@@ -246,7 +246,7 @@ nav#line1{
 }
 #logo{
     /* display: table-cell; */
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 157px;
@@ -257,13 +257,14 @@ nav#line1{
 header ul li ul li,header ul li ul div a li{
     height: 58.5px;
     text-align: center;
-    width: 100px;
-    font-size: 20px;
+    width: 130px;
+    font-size: 17px;
     padding-top: 23.5px;
     margin: 0%;
     background-color:/* rgb(142, 233, 236) */#283A4D;
     color: white;
     border-top:1.5px solid white;
+    border-bottom: 3px solid white;
 }
 header ul li ul a{
     text-decoration: none;
@@ -424,6 +425,85 @@ header ul li ul a{
     opacity: 0;
     animation: view_out 0.5s forwards;
 }
+#suf6{
+    position: relative;
+    list-style: none;
+    display: none;
+    
+    opacity: 0;
+}
+#suf6.fi_line_anime{
+    display: block;
+    
+    animation: view 0.5s forwards;
+}
+#suf6.fi_line_anime_remove{
+    position: relative;
+    list-style: none;
+    display: none;
+    opacity: 0;
+    animation: view_out 0.5s forwards;
+}
+#suf7{
+    z-index: 2;
+    position: relative;
+    list-style: none;
+    display: none;
+    
+    opacity: 0;
+}
+#suf7.fi_line_anime{
+    display: block;
+    
+    animation: view 0.5s forwards;
+}
+#suf7.fi_line_anime_remove{
+    position: relative;
+    list-style: none;
+    display: none;
+    opacity: 0;
+    animation: view_out 0.5s forwards;
+}
+#suf8{
+    z-index: 2;
+    position: relative;
+    list-style: none;
+    display: none;
+    
+    opacity: 0;
+}
+#suf8.fi_line_anime{
+    display: block;
+    
+    animation: view 0.5s forwards;
+}
+#suf8.fi_line_anime_remove{
+    position: relative;
+    list-style: none;
+    display: none;
+    opacity: 0;
+    animation: view_out 0.5s forwards;
+}
+#suf9{
+    z-index: 2;
+    position: relative;
+    list-style: none;
+    display: none;
+    
+    opacity: 0;
+}
+#suf9.fi_line_anime{
+    display: block;
+    
+    animation: view 0.5s forwards;
+}
+#suf9.fi_line_anime_remove{
+    position: relative;
+    list-style: none;
+    display: none;
+    opacity: 0;
+    animation: view_out 0.5s forwards;
+}
 
 #suflast{
     position: relative;
@@ -454,6 +534,9 @@ header ul li ul a{
     border-top:1.5px none white;
     border-right: 3px solid white;
     list-style: none;
+}
+#ze_fi{
+    border-left: 3px solid white;
 }
 .last{
     border-right: 3px none white;
@@ -759,6 +842,10 @@ td.target_cell{
     background-color: aqua;
 } */
 
+.intro_part{
+    margin: auto;
+    width: 60%;
+}
 
 .inner_content h1.part_h1,.front_content h1.front{
     font-size: 60px;
@@ -922,21 +1009,33 @@ td.target_cell{
     position: absolute;
     border-radius: 30px;
     right: 20px;
-    bottom: 20px;
+    top: 20px;
     border: 2px solid #CEA34F;
     cursor: pointer;
     background-color: #44617bdc;
 }
-.skip p{
-    margin: 0;
-    padding: 0;
-    margin-top: 3px;
-    color: #c53d43;
-    font-size: 25px;
-    /* position: absolute;
-    top: 50%; */
+.skip span{
+    display: block;
+  position: relative;
+  width: 30px;
+  height: 30px;
 }
-
+.skip span::before,.skip span::after{
+    content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px; /* 棒の幅（太さ） */
+  height: 30px; /* 棒の高さ */
+  background: #c53d43;
+}
+.skip span::before {
+    transform: translate(-50%,-50%) rotate(45deg);
+  }
+   
+.skip span::after {
+    transform: translate(-50%,-50%) rotate(-45deg);
+  }
 
 .pamph{
     text-align: center;
