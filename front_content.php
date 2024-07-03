@@ -8,7 +8,7 @@
 					<img src="image/thumbnail.png" alt="なんかの画像" class="Topimg">
 				</div>
                 <div class="inner_content front_content">
-                    <h1 class="front">コンセプト</h1>
+                    <h1 class="front">理念</h1>
                     <div><p>宴っていいよね。<br>うたげ【宴】さかもり。宴会。<br>えん〖宴〗エン うたげ<br>1.さかもり。酒食を設け、人々を会して楽しむ。<br>2.安楽にする。おちついた気分で楽しむ。</p></div>
                 </div>
                 <div class="inner_content front_content">
@@ -18,21 +18,21 @@
                     </div>
                 </div>
                 <div class="inner_content front_content Info_index">
-                    <h1 class="front">Information</h1>
+                    <h1 class="front">御案内</h1>
                     <div></div>
                     <h2 class="front">開催期間</h2>
                         <section class="term">
                             <div class="each_turm">
                                 <p>壱日目</p>
-                                <p>9月dd日<br>hh時mm分～<br>hh時mm分</p>
+                                <p>9月13日(金)<br>9時00分～<br>16時00分</p>
                             </div>
                             <div class="each_turm">
                                 <p>弐日目</p>
-                                <p>9月dd日<br>hh時mm分～<br>hh時mm分</p>
+                                <p>9月14日(土)<br>9時00分～<br>16時00分</p>
                             </div>
                             <div class="each_turm">
                                 <p>参日目</p>
-                                <p>9月dd日<br>hh時mm分～<br>hh時mm分</p>
+                                <p>9月15日(日)<br>9時00分～<br>16時00分</p>
                             </div>
                         </section>
                     <h2 class="front">場所</h2>
