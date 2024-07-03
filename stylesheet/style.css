@@ -768,6 +768,9 @@ td.target_cell{
     -webkit-text-stroke: 0.5px black;
     font-family: "HG行書体";
 }
+.inner_top h1.front{
+    font-family:"HG行書体";
+}
 .inner_content h2.part_h1,.front_content h2.front{
     text-align: center;
     width: fit-content;
