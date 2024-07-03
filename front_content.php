@@ -60,7 +60,7 @@
                         </div>
                         <div>
                             <p>Instagram:</p>
-                            <a href="https://www.instagram.com/rakusei.bunkasai/" target="_blank" rel="noopener noreferrer"><img src="image/Instagram_Glyph_Gradient.png" alt="Instagramのアイコン"></a>
+                            <a href="https://www.instagram.com/73rd.rakusei.bunkasai" target="_blank" rel="noopener noreferrer"><img src="image/Instagram_Glyph_Gradient.png" alt="Instagramのアイコン"></a>
                         </div>
                     </section>
                 </div>
