@@ -868,13 +868,16 @@ td.target_cell{
     width: 50vw;
     margin: auto auto;
 }
+.front_content#front{
+    width: 100vw;
+}
 .front_content,.opening{
     position: relative;
     text-align: center;
 }
 .front_content img.Topimg{
     width: 100%;
-    aspect-ratio: 7/1;
+    aspect-ratio: 8.5/5;
 }
 .opening video{
     height: 99vh;
