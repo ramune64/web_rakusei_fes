@@ -4,6 +4,7 @@
   <title>練習中2</title>
   <!-- <link rel="stylesheet" href="aaa.css" type="text/css">
   <link rel="icon" href="image\favicon.ico"> -->
+  <!-- 幅1100px以下でタブレット用デザイン -->
   <?php include "links.html" ?>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="UTF-8">

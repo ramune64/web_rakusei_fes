@@ -1,7 +1,7 @@
 <?php 
     $var_list = ["ダウンロード","パート紹介","雑貨","時刻表","校内地図","団体一覧","ホーム"];
     $var_name_list = [[],
-                        ["page0-1","page0-2","page0-3","page0-4"],
+                        [],
                         [],
                         [],
                         [],
@@ -16,7 +16,7 @@
                         "ichiran.php",
                         "index_novideo.php"];
     $var_link_list_id = [[],
-                        ["#page0-1","#page0-2","#page0-3","#page0-4"],
+                        [],
                         [],
                         [],
                         [],
@@ -42,7 +42,7 @@
         </div>
         <a href="../index.php"><img src="/image/logo.png" alt="logo" id="logo"></a>
     <header id="header">
-    <a href="../index.php" class="utage"><p><span>洛星</span><span>高校・中学</span><span>第73回</span><span>文化祭</span><span>～<b>宴</b>～</span></p></a>
+    <a href="../index.php" class="utage"><p><span>洛星</span><span>高校・中学</span><span>第漆拾参回</span><span>文化祭</span><span>～<b>宴</b>～</span></p></a>
         <ul class="table">
         <?php
             $var_count = count($var_link_list);

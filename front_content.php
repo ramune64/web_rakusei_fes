@@ -54,7 +54,7 @@
                     <h2 class="front">SNS</h2>
                     <section class="Sns">
                         <div>
-                            <p>Twitter(現&#x1D54F;):</p>
+                            <p><span>Twitter</span><span>(現&#x1D54F;):</span></p>
                             <a href="https://twitter.com/rakusei_fes" target="_blank" rel="noopener noreferrer"><img src="image/2021 Twitter logo - blue.png" alt="Twitterの青い鳥のアイコン"></a>
                             <a href="https://twitter.com/rakusei_fes" target="_blank" rel="noopener noreferrer"><img src="image/logo-black.png" alt="Xの字をかたどったアイコン"></a>
                         </div>
