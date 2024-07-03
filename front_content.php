@@ -5,7 +5,7 @@
           	<div class="main_content">
             	<div class="inner_content front_content inner_top" id="front">
 					<h1 class="front">第７３回　洛星文化祭</h1>
-					<img src="image/thumbnail.png" alt="なんかの画像">
+					<img src="image/thumbnail.png" alt="なんかの画像" class="Topimg">
 				</div>
                 <div class="inner_content front_content">
                     <h1 class="front">コンセプト</h1>
