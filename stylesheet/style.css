@@ -241,6 +241,7 @@ nav#line1{
     font-size: 50px;
     background-color:#283A4D;
     z-index: 3;
+    border-bottom: 6px solid #c53d43;
 
 }
 #logo{
@@ -260,7 +261,7 @@ header ul li ul li,header ul li ul div a li{
     font-size: 20px;
     padding-top: 23.5px;
     margin: 0%;
-    background-color:/* rgb(142, 233, 236) */#283A4D;
+    /* background-color: *//* rgb(142, 233, 236) *//* #283A4D *//* ; */
     color: white;
     border-top:1.5px solid white;
 }
@@ -871,7 +872,7 @@ td.target_cell{
     position: relative;
     text-align: center;
 }
-.front_content img{
+.front_content img.Topimg{
     width: 100%;
     aspect-ratio: 7/1;
 }
