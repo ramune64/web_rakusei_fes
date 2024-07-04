@@ -1253,6 +1253,7 @@ div.Row h3{
 & h4{
     height: fit-content;
     margin: auto 0;
+    word-break: break-all;
 }
 }
 .Else_pamphlet section a{
