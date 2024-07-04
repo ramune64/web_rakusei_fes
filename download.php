@@ -32,8 +32,10 @@
                     <h2>その他部誌・会誌</h2>
                     <div class="Else_pamphlet">
                         <div class="Row Left">
-                            <div>
-                                <h3>○○部</h3>
+                            <div class="Each_Club">
+                                <div>
+                                    <h3>○○部</h3><span></span>
+                                </div>
                                 <section>
                                     <h4>○○○○</h4>
                                     <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>

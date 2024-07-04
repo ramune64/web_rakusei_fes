@@ -1231,10 +1231,33 @@ section.Sns img{
 div.Row h3{
     font-size: 20pt;
 }
-.Else_pamphlet div.Row div{
+.Else_pamphlet div.Row div.Each_Club{
+    overflow-y: hidden;
+height: 42px;
+height: fit-content;
     margin-bottom: 10px;
     padding: 20px 30px;
     border: 2px solid #CEA34F;
+& div{
+    display: flex;
+};
+& span{
+    margin: auto 0 auto auto;
+    position: relative;
+    width: 30px;
+    height: 60px;
+}
+& span::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-bottom: 5px solid #c53d43;
+    border-right: 5px solid #c53d43;
+    transform: rotate(45deg) translateX(50%) translateY(-40%);
+};
 }
 .Middle_line{
     width: 2px;
@@ -1243,7 +1266,8 @@ div.Row h3{
     border-right: 2px solid #CEA34F;
 }
 .Else_pamphlet section{
-    display: flex;
+display: none;
+display: flex;
     color: white;
     margin-top: 15px;
     font-size: 15pt;
