@@ -1134,8 +1134,9 @@ section.Sns img{
     width: fit-content;
     border: none;
     margin-bottom: 30px;
+    font-size: 25pt;
 }
-.Download .inner_content section{
+.Download .inner_content section.Download_Section{
     margin-top: 30px;
 }
 /* .Download .inner_content div{
@@ -1151,6 +1152,7 @@ section.Sns img{
 }
 .Pamphlet{
     margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: center;
@@ -1226,6 +1228,9 @@ section.Sns img{
     margin: 0 auto;
     width: 35%;
 }
+div.Row h3{
+    font-size: 20pt;
+}
 .Else_pamphlet div.Row div{
     margin-bottom: 10px;
     padding: 20px 30px;
@@ -1236,4 +1241,24 @@ section.Sns img{
     min-height: 100%;
     border-left: 2px solid #CEA34F;
     border-right: 2px solid #CEA34F;
+}
+.Else_pamphlet section{
+    display: flex;
+    color: white;
+    margin-top: 15px;
+    font-size: 15pt;
+    border: 2px solid #CEA34F;
+    padding: 10px 10px;
+    
+& h4{
+    height: fit-content;
+    margin: auto 0;
+}
+}
+.Else_pamphlet section a{
+    font-size: 12px;
+    margin: auto 10px auto auto;
+& img{
+    height: 20px;
+}
 }
