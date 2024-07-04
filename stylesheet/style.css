@@ -201,7 +201,7 @@ input.serchbox{
     font-size: 20px;
     margin-left:160px;
     vertical-align:middle;
-    
+    background-color: #4d5aaf;
 }
 .rens{
     width: 25px;
@@ -209,7 +209,7 @@ input.serchbox{
     position: absolute;
     cursor: pointer;
     left: 480px;
-    top: 50%;
+    top: calc(50% + 3px);
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 
