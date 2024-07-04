@@ -20,8 +20,10 @@
                             <img src="image/flower.png" alt="">
                             <img src="image/flower.png" alt="">
                         </div>
-                        <div class="Download_button">
-                            <p>aaaaaaaaaa<br>aaaaaaaaaa<br>aaaaaaaaaa<br>aaaaaaaaaa<br>aaaaaaaaaa<br>aaaaaaaaaa<br>aaaaaaaaaa<br>aaaaaaaaaa<br>aaaaaaaaaa<br>aaaaaaaaaa<br></p>
+                        <div class="Download_intro">
+                            <h3>説明</h3>
+                            <p>あいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえお<br>試し読みは<a href="pamphlet.php">こちら</a></p>
+                            <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                         </div>
                         <!-- <img src="image/flower.png" alt=""> -->
                         <!-- <img src="image/flower.png" alt=""> -->
