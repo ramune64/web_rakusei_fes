@@ -29,18 +29,9 @@
                     </div>
                 </section>
                 <section>
-                    <h2>パンフレット(プログラムパート)</h2>
+                    <h2>その他部誌・会誌</h2>
                     <div class="Pamphlet">
-                        <div class="Cover">
-                            <!-- <p>aaaaaaa</p> -->
-                            <img src="image/flower.png" alt="">
-                            <img src="image/flower.png" alt="">
-                        </div>
-                        <div class="Download_intro">
-                            <h3>説明</h3>
-                            <p>あいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえお<br>試し読みは<a href="pamphlet.php">こちら</a></p>
-                            <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
-                        </div>
+                        
                     </div>
                 </section>
             </div>
