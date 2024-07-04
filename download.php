@@ -13,6 +13,7 @@
         <div class="main_content Download">
             <div class="inner_content inner_top">
                 <h1>ダウンロード</h1>
+                <section>
                     <h2>パンフレット(プログラムパート)</h2>
                     <div class="Pamphlet">
                         <div class="Cover">
@@ -26,6 +27,8 @@
                             <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                         </div>
                     </div>
+                </section>
+                <section>
                     <h2>パンフレット(プログラムパート)</h2>
                     <div class="Pamphlet">
                         <div class="Cover">
@@ -39,6 +42,7 @@
                             <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                         </div>
                     </div>
+                </section>
             </div>
         </div>
         <div class="side_content">

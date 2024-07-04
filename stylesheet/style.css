@@ -1132,6 +1132,9 @@ section.Sns img{
     border: none;
     margin-bottom: 30px;
 }
+.Download .inner_content section{
+    margin-top: 30px;
+}
 /* .Download .inner_content div{
     border: 2px solid #CEA34F;
 } */
