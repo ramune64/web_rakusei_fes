@@ -201,6 +201,7 @@ const other_op = document.getElementById("other_op");
 const index_op = document.getElementById("index_op");
 const index_video = document.getElementById("index_video");
 const skip = document.getElementById("skip");
+const op_kotei = document.getElementById("op_kotei");
 function animation_index(){
     skip.style.display="none";
     index_op.classList.add("out_anime");
@@ -209,6 +210,9 @@ function animation_index(){
         other_op.style.display = "block";
         other_op.classList.add("in_anime");
     }, 500);
+    setTimeout(()=>{
+        op_kotei.style.display = "block";
+    },1000);
 }
 
 index_video.addEventListener("ended",animation_index);

@@ -30,8 +30,39 @@
                 </section>
                 <section>
                     <h2>その他部誌・会誌</h2>
-                    <div class="Pamphlet">
-                        
+                    <div class="Else_pamphlet">
+                        <div class="Row Left">
+                            <div>
+                                <h3>○○部</h3>
+                            </div>
+                            <div>
+                                <h3>○○部</h3>
+                            </div>
+                            <div>
+                                <h3>○○部</h3>
+                            </div>
+                            <div>
+                                <h3>○○部</h3>
+                            </div>
+                            <div>
+                                <h3>○○部</h3>
+                            </div>
+                        </div>
+                        <span class="Middle_line"></span>
+                        <div class="Row Right">
+                            <div>
+                                <h3>○○部</h3>
+                            </div>
+                            <div>
+                                <h3>○○部</h3>
+                            </div>
+                            <div>
+                                <h3>○○部</h3>
+                            </div>
+                            <div>
+                                <h3>○○部</h3>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </div>
