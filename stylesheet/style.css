@@ -212,7 +212,6 @@ input.serchbox{
     top: calc(50% + 3px);
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-
 }
 /* input.serchbox::before{
     content: url();
