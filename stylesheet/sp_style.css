@@ -202,7 +202,7 @@ header a{
     height: 300px;
     margin: -20% 5% 0 2%;
 } */
-.serch,nav,.side_content,.counter{
+.serch,header,.side_content,.counter{
     display: none;
 }
 #hontai{
