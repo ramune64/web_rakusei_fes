@@ -218,8 +218,76 @@ function animation_index(){
 index_video.addEventListener("ended",animation_index);
 skip.addEventListener("click",animation_index);
 
+var club = null;
+var sections = null;
+var pre_club = null;
+var pre_sections0 = null;
+var pre_sections1 = null;
+var pre_sections2 = null;
+var pre_sections3 = null;
+var counters = 0;
+
+
 function magazine(club_name){
-    var club = document.getElementById(club_name);
-    club.classList.add("animation");
-    club.firstChild.lastChild.classList.add("rorare_arrow");
-}
+    if(counters >= 1){
+        counters += 1;
+    }else{
+    counters = 1;
+    }
+    if(club!=null){//前にどこかが押されていたら前の奴はしまう。
+        club.classList.remove("animation");
+        club.classList.add("re_animation");
+        club.querySelectorAll("div")[0].querySelectorAll("a")[0].classList.remove("rorare_arrow");
+        club.querySelectorAll("div")[0].querySelectorAll("a")[0].classList.add("rorare_arrow_rev");
+    }
+
+    club = document.getElementById(club_name);
+    if(counters%4 == 0){
+        setTimeout(() => {
+            pre_sections0.forEach(section => {
+            section.style.display = "none";
+            });
+        },200);
+    }else if(counters%4 == 1){
+        setTimeout(() => {
+            pre_sections1.forEach(section => {
+            section.style.display = "none";
+            });
+        },200);
+    }else if(counters%4 == 2){
+        setTimeout(() => {
+            pre_sections2.forEach(section => {
+            section.style.display = "none";
+            });
+        },200);
+    }else if(counters%4 == 3){
+        setTimeout(() => {
+            pre_sections3.forEach(section => {
+            section.style.display = "none";
+            });
+        },200);
+    }
+    if(club == pre_club){//前と同じ奴が押されていたら、200ms後に今の子要素をを消すだけ。
+        pre_club = null;
+        console.log(pre_club);
+    }else{//前と違うのを押されたら、
+            sections = club.querySelectorAll("section");
+            club.querySelectorAll("div")[0].querySelectorAll("a")[0].classList.remove("rorare_arrow_rev");
+            club.querySelectorAll("div")[0].querySelectorAll("a")[0].classList.add("rorare_arrow");
+            sections.forEach(section => {
+                section.style.display = "flex";
+            });
+            club.classList.remove("re_animation");
+            club.classList.add("animation");
+            pre_club = club;
+            if(counters%4 == 0){
+                pre_sections1 = sections;
+            }else if(counters%4 == 1){
+                pre_sections2 = sections;
+            }else if(counters%4 == 2){
+                pre_sections3 = sections;
+            }else if(counters%4 == 3){
+                pre_sections0 = sections;
+            }
+        }
+};

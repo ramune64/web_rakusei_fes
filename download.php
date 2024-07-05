@@ -33,84 +33,94 @@
                     <div class="Else_pamphlet">
                         <div class="Row Left">
                             <div class="Each_Club" id="club1">
-                                <div>
-                                    <h3>○○部</h3><a href='javascript:magazine("club1")'><img src="image/up_arrow.png" alt=""></a>
+                                <div class="Up_content">
+                                    <h3>○○部</h3><a href='javascript:magazine("club1")'><img src="image/up_arrow.png" alt="" id="arrow"></a>
                                 </div>
-                                <section>
-                                    <h4>○○○○</h4>
-                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
-                                </section>
-                                <section>
-                                    <h4>○○○○</h4>
-                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
-                                </section>
-                                <section>
-                                    <h4>○○○○</h4>
-                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
-                                </section>
-                                <section>
-                                    <h4>○○○○</h4>
-                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
-                                </section>
-                                <section>
-                                    <h4>○○○○</h4>
-                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
-                                </section>
-                                <section>
-                                    <h4>○○○○</h4>
-                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
-                                </section>
-                                <section>
-                                    <h4>○○○○</h4>
-                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
-                                </section>
-                            </div>
-                            <div class="Each_Club">
                                 <div>
-                                    <h3>○○部</h3><span></span>
+                                <section>
+                                    <h4>○○○○</h4>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                </section>
+                                <section>
+                                    <h4>○○○○</h4>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                </section>
+                                </div>
+                            </div>
+                            <div class="Each_Club" id="club2">
+                                <div class="Up_content">
+                                    <h3>○○部</h3><a href='javascript:magazine("club2")'><img src="image/up_arrow.png" alt=""></a>
                                 </div>
                                 <section>
                                     <h4>○○○○</h4>
                                     <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                                 </section>
                             </div>
-                            <div class="Each_Club">
-                                <div>
-                                    <h3>○○部</h3><span></span>
+                            <div class="Each_Club" id="club3">
+                                <div class="Up_content">
+                                    <h3>○○部</h3><a href='javascript:magazine("club3")'><img src="image/up_arrow.png" alt=""></a>
                                 </div>
+                                <section>
+                                    <h4>○○○○</h4>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                </section>
                             </div>
-                            <div class="Each_Club">
-                                <div>
-                                    <h3>○○部</h3><span></span>
+                            <div class="Each_Club" id="club4">
+                                <div class="Up_content">
+                                    <h3>○○部</h3><a href='javascript:magazine("club4")'><img src="image/up_arrow.png" alt=""></a>
                                 </div>
+                                <section>
+                                    <h4>○○○○</h4>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                </section>
                             </div>
-                            <div class="Each_Club">
-                                <div>
-                                    <h3>○○部</h3><span></span>
+                            <div class="Each_Club" id="club5">
+                                <div class="Up_content">
+                                    <h3>○○部</h3><a href='javascript:magazine("club5")'><img src="image/up_arrow.png" alt=""></a>
                                 </div>
+                                <section>
+                                    <h4>○○○○</h4>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                </section>
                             </div>
                         </div>
                         <span class="Middle_line"></span>
                         <div class="Row Right">
-                            <div class="Each_Club">
-                                <div>
-                                    <h3>○○部</h3><span></span>
+                            <div class="Each_Club" id="club6">
+                                <div class="Up_content">
+                                    <h3>○○部</h3><a href='javascript:magazine("club6")'><img src="image/up_arrow.png" alt=""></a>
                                 </div>
+                                <section>
+                                    <h4>○○○○</h4>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                </section>
                             </div>
-                            <div class="Each_Club">
-                                <div>
-                                    <h3>○○部</h3><span></span>
+                            <div class="Each_Club" id="club7">
+                                <div class="Up_content">
+                                    <h3>○○部</h3><a href='javascript:magazine("club7")'><img src="image/up_arrow.png" alt=""></a>
                                 </div>
+                                <section>
+                                    <h4>○○○○</h4>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                </section>
                             </div>
-                            <div class="Each_Club">
-                                <div>
-                                    <h3>○○部</h3><span></span>
+                            <div class="Each_Club" id="club8">
+                                <div class="Up_content">
+                                    <h3>○○部</h3><a href='javascript:magazine("club8")'><img src="image/up_arrow.png" alt=""></a>
                                 </div>
+                                <section>
+                                    <h4>○○○○</h4>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                </section>
                             </div>
-                            <div class="Each_Club">
-                                <div>
-                                    <h3>○○部</h3><span></span>
+                            <div class="Each_Club" id="club9">
+                                <div class="Up_content">
+                                    <h3>○○部</h3><a href='javascript:magazine("club9")'><img src="image/up_arrow.png" alt=""></a>
                                 </div>
+                                <section>
+                                    <h4>○○○○</h4>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                </section>
                             </div>
                         </div>
                     </div>
