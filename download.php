@@ -32,10 +32,30 @@
                     <h2>その他部誌・会誌</h2>
                     <div class="Else_pamphlet">
                         <div class="Row Left">
-                            <div class="Each_Club">
+                            <div class="Each_Club" id="club1">
                                 <div>
-                                    <h3>○○部</h3><span></span>
+                                    <h3>○○部</h3><a href='javascript:magazine("club1")'><img src="image/up_arrow.png" alt=""></a>
                                 </div>
+                                <section>
+                                    <h4>○○○○</h4>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                </section>
+                                <section>
+                                    <h4>○○○○</h4>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                </section>
+                                <section>
+                                    <h4>○○○○</h4>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                </section>
+                                <section>
+                                    <h4>○○○○</h4>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                </section>
+                                <section>
+                                    <h4>○○○○</h4>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                </section>
                                 <section>
                                     <h4>○○○○</h4>
                                     <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>

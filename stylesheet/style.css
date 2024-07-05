@@ -1242,13 +1242,13 @@ max-height: 42px;
 & div{
     display: flex;
 };
-& span{
+& img{
     margin: auto 0 auto auto;
     position: relative;
-    width: 30px;
-    min-height: 30px;
-}
-& span::after{
+    width: 25px;
+    min-height: 25px;
+};
+/* & span::after{
     content: "";
     position: absolute;
     top: 50%;
@@ -1259,20 +1259,23 @@ max-height: 42px;
     border-right: 5px solid #c53d43;
     transform:translateY(calc(-50% - 2.4px));
     rotate: 45deg;
-};
+}; */
 
 }
-.Else_pamphlet div.Row div.Each_Club:hover{
+/* .Else_pamphlet div.Row div.Each_Club:hover{
     animation: drop 0.2s linear forwards;
     
-}
+} */
 @keyframes drop{
     0%{
         max-height: 42px;
         overflow: hidden;
     }
-    100%{
+    99.5%{
         max-height: 300px;
+    }
+    100%{
+        max-height: fit-content;
         height: fit-content;
     }
 }
@@ -1313,4 +1316,7 @@ display: flex;
 & img{
     height: 20px;
 }
+}
+#club1.animation{
+    animation: drop 0.2s linear forwards;
 }

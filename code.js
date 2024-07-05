@@ -218,3 +218,8 @@ function animation_index(){
 index_video.addEventListener("ended",animation_index);
 skip.addEventListener("click",animation_index);
 
+function magazine(club_name){
+    var club = document.getElementById(club_name);
+    club.classList.add("animation");
+    club.firstChild.lastChild.classList.add("rorare_arrow");
+}
