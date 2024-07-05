@@ -49,13 +49,13 @@
             for($i=0;$i<$var_count-1;$i++){
                 $under = "";
                 for($j=0;$j<=count($var_link_list_id[$i])-1;$j++){
-                    $under =  $under."<a href=../".$var_link_list[$i].$var_link_list_id[$i][$j].'><li>'.$var_name_list[$i][$j].'</li></a>';
+                    $under =  $under."<a href=../".$var_link_list[$i].$var_link_list_id[$i][$j].'><li><u>'.$var_name_list[$i][$j].'</u></li></a>';
                 }
                     $txtdata = <<< EOM
                         <li class="ze">
                             <div id="$var_id[$i]" class="var_id">
                                 <ul>
-                                    <a href="../$var_link_list[$i]"><li id="$li_id[$i]" class="fi">$var_list[$i]</li></a>
+                                    <a href="../$var_link_list[$i]"><li id="$li_id[$i]" class="fi"><u>$var_list[$i]</u></li></a>
                                     <div id="$suf_id[$i]" class="sub">
                                         $under
                                     </div>
@@ -69,7 +69,7 @@
         <li class="ze">
             <div  id="last" class="var_id">
                 <ul>
-                    <a href=<?php echo end($var_link_list) ?>><li id="ze_last" class="fi last"><?php echo end($var_list) ?></li></a> 
+                    <a href=<?php echo end($var_link_list) ?>><li id="ze_last" class="fi last"><u><?php echo end($var_list) ?></u></li></a> 
                         <div id="suflast" class="sub">
                             <!-- <a href="../news_top.php"><li class="last">ニュース一覧</li></a> -->
                         </div>

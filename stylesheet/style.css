@@ -85,12 +85,12 @@ body{
     background-color: yellow;
 }
 .table{
-    height: 82px;
+    height: 55px;
     border-collapse:collapse;
     display:flex;/* headerに入れるならblock varに入れるならtable */
     position: relative;
     z-index: 10;
-    margin: 0 0 auto auto;
+    margin: auto 10px auto auto;
 }
 header{
     background-color: #283A4D;
@@ -100,7 +100,9 @@ header{
     padding: 0;
     margin: 0;
     z-index: 5;
-    
+    border-bottom: 6px solid #c53d43;
+    /* height: fit-content; */
+    min-height: 157px;
 }
 header p a.utage{
     text-decoration: none;
@@ -247,6 +249,7 @@ nav#line1{
     background-color:#283A4D;
     z-index: 3;
     border-bottom: 6px solid #c53d43;
+    display: none;
 
 }
 #logo{
@@ -260,17 +263,26 @@ nav#line1{
 }
 
 header ul li ul li,header ul li ul div a li{
-    height: 58.5px;
+    height: 40px;
     text-align: center;
-    width: 130px;
-    font-size: 17px;
-    padding-top: 23.5px;
+    width: fit-content;
+    font-size: 20px;
+    font-family: "HG行書体";
+    padding: 13.5px 15px 0 15px;
     margin: 0%;
     background-color:/* rgb(142, 233, 236) */#283A4D;
     color: white;
     border-top:1.5px solid white;
-    border-bottom: 3px solid white;
+    /* border-bottom: 3px solid white; */
+    /* padding: ; */
 }
+header ul li ul div a li{
+    width: 100%;
+    padding: 13.5px 0px 0 0px;
+    position: relative;
+}
+
+
 header ul li ul a{
     text-decoration: none;
 }
@@ -537,17 +549,17 @@ header ul li ul a{
 }
 .fi{
     border-top:1.5px none white;
-    border-right: 3px solid white;
+    /* border-right: 3px solid white; */
     list-style: none;
 }
 #ze_fi{
-    border-left: 3px solid white;
+    /* border-left: 3px solid white; */
 }
 .last{
-    border-right: 3px none white;
+    /* border-right: 3px none white; */
 }
 header ul li ul li:hover{
-    color: blueviolet;
+    color: #c53d43;
 }
 
 
