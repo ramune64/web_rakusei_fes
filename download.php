@@ -45,36 +45,52 @@
                                     <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                                 </section>
                             </div>
-                            <div>
-                                <h3>○○部</h3>
+                            <div class="Each_Club">
+                                <div>
+                                    <h3>○○部</h3><span></span>
+                                </div>
                                 <section>
                                     <h4>○○○○</h4>
                                     <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                                 </section>
                             </div>
-                            <div>
-                                <h3>○○部</h3>
+                            <div class="Each_Club">
+                                <div>
+                                    <h3>○○部</h3><span></span>
+                                </div>
                             </div>
-                            <div>
-                                <h3>○○部</h3>
+                            <div class="Each_Club">
+                                <div>
+                                    <h3>○○部</h3><span></span>
+                                </div>
                             </div>
-                            <div>
-                                <h3>○○部</h3>
+                            <div class="Each_Club">
+                                <div>
+                                    <h3>○○部</h3><span></span>
+                                </div>
                             </div>
                         </div>
                         <span class="Middle_line"></span>
                         <div class="Row Right">
-                            <div>
-                                <h3>○○部</h3>
+                            <div class="Each_Club">
+                                <div>
+                                    <h3>○○部</h3><span></span>
+                                </div>
                             </div>
-                            <div>
-                                <h3>○○部</h3>
+                            <div class="Each_Club">
+                                <div>
+                                    <h3>○○部</h3><span></span>
+                                </div>
                             </div>
-                            <div>
-                                <h3>○○部</h3>
+                            <div class="Each_Club">
+                                <div>
+                                    <h3>○○部</h3><span></span>
+                                </div>
                             </div>
-                            <div>
-                                <h3>○○部</h3>
+                            <div class="Each_Club">
+                                <div>
+                                    <h3>○○部</h3><span></span>
+                                </div>
                             </div>
                         </div>
                     </div>
