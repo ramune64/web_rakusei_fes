@@ -1246,9 +1246,9 @@ div.Row h3{
 .Else_pamphlet div.Row div.Each_Club{
     overflow-y: hidden;
 max-height: 42px;
-
+position: relative;
     margin-bottom: 10px;
-    padding: 20px 30px;
+    padding: 20px 30px 20px 80px;
     border: 2px solid #CEA34F;
     animation: drop_rev 0.2s linear forwards;
 & div.Up_content{
@@ -1267,6 +1267,14 @@ max-height: 42px;
     rotate: 45deg;
 }; */
 
+}
+.Else_pamphlet div.Row div.Each_Club img.Club_logo{
+    position: absolute;
+    height: 70px;
+    margin: auto 0;
+    transform: translateY(-10px) translateX(-15px);
+    left: 25px;
+    top: 15px;
 }
 .Else_pamphlet div.Row div.Each_Club div.Up_content a{
     margin: auto 0 auto auto;

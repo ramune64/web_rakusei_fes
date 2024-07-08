@@ -34,7 +34,7 @@
                         <div class="Row Left">
                             <div class="Each_Club" id="club1">
                                 <div class="Up_content">
-                                    <h3>○○部</h3><a href='javascript:magazine("club1")'><img src="image/up_arrow.png" alt="" id="arrow"></a>
+                                    <img src="image/logo.png" alt="logo" class="Club_logo"><h3>○○部</h3><a href='javascript:magazine("club1")'><img src="image/up_arrow.png" alt="" id="arrow"></a>
                                 </div>
                                 <div>
                                 <section>
@@ -49,7 +49,7 @@
                             </div>
                             <div class="Each_Club" id="club2">
                                 <div class="Up_content">
-                                    <h3>○○部</h3><a href='javascript:magazine("club2")'><img src="image/up_arrow.png" alt=""></a>
+                                    <img src="image/logo.png" alt="logo" class="Club_logo"><h3>○○部</h3><a href='javascript:magazine("club2")'><img src="image/up_arrow.png" alt=""></a>
                                 </div>
                                 <section>
                                     <h4>○○○○</h4>
