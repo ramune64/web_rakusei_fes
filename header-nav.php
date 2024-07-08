@@ -42,7 +42,7 @@
         </div>
         <a href="../index.php"><img src="/image/logo.png" alt="logo" id="logo"></a>
     <header id="header">
-    <a href="../index.php" class="utage"><p><span>洛星</span><span>第漆拾参回</span><span>文化祭</span><span>～<b>宴</b>～</span></p></a>
+    <a href="../index.php" class="utage"><p><span>洛星</span><span>第七十三回</span><span>文化祭</span><span>～<b>宴</b>～</span></p></a>
         <ul class="table">
         <?php
             $var_count = count($var_link_list);
