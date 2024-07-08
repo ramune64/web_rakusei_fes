@@ -16,7 +16,7 @@
             	<div class="inner_content inner_top intro_part" id="intro_part">
                     <h1 class="part_h1">パート紹介</h1>
                     <div class="part">
-                        <h2><a href="#" class="batsu"></a>本部パート</h2>
+                        <h2><!-- <a href="#" class="batsu"></a> -->本部パート</h2>
                         <p>ここはこんなパートです。<br>←改行はこうやってやるよ。<b>太字はこう。</b><u>下線は多分こう。</u>部分的に色を変えたかったら<span class="iro_change">"こう"</span>(style.cssの最後の方を見てね。)</p>
                     </div>
                     <div class="part">

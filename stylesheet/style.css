@@ -268,8 +268,8 @@ header ul li ul li,header ul li ul div a li{
     width: fit-content;
     font-size: 20px;
     font-family: "HG行書体";
-    padding: 13.5px 15px 0 15px;
-    margin: 0%;
+    padding: 13.5px 0px 0 0px;
+    margin: 0 10px;
     background-color:/* rgb(142, 233, 236) */#283A4D;
     color: white;
     border-top:1.5px solid white;
@@ -895,7 +895,7 @@ td.target_cell{
     border: none;
     font-size: 25px;
     margin: 0;
-    margin: 0 0 0 1em;
+    margin: 0 0 0 0;
 }
 .part p{
     margin: 0 2em 1em 2em;
@@ -919,41 +919,6 @@ td.target_cell{
     color: purple;
 }
 
-.part h2::before{
-    content: "";
-    background-color: white;
-    width: 1em;
-    height: 0.2em;
-    position: absolute;
-    left: -0.5em;
-    top: 0.6em;
-    rotate: 0deg;
-    transform: translateX(-50%) translateY(-50%) rotateZ(45deg);
-}
-.part h2::after{
-    content: "";
-    background-color: white;
-    width: 0.2em;
-    height: 1em;
-    position: absolute;
-    left: -0.5em;
-    top: 0.6em;
-    rotate: 0deg;
-    transform: translateX(-50%) translateY(-50%) rotateZ(45deg);
-}
-
-.batsu{
-    content:"";
-    width: 1em;
-    height: 1em;
-    position: absolute;
-    background-color: white;
-    opacity: 0;
-    left: -1em;
-    top: 0.1em;
-    z-index: 7;
-    cursor: pointer;
-}
 /* .part::before{
     content:"";
     width: 1em;
@@ -1425,3 +1390,39 @@ a.rorare_arrow_rev{
 #club9.re_animation{
     animation: drop_rev 0.2s linear forwards;
 }
+
+/* .part h2::before{
+    content: "";
+    background-color: white;
+    width: 1em;
+    height: 0.2em;
+    position: absolute;
+    left: -0.5em;
+    top: 0.6em;
+    rotate: 0deg;
+    transform: translateX(-50%) translateY(-50%) rotateZ(45deg);
+}
+.part h2::after{
+    content: "";
+    background-color: white;
+    width: 0.2em;
+    height: 1em;
+    position: absolute;
+    left: -0.5em;
+    top: 0.6em;
+    rotate: 0deg;
+    transform: translateX(-50%) translateY(-50%) rotateZ(45deg);
+}
+
+.batsu{
+    content:"";
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    background-color: white;
+    opacity: 0;
+    left: -1em;
+    top: 0.1em;
+    z-index: 7;
+    cursor: pointer;
+} */
