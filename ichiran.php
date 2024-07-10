@@ -15,7 +15,7 @@
         <div class="main_content">
         <div class="inner_content inner_top" id="page0-1">
         <h1>一蘭</h1>
-        <div class="all_view">
+        <div class="all_view intro_groupe">
             <div class="view">
                 <h3>index0</h3>
                 <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あおおおおおおおおお明日おおおお昨日おおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおあ</p>

@@ -590,14 +590,14 @@ div.news p{
     /* margin-bottom: 100px; */
 }
 .all_view{
-    flex-wrap: wrap;
-    display: flex;
+    /* flex-wrap: wrap;
+    display: flex; */
 }
 .view{
     align-items:flex-end;
-    min-height: 300px;
+    /* min-height: 300px;
     min-width: 300px;
-    max-width: 300px;
+    max-width: 300px; */
     border: 3px groove white;
     border-radius: 20px;
     margin-bottom: 10px;
