@@ -237,8 +237,8 @@ function magazine(club_name){
     if(club!=null){//前にどこかが押されていたら前の奴はしまう。
         club.classList.remove("animation");
         club.classList.add("re_animation");
-        club.querySelectorAll("div")[0].querySelectorAll("a")[0].classList.remove("rorare_arrow");
-        club.querySelectorAll("div")[0].querySelectorAll("a")[0].classList.add("rorare_arrow_rev");
+        club.querySelectorAll("div")[0].querySelectorAll("a")[0].lastChild.classList.remove("rorare_arrow");
+        club.querySelectorAll("div")[0].querySelectorAll("a")[0].lastChild.classList.add("rorare_arrow_rev");
     }
 
     club = document.getElementById(club_name);
@@ -272,8 +272,8 @@ function magazine(club_name){
         console.log(pre_club);
     }else{//前と違うのを押されたら、
             sections = club.querySelectorAll("section");
-            club.querySelectorAll("div")[0].querySelectorAll("a")[0].classList.remove("rorare_arrow_rev");
-            club.querySelectorAll("div")[0].querySelectorAll("a")[0].classList.add("rorare_arrow");
+            club.querySelectorAll("div")[0].querySelectorAll("a")[0].lastChild.classList.remove("rorare_arrow_rev");
+            club.querySelectorAll("div")[0].querySelectorAll("a")[0].lastChild.classList.add("rorare_arrow");
             sections.forEach(section => {
                 section.style.display = "flex";
             });

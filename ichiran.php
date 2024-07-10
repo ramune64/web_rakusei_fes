@@ -12,19 +12,23 @@
     <?php include "header-nav.php" ?>
     <div class="wrap">
     <div id="hontai" class="hontai">
-        <div class="main_content">
+        <div class="main_content Groupes">
         <div class="inner_content inner_top" id="page0-1">
-        <h1>一蘭</h1>
+        <h1>展示団体</h1>
         <div class="all_view intro_groupe">
             <div class="view">
-                <h3>index0</h3>
-                <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あおおおおおおおおお明日おおおお昨日おおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおあ</p>
+                <div>
+                    <a href="#"><img src="image/logo.png" alt="" class="Logo_Img"><h3>index0</h3><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <!-- <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あおおおおおおおおお明日おおおお昨日おおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおあ</p> -->
             </div>
             <div class="view">
-                <h3>○○</h3>
+                <div>
+                    <a href="#"><img src="image/logo.png" alt="" class="Logo_Img"><h3>index0</h3><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
                 <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ</p>
             </div>
-            <div class="view">
+            <!-- <div class="view">
                 <h3>○○</h3>
                 <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
             </div>
@@ -43,10 +47,10 @@
             <div class="view">
                 <h3>○○</h3>
                 <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああend</p>
-            </div>
+            </div> -->
         </div>
         </div>
-    <div class="inner_content" id="page0-2">
+    <!-- <div class="inner_content" id="page0-2">
         <h1>index1</h1>
         <div class="all_view">
             <div class="view">
@@ -132,7 +136,7 @@
                 <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
             </div>
         </div>
-    </div>
+    </div> -->
     </div>
     <div class="side_content">
     <?php include "Side_bar.html" ?>

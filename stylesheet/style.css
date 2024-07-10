@@ -602,14 +602,33 @@ div.news p{
     border-radius: 20px;
     margin-bottom: 10px;
     margin-left: 10px;
+& a{
+    display: flex;
+    text-decoration: none;
+& img.Logo_Img{
+    height: 60px;
+    margin: auto 0;
 }
-.view h3{
+& img.Arrow{
+    height: 30px;
+    margin: auto 20px auto auto;
+}
+& h3{
+    font-weight:bold;
+    font-size: 40px;
+    height: 50px;
+    /* border-bottom: 4px dotted white; */
+    margin: 5px;
+}
+}
+}
+/* .view h3{
     font-weight:bold;
     font-size: 40px;
     height: 50px;
     border-bottom: 4px dotted white;
     margin: 5px;
-}
+} */
 .view p{
     margin: 5px;
 }
@@ -1096,16 +1115,26 @@ section.Sns img{
     width: 70px;
     margin-left: 20px;
 }
-.Download .inner_content{
+.Download ,.Groupes{
+& .inner_content{
     width: 70vw;
     margin: auto;
-}
-.Download .inner_content h1{
+& h1{
     text-align: center;
     width: fit-content;
     border: none;
     margin: 0 auto 30px auto;
 }
+}
+}
+/* .Download ,.Groupes{
+&.inner_content h1{
+    text-align: center;
+    width: fit-content;
+    border: none;
+    margin: 0 auto 30px auto;
+}
+} */
 .Download .inner_content h2{
     text-align: center;
     width: fit-content;
@@ -1207,54 +1236,39 @@ section.Sns img{
 }
 div.Row h3{
     font-size: 20pt;
+    margin: auto 0;
 }
 .Else_pamphlet div.Row div.Each_Club{
     overflow-y: hidden;
-max-height: 42px;
-position: relative;
+    height: 70px;
+    position: relative;
     margin-bottom: 10px;
-    padding: 20px 30px 20px 80px;
+    padding: 5px 10px 5px 10px;
     border: 2px solid #CEA34F;
     animation: drop_rev 0.2s linear forwards;
-& div.Up_content{
+& div.Up_content a{
     display: flex;
+    height: 60px;
+    margin: auto 0;
+    text-decoration: none;
+& img.Club_logo{
+    height: 70px;
+    width: 70px;
+    margin: auto 0;
+    transform: translateY(-3px);
 }
-/* & span::after{
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 10px;
-    height: 10px;
-    border-bottom: 5px solid #c53d43;
-    border-right: 5px solid #c53d43;
-    transform:translateY(calc(-50% - 2.4px));
-    rotate: 45deg;
-}; */
+& img.Arrow{
+    height: 30px;
+    margin: auto 20px auto auto;
+    transform: rotateX(180deg);
+}
+}
+
 
 }
-.Else_pamphlet div.Row div.Each_Club img.Club_logo{
-    position: absolute;
-    height: 70px;
-    margin: auto 0;
-    transform: translateY(-10px) translateX(-15px);
-    left: 25px;
-    top: 15px;
-}
-.Else_pamphlet div.Row div.Each_Club div.Up_content a{
-    margin: auto 0 auto auto;
-    position: relative;
-}
-.Else_pamphlet div.Row div.Each_Club div.Up_content a img{
-    margin: auto 0;
-    width: 25px;
-    min-height: 25px;
-    rotate: 180deg;
-}
-/* .Else_pamphlet div.Row div.Each_Club:hover{
-    animation: drop 0.2s linear forwards;
-    
-} */
+
+
+
 
 .Middle_line{
     width: 2px;
@@ -1285,35 +1299,35 @@ display: none;
     height: 20px;
 }
 }
-a.rorare_arrow{
+img.rorare_arrow{
     animation: rotate 0.4s linear forwards;
 }
-a.rorare_arrow_rev{
+img.rorare_arrow_rev{
     animation: rotate_rev 0.4s linear forwards;
 }
 @keyframes rotate{
     0%{
-        transform: rotateX(0deg);
+        transform: rotateX(180deg);
     }
     100%{
-        transform: rotateX(180deg);
+        transform: rotateX(0deg);
     }
 }
 @keyframes rotate_rev{
     100%{
-        transform: rotateX(0deg);
+        transform: rotateX(180deg);
     }
     0%{
-        transform: rotateX(180deg);
+        transform: rotateX(0deg);
     }
 }
 @keyframes drop{
     0%{
-        max-height: 42px;
+        max-height: 72px;
         overflow: hidden;
     }
     99.5%{
-        max-height: 300px;
+        max-height: 400px;
     }
     100%{
         max-height: fit-content;
@@ -1322,11 +1336,11 @@ a.rorare_arrow_rev{
 }
 @keyframes drop_rev{
     100%{
-        max-height: 42px;
+        max-height: 72px;
         overflow: hidden;
     }
     0.5%{
-        max-height: 300px;
+        max-height: 400px;
     }
     0%{
         max-height: fit-content;
@@ -1335,59 +1349,77 @@ a.rorare_arrow_rev{
     }
 }
 #club1.animation{
+    height: fit-content;
     animation: drop 0.2s linear forwards;
 }
 #club2.animation{
+    height: fit-content;
     animation: drop 0.2s linear forwards;
 }
 #club3.animation{
+    height: fit-content;
     animation: drop 0.2s linear forwards;
 }
 #club4.animation{
+    height: fit-content;
     animation: drop 0.2s linear forwards;
 }
 #club5.animation{
+    height: fit-content;
     animation: drop 0.2s linear forwards;
 }
 #club6.animation{
+    height: fit-content;
     animation: drop 0.2s linear forwards;
 }
 #club7.animation{
+    height: fit-content;
     animation: drop 0.2s linear forwards;
 }
 #club8.animation{
+    height: fit-content;
     animation: drop 0.2s linear forwards;
 }
 #club9.animation{
+    height: fit-content;
     animation: drop 0.2s linear forwards;
 }
 
 
 #club1.re_animation{
+    height: fit-content;
     animation: drop_rev 0.2s linear forwards;
 }
 #club2.re_animation{
+    height: fit-content;
     animation: drop_rev 0.2s linear forwards;
 }
 #club3.re_animation{
+    height: fit-content;
     animation: drop_rev 0.2s linear forwards;
 }
 #club4.re_animation{
+    height: fit-content;
     animation: drop_rev 0.2s linear forwards;
 }
 #club5.re_animation{
+    height: fit-content;
     animation: drop_rev 0.2s linear forwards;
 }
 #club6.re_animation{
+    height: fit-content;
     animation: drop_rev 0.2s linear forwards;
 }
 #club7.re_animation{
+    height: fit-content;
     animation: drop_rev 0.2s linear forwards;
 }
 #club8.re_animation{
+    height: fit-content;
     animation: drop_rev 0.2s linear forwards;
 }
 #club9.re_animation{
+    height: fit-content;
     animation: drop_rev 0.2s linear forwards;
 }
 
