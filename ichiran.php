@@ -16,26 +16,26 @@
         <div class="all_view intro_groupe">
             <div class="view" id="exhibit0">
                 <div>
-                    <a href='javascript:view_list("exhibit0")'><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○部</h3><h4>○○の歴史</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("exhibit0")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○部</h3><h4>○○の歴史</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ</p>
+                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href="#">ココダヨ(マップで見る)</a></p>
                 </section>
-                </div>
+            </div>
             <div class="view" id="exhibit1">
                 <div>
-                    <a href='javascript:view_list("exhibit1")'><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○同好会</h3><h4>○○とは</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("exhibit1")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○同好会</h3><h4>○○とは</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ</p>
+                    <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ<br>場所：<a href="#">ココダヨ(マップで見る)</a></p>
                 </section>
             </div>
             <div class="view" id="exhibit2">
                 <div>
-                    <a href='javascript:view_list("exhibit2")'><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○同好会</h3><h4>○○とは</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("exhibit2")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○同好会</h3><h4>○○とは</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ</p>
+                    <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ<br>場所：<a href="#">ココダヨ(マップで見る)</a></p>
                 </section>
             </div>
             <!-- <div class="view">
