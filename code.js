@@ -290,4 +290,38 @@ function magazine(club_name){
                 pre_sections0 = sections;
             }
         }
-};
+}
+
+var pre_exhibit = null;
+
+function view_list(name){
+    console.log("pre:",pre_exhibit);
+    if(pre_exhibit != null){
+        setTimeout(()=>{
+            pre_exhibit.firstElementChild.style.borderBottom = "";
+            pre_exhibit.lastElementChild.style.display = "none";
+        },400);
+        pre_exhibit.firstElementChild.firstElementChild.lastElementChild.classList.remove("rorare_arrow");
+        pre_exhibit.firstElementChild.firstElementChild.lastElementChild.classList.add("rorare_arrow_rev");
+    }
+    console.log(name);
+    var element = document.getElementById(name);
+    if(pre_exhibit == element){
+        setTimeout(()=>{
+            element.firstElementChild.style.borderBottom = "";
+            element.lastElementChild.style.display = "none";
+        },400);
+        element.firstElementChild.firstElementChild.lastElementChild.classList.remove("rorare_arrow");
+        element.firstElementChild.firstElementChild.lastElementChild.classList.add("rorare_arrow_rev");
+        pre_exhibit = null;
+        
+    }else{
+        console.log(element.firstElementChild);
+        element.firstElementChild.style.borderBottom = "2px solid #CEA34F";
+        element.lastElementChild.style.display = "block";
+        console.log(element.firstElementChild.firstElementChild.lastElementChild);
+        element.firstElementChild.firstElementChild.lastElementChild.classList.remove("rorare_arrow_rev");
+        element.firstElementChild.firstElementChild.lastElementChild.classList.add("rorare_arrow");
+        pre_exhibit = element;
+    }
+}

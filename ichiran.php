@@ -5,28 +5,38 @@
 <meta charset="UTF-8">
   <title>練習中1</title>
   <?php include "links.html" ?>
-  <!-- <link rel="stylesheet" href="aaa.css" type="text/css">
-  <link rel="icon" href="image\favicon.ico"> -->
 </head>
 <body>
     <?php include "header-nav.php" ?>
     <div class="wrap">
     <div id="hontai" class="hontai">
         <div class="main_content Groupes">
-        <div class="inner_content inner_top" id="page0-1">
+        <div class="inner_content inner_top" id="tenzi">
         <h1>展示団体</h1>
         <div class="all_view intro_groupe">
-            <div class="view">
+            <div class="view" id="exhibit0">
                 <div>
-                    <a href="#"><img src="image/logo.png" alt="" class="Logo_Img"><h3>index0</h3><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("exhibit0")'><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○部</h3><h4>○○の歴史</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
-                <!-- <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あおおおおおおおおお明日おおおお昨日おおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおあ</p> -->
+                <section>
+                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ</p>
+                </section>
+                </div>
+            <div class="view" id="exhibit1">
+                <div>
+                    <a href='javascript:view_list("exhibit1")'><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○同好会</h3><h4>○○とは</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ</p>
+                </section>
             </div>
-            <div class="view">
+            <div class="view" id="exhibit2">
                 <div>
-                    <a href="#"><img src="image/logo.png" alt="" class="Logo_Img"><h3>index0</h3><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("exhibit2")'><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○同好会</h3><h4>○○とは</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
-                <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ</p>
+                <section>
+                    <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ</p>
+                </section>
             </div>
             <!-- <div class="view">
                 <h3>○○</h3>

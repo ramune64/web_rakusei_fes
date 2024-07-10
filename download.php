@@ -11,7 +11,7 @@
         <div class="wrap">
         <div id="hontai">
         <div class="main_content Download">
-            <div class="inner_content inner_top">
+            <div class="inner_content inner_top" id="download">
                 <h1>ダウンロード</h1>
                 <section class="Download_Section">
                     <h2>パンフレット(プログラムパート)</h2>
