@@ -587,11 +587,39 @@ div.news p{
     margin: 0px 0px 0px 0px;
     /* margin-left: 7%; */
     /* width: 75%; */
-    /* margin-bottom: 100px; */
+    /* margin-bottom: 10all_view0px; */
 }
-.all_view{
-    /* flex-wrap: wrap;
-    display: flex; */
+.all_view div.view_in{
+    animation: view_in 0.4s ease-in-out forwards;
+}
+.all_view div.view_out{
+    animation: view_out 0.4s ease-in-out forwards;
+}
+@keyframes view_in{
+    0%{
+        max-height: 70px;
+        overflow: hidden;
+    }
+    99.5%{
+        max-height: 200px;
+    }
+    100%{
+        max-height: fit-content;
+        height: fit-content;
+    }
+}
+@keyframes view_out{
+    100%{
+        max-height: 70px;
+        overflow: hidden;
+    }
+    0.5%{
+        max-height: 200px;
+    }
+    0%{
+        max-height: fit-content;
+        height: fit-content;
+    }
 }
 .view{
     align-items:flex-end;

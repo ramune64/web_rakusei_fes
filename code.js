@@ -303,6 +303,8 @@ function view_list(name){
     if(pre_exhibit != null){//どれかが出てたら
         console.log("Not_Null");
         var aaa = pre_exhibit;
+        aaa.classList.remove("view_in");
+        aaa.classList.add("view_out");
         setTimeout(()=>{
             console.log("border:",pre_exhibit.firstElementChild.style.borderBottom);
             aaa.firstElementChild.style.borderBottom = "";
@@ -322,6 +324,8 @@ function view_list(name){
         /* console.log(element.firstElementChild); */
         element.firstElementChild.style.borderBottom = "2px solid #CEA34F";
         element.lastElementChild.style.display = "block";
+        element.classList.remove("view_out");
+        element.classList.add("view_in");
         /* console.log(element.firstElementChild.firstElementChild.lastElementChild); */
         element.firstElementChild.firstElementChild.lastElementChild.classList.remove("rorare_arrow_rev");
         element.firstElementChild.firstElementChild.lastElementChild.classList.add("rorare_arrow");
