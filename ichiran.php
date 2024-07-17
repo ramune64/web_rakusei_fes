@@ -38,26 +38,32 @@
                     <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ<br>場所：<a href="#">ココダヨ(マップで見る)</a></p>
                 </section>
             </div>
-            <!-- <div class="view">
-                <h3>○○</h3>
-                <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+        </div>
+        </div>
+        <div class="inner_content" id="mogiten">
+        <h1>模擬店</h1>
+        <div class="all_view intro_groupe">
+            <div class="view" id="mogiten0">
+                <div>
+                    <a href='javascript:view_list("mogiten0")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○部</h3><h4>○○の歴史</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href="#">ココダヨ(マップで見る)</a></p>
+                </section>
             </div>
-            <div class="view">
-                <h3>○○</h3>
-                <p>ああああああああああああああああああああああああああああああああああああああああ今週うううううううううううう</p>
+        </div>
+        </div>
+        <div class="inner_content" id="mogiten">
+        <h1>演劇</h1>
+        <div class="all_view intro_groupe">
+            <div class="view" id="engeki0">
+                <div>
+                    <a href='javascript:view_list("engeki0")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○部</h3><h4>○○の歴史</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href="#">ココダヨ(マップで見る)</a></p>
+                </section>
             </div>
-            <div class="view">
-                <h3>○○</h3>
-                <p>ううううううううううううううううううううううううううううううううううううううううううううううううううううううううう</p>
-            </div>
-            <div class="view">
-                <h3>○○</h3>
-                <p>ああああごめんああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
-            </div>
-            <div class="view">
-                <h3>○○</h3>
-                <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああend</p>
-            </div> -->
         </div>
         </div>
     <!-- <div class="inner_content" id="page0-2">

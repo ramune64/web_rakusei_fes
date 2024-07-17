@@ -33,7 +33,7 @@ html {scroll-behavior: smooth;}
 }
 .main_content{
     width: 100vw;
-    
+    margin-bottom: 140px;
 }
 .side_content{
     display: none;
