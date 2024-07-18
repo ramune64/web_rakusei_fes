@@ -44,6 +44,13 @@ html {scroll-behavior: smooth;}
         display: none;
     }   
 }
+.Flex{
+    display: flex;
+}
+.Flex_wrap{
+    flex-wrap: wrap;
+}
+
 /* .twitter-tweet{
     padding: 0 60px 0 60px;
 } */
@@ -924,10 +931,10 @@ td.target_cell{
 
 .intro_part{
     margin: auto;
-    width: 60%;
+    width: 80%;
 }
 
-.inner_content h1.part_h1,.front_content h1.front{
+.inner_content h1{
     font-size: 60px;
     text-align: center;
     width: fit-content;
@@ -936,9 +943,7 @@ td.target_cell{
     -webkit-text-stroke: 1px black;
     font-family: "HG行書体";
 }
-.inner_top h1.front{
-    font-family:"HG行書体";
-}
+
 .inner_content h2.part_h1,.front_content h2.front{
     text-align: center;
     width: fit-content;
@@ -951,13 +956,19 @@ td.target_cell{
     position: relative;
     border: 2px solid /* white */#CEA34F;
     border-radius: 10px;
-    margin:5px 0 30px 0;
+    margin:35px auto;
     font-size: 25px;
-    background-color: #4d5aaf;
+    width: 400px;
+    /* background-color: #4d5aaf; */
 & .Pl_name{
         padding-right: 10px;
         font-size: 15px;
         text-align: right;
+        margin: 0;
+}
+& img{
+    width: 170px;
+    margin: 20px auto;
 }
 }
 .part h2{
@@ -966,9 +977,10 @@ td.target_cell{
     font-size: 25px;
     margin: 0;
     margin: 0 0 0 0;
+    text-align: center;
 }
 .part p{
-    margin: 0 2em 0 2em;
+    margin: 0 1em 0 1em;
     border-radius: 10px;
     font-size: 20px;
 }
@@ -1405,80 +1417,7 @@ img.rorare_arrow_rev{
     }
 }
 
-/* #club1.animation{
-    height: fit-content;
-    animation: drop 0.2s linear forwards;
-}
-#club2.animation{
-    height: fit-content;
-    animation: drop 0.2s linear forwards;
-}
-#club3.animation{
-    height: fit-content;
-    animation: drop 0.2s linear forwards;
-}
-#club4.animation{
-    height: fit-content;
-    animation: drop 0.2s linear forwards;
-}
-#club5.animation{
-    height: fit-content;
-    animation: drop 0.2s linear forwards;
-}
-#club6.animation{
-    height: fit-content;
-    animation: drop 0.2s linear forwards;
-}
-#club7.animation{
-    height: fit-content;
-    animation: drop 0.2s linear forwards;
-}
-#club8.animation{
-    height: fit-content;
-    animation: drop 0.2s linear forwards;
-}
-#club9.animation{
-    height: fit-content;
-    animation: drop 0.2s linear forwards;
-}
 
-
-#club1.re_animation{
-    height: fit-content;
-    animation: drop_rev 0.2s linear forwards;
-}
-#club2.re_animation{
-    height: fit-content;
-    animation: drop_rev 0.2s linear forwards;
-}
-#club3.re_animation{
-    height: fit-content;
-    animation: drop_rev 0.2s linear forwards;
-}
-#club4.re_animation{
-    height: fit-content;
-    animation: drop_rev 0.2s linear forwards;
-}
-#club5.re_animation{
-    height: fit-content;
-    animation: drop_rev 0.2s linear forwards;
-}
-#club6.re_animation{
-    height: fit-content;
-    animation: drop_rev 0.2s linear forwards;
-}
-#club7.re_animation{
-    height: fit-content;
-    animation: drop_rev 0.2s linear forwards;
-}
-#club8.re_animation{
-    height: fit-content;
-    animation: drop_rev 0.2s linear forwards;
-}
-#club9.re_animation{
-    height: fit-content;
-    animation: drop_rev 0.2s linear forwards;
-} */
 
 /* .part h2::before{
     content: "";

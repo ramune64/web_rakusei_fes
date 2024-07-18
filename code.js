@@ -184,7 +184,25 @@ const resizeObserver = new ResizeObserver((entries) => {
   });
   resizeObserver.observe(header2);
 
+/* const boxes = document.getElementsByClassName("part");
+const minMargin = 25;
+function adjustMargin() {
+    console.log(boxes);
+    boxes.forEach(box => {
+        var computedStyle = box.style;
+        var marginRight = computedStyle.marginRight;
+        var marginLeft = computedStyle.marginLeft;
+        console.log(marginRight);
+        if (marginRight < minMargin) {
+            box.style.marginRight = minMargin + 'px';
+        }
+        if (marginLeft < minMargin) {
+            box.style.marginLeft = minMargin + 'px';
+        }
+    });
+}
 
+window.addEventListener("resize", adjustMargin); *///パート一覧
 
 /* const resizeObserver = new ResizeObserver(entries => {
     for (let entry of entries) {
@@ -338,3 +356,6 @@ function view_list(name){
         console.log("Else");
     }
 }
+
+
+
