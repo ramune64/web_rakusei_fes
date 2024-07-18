@@ -235,7 +235,7 @@ function magazine(club_name){
     counters = 1;
     }
     if(club!=null){//前にどこかが押されていたら前の奴はしまう。
-        club.classList.remove("animation");
+        club.classList.remove("animation_d");
         club.classList.add("re_animation");
         club.querySelectorAll("div")[0].querySelectorAll("a")[0].lastChild.classList.remove("rorare_arrow");
         club.querySelectorAll("div")[0].querySelectorAll("a")[0].lastChild.classList.add("rorare_arrow_rev");
@@ -278,7 +278,7 @@ function magazine(club_name){
                 section.style.display = "flex";
             });
             club.classList.remove("re_animation");
-            club.classList.add("animation");
+            club.classList.add("animation_d");
             pre_club = club;
             if(counters%4 == 0){
                 pre_sections1 = sections;
