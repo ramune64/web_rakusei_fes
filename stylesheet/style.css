@@ -954,6 +954,11 @@ td.target_cell{
     margin:5px 0 30px 0;
     font-size: 25px;
     background-color: #4d5aaf;
+& .Pl_name{
+        padding-right: 10px;
+        font-size: 15px;
+        text-align: right;
+}
 }
 .part h2{
     position:relative;
@@ -963,8 +968,7 @@ td.target_cell{
     margin: 0 0 0 0;
 }
 .part p{
-    margin: 0 2em 1em 2em;
-    background-color: #c53d43;
+    margin: 0 2em 0 2em;
     border-radius: 10px;
     font-size: 20px;
 }
