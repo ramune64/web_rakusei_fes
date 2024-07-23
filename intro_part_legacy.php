@@ -64,9 +64,9 @@
                     </div>
 
                     <div class="part" style="background-color: #f4b3c2;">
-                        <h2>ライブパート</h2>
-                        <p>ライブパートは高校生だけが所属しライブに出演するだけでなく、自分たち以外の出演バンドのサポートをしています。サイリウムの持ち込みはNGですがペンライトはOKなのでどんどん盛り上げましょう!第一音楽室で皆さんのご来場をお待ちしております!!</p>
-                        <p class="Pl_name">PL.照屋 皓太</p>
+                        <h2 style="color: #283A4D;">ライブパート</h2>
+                        <p style="color: #283A4D;">ライブパートは高校生だけが所属しライブに出演するだけでなく、自分たち以外の出演バンドのサポートをしています。サイリウムの持ち込みはNGですがペンライトはOKなのでどんどん盛り上げましょう!第一音楽室で皆さんのご来場をお待ちしております!!</p>
+                        <p class="Pl_name" style="color: #283A4D;">PL.照屋 皓太</p>
                     </div>
 
                     <div class="part" style="background-color: #ee7800;">
@@ -82,9 +82,9 @@
                     </div>
 
                     <div class="part" style="background-color: white;">
-                        <h2>小劇場パート</h2>
-                        <p>三階の選択教室で色々な特技や披露する人のお手伝いと会場の設営をしている。実は出演してくれる人が少なくて困っている。みんなシャイなんだから...</p>
-                        <p class="Pl_name">PL.安井 秀</p>
+                        <h2 style="color: #283A4D;">小劇場パート</h2>
+                        <p style="color: #283A4D;">三階の選択教室で色々な特技や披露する人のお手伝いと会場の設営をしている。実は出演してくれる人が少なくて困っている。みんなシャイなんだから...</p>
+                        <p class="Pl_name" style="color: #283A4D;">PL.安井 秀</p>
                     </div>
                     <div class="part"  style="background-color: #0d0015;">
                         <h2>高校生徒会</h2>
@@ -102,9 +102,9 @@
                         <p class="Pl_name">PL.阿座上 瑛大</p>
                     </div>
                     <div class="part" style="background-color: #ffd900;">
-                        <h2>展示パート</h2>
-                        <p>洛星文化祭の柱が1つ展示を支える縁の下の力持ち、展示に関わることなら備品の管理から採点、予算までなんでも手掛けるパートです御来場の際は様々な部活、同好会が作り上げた展示を心ゆくまでご覧下さい</p>
-                        <p class="Pl_name">PL.水口 陽人</p>
+                        <h2 style="color: #283A4D;">展示パート</h2>
+                        <p style="color: #283A4D;">洛星文化祭の柱が1つ展示を支える縁の下の力持ち、展示に関わることなら備品の管理から採点、予算までなんでも手掛けるパートです御来場の際は様々な部活、同好会が作り上げた展示を心ゆくまでご覧下さい</p>
+                        <p class="Pl_name" style="color: #283A4D;">PL.水口 陽人</p>
                     </div>
                     <div class="part">
                         <h2>模擬店パート</h2>
