@@ -1427,7 +1427,30 @@ tr{
 tr.harf{
     height: 10px;
 }
+.width_full{
+    width: 100%;
+}
 
+.xl6828124,.xl7828124{
+    border-right:.5pt solid black;
+    border-left:.5pt solid black;
+    border:.5pt solid black
+}
+.xl6428124{
+    border-right:.5pt solid black;
+    border-left:.5pt solid black;
+    border-top:.5pt solid black;
+    border-bottom:none;
+}
+.xl6528124{
+    border-right:.5pt solid black;
+    border-left:.5pt solid black;
+    border-bottom: .5pt solid black;
+    border-top: none;
+}
+.xl6728124,.xl6328124,.xl6628124{
+    border: .5pt solid black;
+}
 
 /* .part h2::before{
     content: "";
