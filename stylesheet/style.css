@@ -1,5 +1,9 @@
+
+
+
+
 * { 
-    margin: 0px; 
+    margin: 0px;
     padding: 0px;
 }
 p,h2,h3{
@@ -1417,6 +1421,12 @@ img.rorare_arrow_rev{
     }
 }
 
+tr{
+    height: 20px;
+}
+tr.harf{
+    height: 10px;
+}
 
 
 /* .part h2::before{
