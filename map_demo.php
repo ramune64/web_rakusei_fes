@@ -9,7 +9,7 @@
     $path = dirname(__FILE__);$path = str_replace("\\news","",$path);
     include($path."/links.html");
   ?>
-  
+  <link rel="stylesheet" href="../stylesheet/map.css" type="text/css">
 </head>
 <body>
   <div class="gray_back_map" id="gray_back_map"></div>
