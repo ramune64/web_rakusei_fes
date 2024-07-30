@@ -138,6 +138,8 @@
     </div>
 </body>
 </html>
+
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -246,17 +248,19 @@
                         <p style="color: #283A4D;">洛星文化祭の柱が1つ展示を支える縁の下の力持ち、展示に関わることなら備品の管理から採点、予算までなんでも手掛けるパートです御来場の際は様々な部活、同好会が作り上げた展示を心ゆくまでご覧下さい</p>
                         <p class="Pl_name" style="color: #283A4D;">PL.水口 陽人</p>
                     </div>
-                    <div class="part width_full">
+                    <div class="part width_full" style="background-color: #4c6cb3;" >
                         <h2>模擬店パート</h2>
-                        <p>文化祭2日目、3日目にピロティーで模擬店やっています。今年から調理を復活したので楽しんでもらえると思えます。ぜひ来てください。</p>
+                        <p>模擬店パートは模擬店会場の運営、食材管理など模擬店に関わることを全てやっている組織です。洛星文化祭を盛り上げれるように頑張ります！！</p>
+                        <p class="Pl_name">PL.藤野 準士</p>
                     </div>
-                    <div class="part width_full">
+                    <div class="part width_full" style="background-color: #ffea00;">
                         <h2>アミューズパート</h2>
-                        <p>４階で小さいお子様から大人の方まで楽しめるアミューズメントを行っています。</p>
+                        <p>射的や輪投げからジェットコースターやストラックアウトまで、誰でも楽しく遊べるものを用意しています自分たちで構想から考え、0から挑戦しました!他の学校にはない、洛星らしさをどうぞお楽しみください！</p>
+                        <p class="Pl_name">PL.吉田 和紋</p>
                     </div>
-                    <div class="part width_full">
+                    <div class="part width_full" style="background-color: #9d5b8b;">
                         <h2>ラジオパート</h2>
-                        <p>ｘｘで生徒が製作した番組を放送しています。さらに校内で定刻放送をします</p>
+                        <p class="Pl_name">PL.箸尾 優</p>
                     </div>
 				</div>
 			</div>
