@@ -169,6 +169,12 @@
                         <p class="Pl_name">PL.栗田 亮平</p>
                     </div>
 
+                    <div class="part width_full"  style="background-color: #0d0015;">
+                        <h2>高校生徒会</h2>
+                        <p>高校生徒会は、生徒による主体的な文化祭運営を支えています。また、我々は今年度の文化祭で「RAKUSEI'S GOT TALENT」という生徒が舞台上で出し物をする企画を開催します。普段の授業とは異なる、魅力的な洛星の一面をぜひ見に来てください!!!</p>
+                        <p class="Pl_name">PL.稲葉 拓真</p>
+                    </div>
+
                     <div class="part width_full" style="background-color: #674169;">
                         <h2>式典パート</h2>
                         <p>文化祭の開閉会式を司るパートです。開会式で10分弱の劇をし、生徒全体の雰囲気を盛り上げ文化祭ムードに変えるのが最も重要な役割です。開会式を一般の方に公開できないのは悲しいですが、精一杯文化祭を盛り上げます！皆さん楽しんでください！</p>
@@ -228,38 +234,40 @@
                         <p style="color: #283A4D;">三階の選択教室で色々な特技や披露する人のお手伝いと会場の設営をしている。実は出演してくれる人が少なくて困っている。みんなシャイなんだから...</p>
                         <p class="Pl_name" style="color: #283A4D;">PL.安井 秀</p>
                     </div>
-                    <div class="part width_full"  style="background-color: #0d0015;">
-                        <h2>高校生徒会</h2>
-                        <p>高校生徒会は、生徒による主体的な文化祭運営を支えています。また、我々は今年度の文化祭で「RAKUSEI'S GOT TALENT」という生徒が舞台上で出し物をする企画を開催します。普段の授業とは異なる、魅力的な洛星の一面をぜひ見に来てください!!!</p>
-                        <p class="Pl_name">PL.稲葉 拓真</p>
-                    </div>
+
                     <div class="part width_full" style="background-color: #2ca9e1;">
                         <h2>総務パート</h2>
                         <p>総務パートは、中2から高2まで70人以上の大所帯であり、当日は、受付や接客、案内などを行います。他パートからのどんな要望にも応えて仕事をこなす『仕事のエキスパート集団』で、文化祭を根底から支えます。"No 総務 ,   No 文化祭"</p>
                         <p class="Pl_name">PL.南北 敬祐</p>
                     </div>
+
                     <div class="part width_full" style="background-color: #028760;">
                         <h2>バザーパート</h2>
                         <p>バザーパートはズバリ、バザーの準備と運営をしています。今年はほとんどのパート員が一年目の新人ですが、バザー魂を胸に皆さんをお待ちしています。また、2500円以上お買い上げいただいた方へのプレゼント企画も新しく始めます。お楽しみに<!DOCTYPE html>
                         <p class="Pl_name">PL.阿座上 瑛大</p>
                     </div>
+
                     <div class="part width_full" style="background-color: #ffd900;">
                         <h2 style="color: #283A4D;">展示パート</h2>
                         <p style="color: #283A4D;">洛星文化祭の柱が1つ展示を支える縁の下の力持ち、展示に関わることなら備品の管理から採点、予算までなんでも手掛けるパートです御来場の際は様々な部活、同好会が作り上げた展示を心ゆくまでご覧下さい</p>
                         <p class="Pl_name" style="color: #283A4D;">PL.水口 陽人</p>
                     </div>
+
                     <div class="part width_full" style="background-color: #4c6cb3;" >
                         <h2>模擬店パート</h2>
                         <p>模擬店パートは模擬店会場の運営、食材管理など模擬店に関わることを全てやっている組織です。洛星文化祭を盛り上げれるように頑張ります！！</p>
                         <p class="Pl_name">PL.藤野 準士</p>
                     </div>
+
                     <div class="part width_full" style="background-color: #ffea00;">
-                        <h2>アミューズパート</h2>
-                        <p>射的や輪投げからジェットコースターやストラックアウトまで、誰でも楽しく遊べるものを用意しています自分たちで構想から考え、0から挑戦しました!他の学校にはない、洛星らしさをどうぞお楽しみください！</p>
-                        <p class="Pl_name">PL.吉田 和紋</p>
+                        <h2 style="color: #283A4D;">アミューズパート</h2>
+                        <p style="color: #283A4D;">射的や輪投げからジェットコースターやストラックアウトまで、誰でも楽しく遊べるものを用意しています自分たちで構想から考え、0から挑戦しました!他の学校にはない、洛星らしさをどうぞお楽しみください！</p>
+                        <p class="Pl_name" style="color: #283A4D;">PL.吉田 和紋</p>
                     </div>
+                    
                     <div class="part width_full" style="background-color: #9d5b8b;">
                         <h2>ラジオパート</h2>
+                        <p>私たちラジオパートは文化祭期間中、「自分達で作った」ラジオ番組を高ⅠEクラスで放送したり、校内放送を行ったりしています。今年高ⅠEではラジオの放送だけでなく無線部の展示も行ってますので、より多くの人に来ていただけると嬉しいです!</p>
                         <p class="Pl_name">PL.箸尾 優</p>
                     </div>
 				</div>
