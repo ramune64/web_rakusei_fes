@@ -18,7 +18,7 @@
                         "intro_part.php",
                         "test.php",
                         "time_table.php",
-                        "map_demo.php",
+                        "map.php",
                         "ichiran.php",
                         "index_novideo.php"];
     $var_link_list_id = [[],
@@ -26,7 +26,7 @@
                         [],
                         [],
                         [],
-                        ["#page0-1","#page0-2","#page0-3"],
+                        ["#tenzi","#mogiten","#engeki"],
                         []];
     
     $var_id = ["first","second","third","fourth","fifth","sixth","sevn","eight"];

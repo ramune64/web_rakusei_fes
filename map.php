@@ -38,7 +38,7 @@
     <div id="hontai">
     <div class="main_content">
         <div class="inner_content inner_top" id="map_0">
-        <h1>map_test</h1>
+        <h1>地図</h1>
         <div class="rotate_wrapper">
         <div id="rakusei_map_24133" align=center x:publishsource="Excel" class="Excel">
 
