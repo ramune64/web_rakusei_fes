@@ -175,6 +175,7 @@ const resizeObserver = new ResizeObserver((entries) => {
         inner_content[index].style.padding = `${(entries[0].contentRect.height)+30}px 0px 0px 0px`;
         if(inner_content[index].classList.contains("inner_top")){
             //inner_content[index].style.margin = `${((entries[0].contentRect.height))*-1}px 0px 0px 0px`;
+            //inner_content[index].style.margin = `${((entries[0].contentRect.height))*-1}px auto 0px auto`;
         }
         else{
             console.log(inner_content[index])

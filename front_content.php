@@ -2,8 +2,8 @@
         
         <div class="wrap">
         <div id="hontai">
-          	<div class="main_content">
-            	<div class="inner_content front_content inner_top" id="front">
+            <div class="main_content">
+                <div class="inner_content front_content inner_top" id="front">
 					<!-- <h1 class="front">第７３回　洛星中高文化祭</h1> -->
 					<img src="image/thumbnail_new.png" alt="なんかの画像" class="Topimg">
 				</div>

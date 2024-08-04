@@ -14,7 +14,10 @@ h1{
 .sp_nav{
     display: none;
 }
-html {scroll-behavior: smooth;}
+html {
+    scroll-behavior: smooth;
+    
+}
 #op_kotei{
     display: none;
 }
@@ -1016,7 +1019,8 @@ td.target_cell{
 .front_content{
     width: 50vw;
     min-width: 685px;
-    margin: auto auto;
+    margin: auto auto auto auto;
+    /* transform: translateX(0px); */
 }
 .front_content#front{
     width: 97vw;
@@ -1029,6 +1033,7 @@ td.target_cell{
 .front_content img.Topimg{
     width: 100%;
     aspect-ratio: 16/9;
+    margin: 0 auto;
 }
 .opening video{
     height: 99vh;
@@ -1180,8 +1185,7 @@ section.Sns img{
 }
 .Download ,.Groupes{
 & .inner_content{
-    width: 70vw;
-    margin: auto;
+    
 & h1{
     text-align: center;
     width: fit-content;

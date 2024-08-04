@@ -91,9 +91,9 @@
             <form method="get" action="../searchbox.php" required>
                 
                     <label>
-                      <!-- ページ内検索欄 -->
-                      <input type="text" name="word" placeholder="ここに入力ｩｩｩ!!" class="serchbox">
-                      <input type="image" src="/image/magnifying_glass2.png" alt="rens" class="rens">
+                    <!-- ページ内検索欄 -->
+                    <input type="text" name="word" placeholder="ここに入力ｩｩｩ!!" class="serchbox">
+                    <input type="image" src="/image/magnifying_glass2.png" alt="rens" class="rens">
                     </label>
                  
             </form>
@@ -141,14 +141,13 @@
                 }
             ?>
         </ul>
-            <form method="get" action="../searchbox.php" required>
+            <!-- <form method="get" action="../searchbox.php" required>
                     <label>
-                      <p class="search_guid">ページ内検索欄</p>
-                      <input type="text" name="word" placeholder="ここに入力ｩｩｩｩｩｩｩ!!" class="serchbox">
-                      <input type="image" src="/image/magnifying_glass2.png" alt="rens" class="btn_img">
-                      <!-- <button type="submit" class="rens"><img src="/image/magnifying_glass2.png" alt="rens"></button> -->
+                    <p class="search_guid">ページ内検索欄</p>
+                    <input type="text" name="word" placeholder="ここに入力ｩｩｩｩｩｩｩ!!" class="serchbox">
+                    <input type="image" src="/image/magnifying_glass2.png" alt="rens" class="btn_img">
                     </label>
-            </form>
+            </form> -->
     </div>
     </div>
     
