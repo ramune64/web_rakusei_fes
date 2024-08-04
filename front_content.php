@@ -53,11 +53,11 @@
                     </div>
                     <h2 class="front">SNS</h2>
                     <section class="Sns">
-                        <div>
+                        <!-- <div>
                             <p><span>&#x1D54F;</span><span>(旧Twitter):</span></p>
                             <a href="https://twitter.com/rakusei_fes" target="_blank" rel="noopener noreferrer"><img src="image/logo-black.png" alt="Xの字をかたどったアイコン"></a>
                             <a href="https://twitter.com/rakusei_fes" target="_blank" rel="noopener noreferrer"><img src="image/2021 Twitter logo - blue.png" alt="Twitterの青い鳥のアイコン"></a>
-                        </div>
+                        </div> -->
                         <div>
                             <p>Instagram:</p>
                             <a href="https://www.instagram.com/73rd.rakusei.bunkasai" target="_blank" rel="noopener noreferrer"><img src="image/Instagram_Glyph_Gradient.png" alt="Instagramのアイコン"></a>

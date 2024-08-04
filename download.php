@@ -22,7 +22,7 @@
                         </div>
                         <div class="Download_intro">
                             <h3>説明</h3>
-                            <p>あいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえお<br>試し読みは<a href="pamphlet.php">こちら</a></p>
+                            <p>あいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえお<!-- <br>試し読みは<a href="pamphlet.php">こちら</a> --></p>
                             <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                         </div>
                     </div>
