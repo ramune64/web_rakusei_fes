@@ -1,6 +1,7 @@
 * { 
-    margin: 0px; 
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 p,h2,h3{
     color: white;
@@ -16,13 +17,13 @@ h1{
 }
 html {
     scroll-behavior: smooth;
-    
+    max-width: calc(100vw - 20px);
 }
 #op_kotei{
     display: none;
 }
 .kotei{
-    width: 100vw;
+    width: 95vw;
     display: block;
     position: fixed;
     z-index: 2;
@@ -32,10 +33,10 @@ html {
     /* margin-top:-157px; */
     position: relative;
     z-index: 1;
-    width: 100vw;
+    width: calc(100vw - 20px);
 }
 .main_content{
-    width: 100vw;
+    width: calc(100vw - 20px);
     margin-bottom: 140px;
 }
 .side_content{
@@ -82,8 +83,7 @@ body{
     /* background: linear-gradient(-45deg,#bc3435 10%,white); */
     /* background-attachment:fixed; */
     background-color: /* rgb(0, 0, 83) *//* #44617b */#283A4D;
-    width: 100vw;
-    overflow-x: hidden;
+    width: calc(100vw - 20px);
 }
 .red{
     color: red;
@@ -106,7 +106,7 @@ header{
     background-color: #283A4D;
     position: relative;
     display: flex;
-    width: 100vw;
+    width: calc(100vw - 20px);
     padding: 0;
     margin: 0;
     z-index: 5;
@@ -146,15 +146,15 @@ header p span{
 
 .wrap{
     position: relative;
-    min-height: 95vh;
+    min-height: 100vh;
     padding-bottom: 78px;
-    width: 100vw;
+    width: calc(100vw - 20px);
 }
 .footer{
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100vw;
+    width: calc(100vw - 20px);
     text-align: center;
     padding: 30px 0px;
     background-color:#4d5aaf;
@@ -600,6 +600,7 @@ div.news p{
     /* width: 75%; */
     /* margin-bottom: 10all_view0px; */
 }
+
 .all_view div.view_in{
     animation: view_in 0.4s ease-in-out forwards;
 }
@@ -1020,6 +1021,7 @@ td.target_cell{
     width: 50vw;
     min-width: 685px;
     margin: auto auto auto auto;
+    padding: 0;
     /* transform: translateX(0px); */
 }
 .front_content#front{
@@ -1037,7 +1039,7 @@ td.target_cell{
 }
 .opening video{
     height: 99vh;
-    width: 99vw;
+    width: calc(100vw - 20px);
 }
 #index_op.out_anime{
     animation: out_video 1s ease-in-out forwards;
@@ -1134,6 +1136,7 @@ td.target_cell{
 .Info_index{
     border: 3px solid #CEA34F;
     margin-bottom: 100px;
+    margin-top: 30px;
 }
 section.term{
     display: flex;
@@ -1460,4 +1463,8 @@ img.rorare_arrow_rev{
     top: 0.1em;
     z-index: 7;
     cursor: pointer;
+} */
+
+/* table{
+    border-color: black;
 } */

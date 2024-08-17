@@ -17,7 +17,7 @@
                         <p>戦争反対！<br>軍拡反対！<br>ワクチン反対！<br>5Gは体に悪影響！！</p>
                     </div>
                 </div>
-                <div class="inner_content front_content Info_index">
+                <div class="inner_content front_content Info_index inner_top">
                     <h1 class="front">御案内</h1>
                     <div></div>
                     <h2 class="front">開催期間</h2>

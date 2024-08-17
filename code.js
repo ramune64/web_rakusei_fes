@@ -172,7 +172,9 @@ const inner_content = document.getElementsByClassName("inner_content");
 const resizeObserver = new ResizeObserver((entries) => {
     for(let index = 0; index < inner_content.length;index++){
         /* inner_content[index].style.margin = `${((entries[0].contentRect.height+75)-157)*-1}px 0px 0px 0px`; */
-        inner_content[index].style.padding = `${(entries[0].contentRect.height)+30}px 0px 0px 0px`;
+        if(inner_content[index].classList.contains("Info_index")){}else{
+            inner_content[index].style.padding = `${(entries[0].contentRect.height)+30}px 0px 0px 0px`;
+        }
         if(inner_content[index].classList.contains("inner_top")){
             //inner_content[index].style.margin = `${((entries[0].contentRect.height))*-1}px 0px 0px 0px`;
             //inner_content[index].style.margin = `${((entries[0].contentRect.height))*-1}px auto 0px auto`;
