@@ -67,19 +67,14 @@ function onResize(){
 }
 
 window.addEventListener('resize',onResize)
-
-window.onload = function() {
-    // ここに実行したい処理を書く
-    onResize();
-};
 var floor_list = ["F2","F3","F4"];
 function map_chenge(floor){
+    del_ovb();
+    //console.log(floor)
     const choices = document.getElementsByClassName("Map_choices");
     var cc = 1;
     floor_list.forEach(e => {
         var floor_element = document.getElementsByClassName(e)[0];
-        console.log(floor_element);
-        console.log(floor_element.style.display);
         if(floor == e){
             floor_element.style.display = "block";
             //floor_element.classList.add("Select");
@@ -92,5 +87,53 @@ function map_chenge(floor){
         }
         cc += 1
     });
+    const url = new URL(window.location.href)
+    url.searchParams.set('floor', `${floor}`);
+    window.history.replaceState({}, '', url);
     onResize();
+}
+
+
+
+
+window.onload = function() {
+    // ここに実行したい処理を書く
+    const searchParamsa = new URLSearchParams(window.location.search);
+    for (const [key, val] of searchParamsa) {
+        var val_name = val;//クエリを取得
+    }
+    console.log(val_name);
+    if(typeof(val_name)!="undefined"){
+        map_chenge(val_name);
+        //const url = new URL(window.location.href) // URLを取得
+        //history.replaceState(null, '', url.pathname) // URLからクエリパラメータを削除
+    }else{
+        onResize();
+    }
+};
+const ovb = document.getElementById("ovb1");
+function del_ovb(){
+    ovb.style.display = "none";
+}
+const ovb_room = document.getElementById("ovb_room");
+const ovb_group0 = document.getElementById("ovb_group0");
+const ovb_group1 = document.getElementById("ovb_group1");
+const ovb_link1 = document.getElementById("ovb_link1");
+const ovb_link2 = document.getElementById("ovb_link2");
+function display_ovb(room,group0,group1){
+    ovb_room.innerText = room;
+    ovb_group0.innerText = group0;
+    ovb_link1.href = `ichiran.php?group=${group0}`
+    if(group1 != null){
+        ovb_group1.innerText = group1;
+        ovb_link2.innerText = "この団体の展示紹介を一覧で見る"
+    }else{
+        ovb_group1.innerText = "";
+        ovb_link2.innerText = "";
+    }
+    ovb.style.display = "block";
+}
+
+function jump2list(group){
+
 }

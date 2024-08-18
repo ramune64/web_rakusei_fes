@@ -34,7 +34,14 @@
     <!-- <img src="../image/flower.png" alt="モッコウバラ" class="over_view_map">
     <img src="../image/cherry2.png" alt="桜" class="over_view_map"> -->
   <!-- </div> -->
-
+    <div class="over_view_box" id="ovb1" style="display: none;">
+        <h3 style="font-size: 30pt;" id="ovb_room"></h3>
+        <a href="javascript:del_ovb()" class="batsu_hanteiyou"></a>
+        <p style="font-size: 25pt;" id="ovb_group0"></p>
+        <a href="#" style="font-size: 15pt;" id="ovb_link1">この団体の展示紹介を一覧で見る</a>
+        <p style="font-size: 25pt;" id="ovb_group1"></p>
+        <a href="#" style="font-size: 15pt;" id="ovb_link2"></a>
+    </div>
     <?php
         include($path."/header-nav.php");
     ?>
