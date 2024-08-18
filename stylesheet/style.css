@@ -53,8 +53,16 @@ html {
 }
 .Flex_wrap{
     flex-wrap: wrap;
+    justify-content:center;
 }
-
+.Align_center{
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.Width_fitcontent{
+    width: fit-content;
+}
 /* .twitter-tweet{
     padding: 0 60px 0 60px;
 } */

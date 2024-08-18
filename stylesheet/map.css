@@ -10,6 +10,7 @@ table{
     transform: translateX(-50%);
     transform-origin: center;
     background-color: white;
+    border: 3px solid #CEA34F;
 }
 
 .Excel{
@@ -26,7 +27,7 @@ table{
     margin: auto;
     text-align: center;
     width: 90vw;
-    background-color: brown;
+    background-color: #c53d43;
     & h3{
         font-size: 20pt;
     }
@@ -39,10 +40,14 @@ table{
 @media screen and (max-width:1080px){
     .Maps{
         transform-origin: bottom left;
-        transform: rotate(90deg) translateY(50%) translateX(-170px);
+        /* transform: rotate(90deg) translateY(50%) translateX(-143.5px); */
     }
 }
 td a{
+    text-decoration: none;
+    color: black;
+}
+td.Homeroom a{
     width: 100%;
     height: 100%;
     text-decoration: none;
@@ -61,8 +66,108 @@ td img{
     background-color:rgb(97, 95, 95);
 }
 .background_palegray{
-    background-color:rgb(187, 187, 187);
+    background-color:rgb(220, 220, 220);
 }
 .background_more_palegray{
     background-color:rgb(245, 245, 245);
+}
+
+/* .Choice_parent{
+    position: relative;
+    width: 155px;
+    height: 60px;
+    padding: 16px 10px;
+    background-color: black;
+    clip-path: polygon(20px 0,0 50%,20px 100%,calc(100% - 20px) 100%,100% 50%,calc(100% - 20px) 0);
+} */
+
+.Map_choices{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    position: relative;
+    width: 155px;
+    height: 60px;
+    padding: 16px 10px;
+    /* border: 2px solid #CEA34F; */
+    background-color: #CEA34F;
+    /* clip-path: polygon(5px 0,0% 50%,5px 100%,calc(100%-5px) 100%,100% 50%,calc(100%-5px) 0%); */
+    clip-path: polygon(20px 0,0 50%,20px 100%,calc(100% - 20px) 100%,100% 50%,calc(100% - 20px) 0);
+    /* box-shadow: 10px 5px 5px white; */
+    transform-origin: center;
+    color: white;
+    text-decoration: none;
+    animation: down 0.3s forwards;
+}
+.Map_choices::before{
+    content: "";
+    position: absolute;
+    inset: 6px;
+    background-color: #4d5aaf;
+    clip-path: inherit;
+    z-index: -1;
+    box-shadow: 5px 5px 5px gray;
+}
+.Map_choices:hover{
+    animation: down2 0.3s forwards;
+}
+.Map_choices:hover::before{
+    animation: down4 0.3s forwards;
+}
+@keyframes down2{
+    0%{
+        transform: translateX(0) translateY(0);
+        background-color: #CEA34F;
+        color: white;
+    }
+    100%{
+        transform: translateX(3px) translateY(3px);
+        background-color: #932e33;
+        color: black;
+    }
+}
+@keyframes down{
+    100%{
+        transform: translateX(0) translateY(0);
+        background-color: #CEA34F;
+        color: white;
+    }
+    0%{
+        transform: translateX(3px) translateY(3px);
+        background-color: #932e33;
+        color: black;
+    }
+}
+@keyframes down4{
+    0%{
+        /* transform: translateX(0) translateY(0); */
+        background-color: #4d5aaf;
+    }
+    100%{
+        /* transform: translateX(3px) translateY(3px); */
+        background-color: #CEA34F;
+    }
+}
+@keyframes down3{
+    100%{
+        /* transform: translateX(0) translateY(0); */
+        background-color: #4d5aaf;
+    }
+    0%{
+        /* transform: translateX(3px) translateY(3px); */
+        background-color: #CEA34F;
+    }
+}
+a.Select{
+    animation: down2 0.3s forwards;
+}
+a.Select::before{
+    animation: down4 0.3s forwards;
+}
+
+a.Select_cancel{
+    animation: down 0.3s forwards;
+}
+a.Select_cancel::before{
+    animation: down3 0.3s forwards;
 }

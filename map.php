@@ -11,6 +11,7 @@
     ?>
     <!-- <link rel="stylesheet" href="../stylesheet/map.css" type="text/css"> -->
     <link rel="stylesheet" href="../stylesheet/map.css" type="text/css">
+    <link rel="stylesheet" href="../stylesheet/map2nd.css" type="text/css">
     <link rel="stylesheet" href="../stylesheet/map3rd.css" type="text/css">
     <link rel="stylesheet" href="../stylesheet/map4th.css" type="text/css">
 </head>
@@ -42,11 +43,29 @@
     <div class="main_content">
         <div class="inner_content inner_top" id="map_0">
         <h1>地図</h1>
-        <div class="Map_parent">
-            <h3>肆階</h3>
+        <div class="Map_parent" style="padding-top: 30px;">
+            <div id="Choices" class="">
+                <div class="Flex Flex_wrap Width_fitcontent Align_center">
+                    <a href='javascript:map_chenge("F1")' class="Map_choices">1階</a>
+                    <a href='javascript:map_chenge("F2")' class="Map_choices">2階</a>
+                    <a href='javascript:map_chenge("F3")' class="Map_choices">3階</a>
+                    <a href='javascript:map_chenge("F4")' class="Map_choices">4階</a>
+                    
+                </div>
+            </div>
             <div id="F4">
                 <?php
+                    include "map_4th.html";
+                ?>
+            </div>
+            <div id="F3">
+                <?php
                     include "map_3rd.html";
+                ?>
+            </div>
+            <div id="F2">
+                <?php
+                    include "map_2nd.html";
                 ?>
             </div>          
         </div>
