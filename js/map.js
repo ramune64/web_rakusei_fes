@@ -127,6 +127,7 @@ function display_ovb(room,group0,group1){
     if(group1 != null){
         ovb_group1.innerText = group1;
         ovb_link2.innerText = "この団体の展示紹介を一覧で見る"
+        ovb_link2.href = `ichiran.php?group=${group1}`
     }else{
         ovb_group1.innerText = "";
         ovb_link2.innerText = "";
