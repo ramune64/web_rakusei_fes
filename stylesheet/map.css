@@ -237,5 +237,8 @@ a.Select_cancel::before{
         right: 0.5em;
         transform: rotate(45deg);
     }
+    & a:hover{
+        color: #c53d43;
+    }
     /* padding: ; */
 }
