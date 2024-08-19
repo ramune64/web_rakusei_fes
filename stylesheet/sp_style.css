@@ -4,6 +4,7 @@
 }
 body{
     overflow-x: scroll;
+    width: 98vw;
 }
 .kotei{
     width: 100%;
@@ -217,18 +218,20 @@ header{
     display: none;
 }
 #hontai{
+    margin: auto;
+    width: 98vw;
     position: relative;
     display: block;
     z-index: 1;
 }
 .inner_content{
     /* padding: 75px 2px 2px 2px; */
-    padding: 75px 0 0 0;
+    padding: 0;
     padding-left: auto;
     padding-right: auto;
     /* padding: 165px 10px 10px 10px; */
-    margin: -75px 0px 0px 0px;
-    width: 95%;
+    margin: -75px auto 0px auto;
+    width: 100%;
     margin: 0 auto;
     overflow-y: hidden;
     /* margin-bottom: 100px; */
@@ -237,7 +240,9 @@ header{
     }
 }
 .main_content{
-    width: 100vw;
+    /* margin-right: 17px; */
+    width: 98%;
+    margin: auto;
 }
 h1{
     font-size: 40px;
@@ -246,8 +251,7 @@ h1{
     border-bottom: 4px dotted lightblue;
     margin-bottom: 40px;
 }
-.all_view{
-    /* width: 100%; */
+/* .all_view{
     display: block;
 }
 .view{
@@ -268,6 +272,17 @@ h1{
 }
 .view p{
     margin: 8px;
+} */
+.view{
+    margin-left: 0;
+}
+.view h3{
+    font-size: 20pt;
+    margin: auto;
+    padding-top: 6px;
+}
+.view h4{
+    display: none;
 }
 h2{
     /* min-width: 20%; */
@@ -345,6 +360,7 @@ h2{
     position: relative;
     min-height: 91vh;
     padding-bottom: 80px;
+    width: 98vw;
 }
 /* .footer{
     position: absolute;
@@ -359,7 +375,7 @@ h2{
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100vw;
+    width: 99.5vw;
     text-align: center;
     padding: 30px 0px;
     background-color:#5654a2;
@@ -403,4 +419,136 @@ h2{
 .rotate_wrapper{
     position: relative;
     height: 1400px;
+}
+.front_content{
+    min-width: 0;
+}
+.front_content img.Topimg{
+    width: 95vw;
+    aspect-ratio: 16/9;
+    margin: 0 auto;
+}
+.Info_index{
+    width: 90vw;
+    border: 3px solid #CEA34F;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    margin: 30px auto 100px auto;
+}
+.Surrounding_map{
+    width: 80%;
+    aspect-ratio: 4/3;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+}
+.Pamphlet{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.Cover{
+    margin: auto;
+    width: 80%;
+}
+.Cover img{
+    display: block;
+    max-width: 100px;   
+}
+.Download_intro{
+    width: 80%;
+    display: flex;
+    border: 2px solid #CEA34F;
+    border-top-style: none;
+    margin-bottom: 40px;
+    & h3{
+        display: none;
+    }
+    & p{
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+.Download_button{
+    height: 100px;
+    margin:auto 10px auto 0;
+    padding: 0px;
+    font-size: 12px;
+    flex-direction: column;
+    & img{
+        margin: 5px 20px;
+        width: 40px;
+        height: 40px;
+    }
+    & P{
+        margin: 5px auto;
+    }
+}
+
+.Else_pamphlet section h4{
+    font-size: 14px;
+}
+
+.Button_sonota{
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    text-align: center;
+    margin-right: 0;
+    & img{
+        margin: auto 10px;
+        width: 30px;
+        height: 30px;
+    }
+}
+.Else_pamphlet section a{
+    font-size: 12px;
+    margin: auto 0 auto auto;
+    transform-origin: 0 50%;
+& p{
+    margin: auto 5px;
+}
+& img{
+    height: auto;
+}
+}
+
+.Else_pamphlet{
+    flex-direction: column;
+}
+.Else_pamphlet div.Row{
+    margin: 0 auto;
+    width: 95%;
+}
+div.Row h3{
+    font-size: 20pt;
+    margin: auto 0;
+}
+.Else_pamphlet div.Row div.Each_Club{
+    overflow-y: hidden;
+    height: fit-content;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid #CEA34F;
+    /* animation: drop_rev 0.2s linear forwards; */
+& div.Up_content a{
+    display: flex;
+    height: 60px;
+    margin: auto 0;
+    text-decoration: none;
+& img.Club_logo{
+    height: 70px;
+    width: 70px;
+    margin: auto 0;
+    transform: translateY(-3px);
+}
+& img.Arrow{
+    height: 30px;
+    margin: auto 20px auto auto;
+    transform: rotateX(180deg);
+}
+}
 }

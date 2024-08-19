@@ -3,15 +3,15 @@
         <div class="wrap">
         <div id="hontai">
             <div class="main_content">
-                <div class="inner_content front_content inner_top" id="front">
+                <div class="inner_content front_content inner_top inner_top2" id="front">
 					<!-- <h1 class="front">第７３回　洛星中高文化祭</h1> -->
 					<img src="image/thumbnail_new.png" alt="なんかの画像" class="Topimg">
 				</div>
-                <div class="inner_content front_content">
+                <div class="inner_content front_content" style="position: relative;z-index:10;">
                     <h1 class="front">理念</h1>
                     <div><p>宴っていいよね。<br>うたげ【宴】さかもり。宴会。<br>えん〖宴〗エン うたげ<br>1.さかもり。酒食を設け、人々を会して楽しむ。<br>2.安楽にする。おちついた気分で楽しむ。</p></div>
                 </div>
-                <div class="inner_content front_content">
+                <div class="inner_content front_content" style="position: relative;z-index:9;">
                     <h1 class="front">ひとこと</h1>
                     <div>
                         <p>戦争反対！<br>軍拡反対！<br>ワクチン反対！<br>5Gは体に悪影響！！</p>
@@ -21,22 +21,22 @@
                     <h1 class="front">御案内</h1>
                     <div></div>
                     <h2 class="front">開催期間</h2>
-                        <section class="term">
+                        <section class="term Flex Flex_wrap">
                             <div class="each_turm">
-                                <p>壱日目</p>
+                                <p><b style="font-size: 19pt;">壱日目</b></p>
                                 <p>9月13日(金)<br>9時00分～<br>16時00分</p>
                             </div>
                             <div class="each_turm">
-                                <p>弐日目</p>
+                                <p><b style="font-size: 19pt;">弐日目</b></p>
                                 <p>9月14日(土)<br>9時00分～<br>16時00分</p>
                             </div>
                             <div class="each_turm">
-                                <p>参日目</p>
+                                <p><b style="font-size: 19pt;">参日目</b></p>
                                 <p>9月15日(日)<br>9時00分～<br>16時00分</p>
                             </div>
                         </section>
                     <h2 class="front">場所</h2>
-                    <section class="place">
+                    <section class="place Flex Flex_wrap">
                     <div>
                         <p style="font-size: 23px;"><b>洛星中学・高等学校</b></p>
                         <p style="text-align: center;margin-top: 10px;">京都市北区小松原南町33</p>

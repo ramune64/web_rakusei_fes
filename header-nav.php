@@ -11,7 +11,7 @@
                         [],
                         [],
                         [],
-                        ["展示","模擬店","演劇"],
+                        ["展示","模擬店","演劇","企画","ライブ","小劇場"],
                         []];
 
     $var_link_list = ["download.php",
@@ -26,7 +26,7 @@
                         [],
                         [],
                         [],
-                        ["#tenzi","#mogiten","#engeki"],
+                        ["#tenzi","#mogiten","#engeki","#","#","#"],
                         []];
     
     $var_id = ["first","second","third","fourth","fifth","sixth","sevn","eight"];

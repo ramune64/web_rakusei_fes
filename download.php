@@ -16,11 +16,11 @@
                 <section class="Download_Section">
                     <h2>パンフレット(プログラムパート)</h2>
                     <div class="Pamphlet">
-                        <div class="Cover">
+                        <div class="Cover item">
                             <img src="image/flower.png" alt="">
                             <img src="image/flower.png" alt="">
                         </div>
-                        <div class="Download_intro">
+                        <div class="Download_intro item">
                             <h3>説明</h3>
                             <p>あいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえお<!-- <br>試し読みは<a href="pamphlet.php">こちら</a> --></p>
                             <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
@@ -38,11 +38,11 @@
                                 <div>
                                 <section>
                                     <h4>○○○○</h4>
-                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button Button_sonota" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                                 </section>
                                 <section>
                                     <h4>○○○○</h4>
-                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button Button_sonota" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                                 </section>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@
                                 </div>
                                 <section>
                                     <h4>○○○○</h4>
-                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button Button_sonota" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                                 </section>
                             </div>
                             <div class="Each_Club" id="club3">
@@ -61,7 +61,7 @@
                                 </div>
                                 <section>
                                     <h4>○○○○</h4>
-                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button Button_sonota" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                                 </section>
                             </div>
                         </div>
@@ -73,7 +73,7 @@
                                 </div>
                                 <section>
                                     <h4>○○○○</h4>
-                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button Button_sonota" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                                 </section>
                             </div>
                             <div class="Each_Club" id="club5">
@@ -82,7 +82,7 @@
                                 </div>
                                 <section>
                                     <h4>○○○○</h4>
-                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button Button_sonota" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                                 </section>
                             </div>
                         <div class="Each_Club" id="club6">
@@ -91,7 +91,7 @@
                                 </div>
                                 <section>
                                     <h4>○○○○</h4>
-                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                    <a href="pdfs/殺ドはカス.pdf" class="Download_button Button_sonota" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                                 </section>
                             </div>
                         </div>
