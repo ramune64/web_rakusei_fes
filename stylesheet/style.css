@@ -1481,3 +1481,47 @@ img.rorare_arrow_rev{
 /* table{
     border-color: black;
 } */
+
+
+/* .your-slider img {
+    width: 20%;
+    height: auto;
+} */
+.container {
+    margin: 30px auto 0;
+    /* max-width: 500px; */
+    width: 100%;
+  }
+  /* 中央以外のスライド */
+  .slick-img img {
+    height: auto;
+    opacity: .3; /* // スライドを薄くする */
+    transform: scale(.8);/*  // スライドのサイズを80%にする */
+    transition: opacity .5s, transform .5s; /* // スライド透過率と拡大のアニメーション時間を0.5秒に設定 */
+    width: 100%;
+  }
+  /* 中央のスライド */
+  .slider .slick-center img {
+    opacity: 1; /* // 中央のスライドは透過しない */
+    transform: scale(1); /* // 中央のスライドは小さくしない */
+  }
+
+  .slick-dots li {
+    margin: 0 8px; /* ドット間の余白を調整 */
+}
+
+.slick-dots li button {
+    border: none;
+    background: #ccc; /* 非アクティブドットの色 */
+    border-radius: 50%; /* ドットを丸くする */
+    width: 15px; /* ドットの幅を大きくする */
+    height: 15px; /* ドットの高さを大きくする */
+    cursor: pointer;
+    padding: 0;
+    font-size: 0; /* 数字が表示されないようにフォントサイズを0にする */
+    line-height: 0;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #333; /* アクティブなドットの色 */
+}

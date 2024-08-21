@@ -38,6 +38,7 @@
                     <a href="javascript:tt_place(3)" class="button_ts" id="d3p3b"><li class="button_li">ここクリック33</li></a>
                     <a href="javascript:tt_place(4)" class="button_ts" id="d3p4b"><li class="button_li">ここクリック34</li></a>
                     <a href="javascript:tt_place(5)" class="button_ts" id="d3p5b"><li class="button_li">ここクリック35</li></a>
+                    <a href="javascript:tt_place(6)" class="button_ts" id="d3p6b"><li class="button_li">ここクリック36</li></a>
                 </ul>
             </div>
             <?php
@@ -73,7 +74,7 @@ $event_list = [[   [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム"
                 ],//d2
                 [
                     [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島11"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎11"],
+                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎13"],
                     ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下11"]],//d3p1
 
                     [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム2","txt"=> "新庄田宮万波マルティネス郡司中島22"],
@@ -90,7 +91,11 @@ $event_list = [[   [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム"
 
                     [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム5","txt"=> "新庄田宮万波マルティネス郡司中島55"],
                     ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜5","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎55"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日5","txt"=> "立浪細川中田カリステ大島石川岡林木下55"]]//d3p5
+                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日5","txt"=> "立浪細川中田カリステ大島石川岡林木下55"]],//d3p5
+
+                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム4","txt"=> "新庄田宮万波マルティネス郡司中島66"],
+                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜4","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎66"],
+                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日4","txt"=> "立浪細川中田カリステ大島石川岡林木下66"]]//d3p6
                 ]//d3
                 ];
                 $day = 1;
