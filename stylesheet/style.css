@@ -1490,7 +1490,7 @@ img.rorare_arrow_rev{
 .container {
     margin: 30px auto 0;
     /* max-width: 500px; */
-    width: 100%;
+    width: 90%;
   }
   /* 中央以外のスライド */
   .slick-img img {
@@ -1512,10 +1512,10 @@ img.rorare_arrow_rev{
 
 .slick-dots li button {
     border: none;
-    background: #ccc; /* 非アクティブドットの色 */
+    background: #CEA34F; /* 非アクティブドットの色 */
     border-radius: 50%; /* ドットを丸くする */
-    width: 15px; /* ドットの幅を大きくする */
-    height: 15px; /* ドットの高さを大きくする */
+    width: 10px; /* ドットの幅を大きくする */
+    height: 10px; /* ドットの高さを大きくする */
     cursor: pointer;
     padding: 0;
     font-size: 0; /* 数字が表示されないようにフォントサイズを0にする */
@@ -1523,5 +1523,25 @@ img.rorare_arrow_rev{
 }
 
 .slick-dots li.slick-active button {
-    background-color: #333; /* アクティブなドットの色 */
+    background-color: #c53d43; /* アクティブなドットの色 */
+}
+
+.slick-dots li button:before{
+    display: none;
+}
+.slick-next,.slick-prev{
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid #CEA34F;
+    border-right: 2px solid #CEA34F;
+}
+.slick-next{
+    -webkit-transform:translateX(-70%) rotate(45deg);
+}
+.slick-prev{
+    -webkit-transform:translateX(70%) rotate(-135deg);
+}
+
+.slick-next::before,.slick-prev::before{
+    content: "";
 }

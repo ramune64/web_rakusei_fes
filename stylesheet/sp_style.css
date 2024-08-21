@@ -358,7 +358,7 @@ h2{
 }
 .wrap{
     position: relative;
-    min-height: 91vh;
+    min-height: 100vh;
     padding-bottom: 80px;
     width: 98vw;
 }
