@@ -243,3 +243,10 @@ a.Select_cancel::before{
     }
     /* padding: ; */
 }
+
+td{
+    border-color: black;
+}
+tr{
+    border-color: black;
+}

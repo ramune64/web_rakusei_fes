@@ -14,7 +14,7 @@
                 <div class="inner_content front_content" style="position: relative;z-index:9;">
                     <h1 class="front">ひとこと</h1>
                     <div>
-                        <p>戦争反対！<br>軍拡反対！<br>ワクチン反対！<br>5Gは体に悪影響！！</p>
+                        <p>戦争反対！<br>軍拡反対！<br>ワクチン反対！<br>5Gは体に悪影響!!</p>
                     </div>
                 </div>
                 <div class="inner_content front_content Info_index inner_top">
@@ -24,15 +24,15 @@
                         <section class="term Flex Flex_wrap">
                             <div class="each_turm">
                                 <p><b style="font-size: 19pt;">壱日目</b></p>
-                                <p>9月13日(金)<br>9時00分～<br>16時00分</p>
+                                <p>9月13日(金)<br>9時00分~<br>16時00分</p>
                             </div>
                             <div class="each_turm">
                                 <p><b style="font-size: 19pt;">弐日目</b></p>
-                                <p>9月14日(土)<br>9時00分～<br>16時00分</p>
+                                <p>9月14日(土)<br>9時00分~<br>16時00分</p>
                             </div>
                             <div class="each_turm">
                                 <p><b style="font-size: 19pt;">参日目</b></p>
-                                <p>9月15日(日)<br>9時00分～<br>16時00分</p>
+                                <p>9月15日(日)<br>9時00分~<br>16時00分</p>
                             </div>
                         </section>
                     <h2 class="front">場所</h2>
