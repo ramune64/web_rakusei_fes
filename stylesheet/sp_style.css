@@ -282,7 +282,7 @@ h1{
     padding-top: 6px;
 }
 .view h4{
-    display: none;
+    display: block;
 }
 h2{
     /* min-width: 20%; */

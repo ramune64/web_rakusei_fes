@@ -55,6 +55,9 @@ html {
     flex-wrap: wrap;
     justify-content:center;
 }
+.Flex_left{
+    justify-content: left;
+}
 .Align_center{
     align-items: center;
     text-align: center;
@@ -618,11 +621,11 @@ div.news p{
 }
 @keyframes view_in{
     0%{
-        max-height: 70px;
+        max-height: 352px;
         overflow: hidden;
     }
     99.5%{
-        max-height: 200px;
+        max-height: 520px;
     }
     100%{
         max-height: fit-content;
@@ -631,11 +634,11 @@ div.news p{
 }
 @keyframes view_out{
     100%{
-        max-height: 70px;
+        max-height: 352px;
         overflow: hidden;
     }
     0.5%{
-        max-height: 200px;
+        max-height: 520px;
     }
     0%{
         max-height: fit-content;
@@ -644,13 +647,16 @@ div.news p{
 }
 .view h3{
     font-weight:bold;
-    font-size: 40px;
-    height: 50px;
+    font-size: 30pt;
     /* border-bottom: 4px dotted white; */
-    margin: 5px;
+    margin: auto;
 }
 .view{
     align-items:flex-end;
+    flex: 1 0 352px;
+    max-width: 352px;
+    min-height: 352px;
+    max-height: 352px;
     /* min-height: 300px;
     min-width: 300px;
     max-width: 300px; */
@@ -660,21 +666,25 @@ div.news p{
     margin-left: 10px;
     height: fit-content;
 & a.Groupes_top{
-    display: flex;
+    align-items: center;
+    text-align: center;
+    /* display: flex; */
     text-decoration: none;
 & img.Logo_Img{
-    height: 70px;
-    width: 70px;
+    height: 170px;
+    width: 170px;
     margin: auto 0;
+    margin-top: 20px;
 }
 & img.Arrow{
-    height: 30px;
-    margin: auto 20px auto auto;
+    display: block;
+    height: 50px;
+    margin: auto;
     transform: rotate(180deg);
 }
 & h4{
     font-weight:bold;
-    font-size: 30px;
+    font-size: 16pt;
     /* border-bottom: 4px dotted white; */
     margin: auto 0 0 1em;
     color: white;

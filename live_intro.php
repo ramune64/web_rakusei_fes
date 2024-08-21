@@ -20,7 +20,7 @@
                 <div class="container">
             <div class="slider">
                 <div class="slick-img"><img src="image/slide_img.png" alt=""></div>
-                <div class="slick-img"><img src="image/slide_img.png" alt=""></div>
+                <div class="slick-img"><img src="image/flower.png" alt=""></div>
                 <div class="slick-img"><img src="image/slide_img.png" alt=""></div>
                 <div class="slick-img"><img src="image/slide_img.png" alt=""></div>
                 <div class="slick-img"><img src="image/slide_img.png" alt=""></div>
@@ -41,14 +41,13 @@
             
             $(function() {
   $('.slider').slick({
+    speed: 500,
     autoplay: true, // 自動再生ON
     dots: true, // ドットインジケーターON
     centerMode: true, // 両サイドに前後のスライド表示
     centerPadding: '0px', // 左右のスライドのpadding
     slidesToShow: 3, // 一度に表示するスライド数
-    //arrows: false,  // この行でprev/nextボタンを非表示にする
-    //prevArrow: '<div class="slick-prev"></div>',//矢印部分PreviewのHTMLを変更
-    //nextArrow: '<div class="slick-next"></div>',//矢印部分NextのHTMLを変更
+    
   });
 });
             
