@@ -26,7 +26,7 @@
                     <a href="javascript:tt_place(2)" class="button_ts" id="d1p2b"><li class="button_li">ケルブ講堂</li></a>
                     <a href="javascript:tt_place(3)" class="button_ts" id="d1p3b"><li class="button_li">大教室</li></a>
                     <a href="javascript:tt_place(4)" class="button_ts" id="d1p4b"><li class="button_li">家庭科室</li></a>
-                    <a href="javascript:tt_place(4)" class="button_ts" id="d1p4b"><li class="button_li">多目的教室</li></a>
+                    <a href="javascript:tt_place(5)" class="button_ts" id="d1p5b"><li class="button_li">多目的教室</li></a>
                 </ul>
                 <ul class="buttons_buttom place_button" id="d2">
                     <a href="javascript:tt_place(1)" class="button_ts" id="d2p1b"><li class="button_li">ここクリック21</li></a>
@@ -57,7 +57,12 @@ $event_list = [[   [["s_time"=> "8:30","f_time"=> "9:00","title"=> "開会式","
 
                     [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム4","txt"=> "新庄田宮万波マルティネス郡司中島"],
                     ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜4","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日4","txt"=> "立浪細川中田カリステ大島石川岡林木下"]]//d1p4
+                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日4","txt"=> "立浪細川中田カリステ大島石川岡林木下"]],//d1p4
+
+                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム5","txt"=> "新庄田宮万波マルティネス郡司中島"],
+                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜5","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎"],
+                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日5","txt"=> "立浪細川中田カリステ大島石川岡林木下"],
+                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日5-2","txt"=> "立浪細川中田カリステ大島石川岡林木下"]]//d1p5
                 ],//d1
                 [
                     [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
