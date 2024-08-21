@@ -26,6 +26,7 @@
                     <a href="javascript:tt_place(2)" class="button_ts" id="d1p2b"><li class="button_li">ケルブ講堂</li></a>
                     <a href="javascript:tt_place(3)" class="button_ts" id="d1p3b"><li class="button_li">大教室</li></a>
                     <a href="javascript:tt_place(4)" class="button_ts" id="d1p4b"><li class="button_li">家庭科室</li></a>
+                    <a href="javascript:tt_place(4)" class="button_ts" id="d1p4b"><li class="button_li">多目的教室</li></a>
                 </ul>
                 <ul class="buttons_buttom place_button" id="d2">
                     <a href="javascript:tt_place(1)" class="button_ts" id="d2p1b"><li class="button_li">ここクリック21</li></a>
@@ -42,13 +43,12 @@
             </div>
             <?php
                 
-$event_list = [[   [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下"]],//d1p1
+$event_list = [[   [["s_time"=> "8:30","f_time"=> "9:00","title"=> "開会式","txt"=> "始まりの合図"],
+                    ["s_time"=> "9:30","f_time"=> "11:45","title"=> "中学合唱","txt"=> "合唱順はこちらから"],
+                    ["s_time"=> "13:30","f_time"=> "15:45","title"=> "高校合唱","txt"=> "合唱順はここから"]],//d1p1
 
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム2","txt"=> "新庄田宮万波マルティネス郡司中島"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜2","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中2","txt"=> "立浪細川中田カリステ大島石川岡林木下"]],//d1p2
+                    [["s_time"=> "9:30","f_time"=> "12:00","title"=> "高校生徒会企画","txt"=> "GOT TALENT"],
+                    ["s_time"=> "13:30","f_time"=> "15:45","title"=> "中学生徒会企画","txt"=> "IPOON GRAND PRIX"]],//d1p2
 
                     [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム3","txt"=> "新庄田宮万波マルティネス郡司中島"],
                     ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜3","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎"],
