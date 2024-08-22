@@ -26,7 +26,7 @@
                     <a href="javascript:tt_place(2)" class="button_ts" id="d1p2b"><li class="button_li">ケルブ講堂</li></a>
                     <a href="javascript:tt_place(3)" class="button_ts" id="d1p3b"><li class="button_li">大教室</li></a>
                     <a href="javascript:tt_place(4)" class="button_ts" id="d1p4b"><li class="button_li">家庭科室</li></a>
-                    <a href="javascript:tt_place(4)" class="button_ts" id="d1p4b"><li class="button_li">多目的教室</li></a>
+                    <a href="javascript:tt_place(5)" class="button_ts" id="d1p5b"><li class="button_li">多目的教室</li></a>
                 </ul>
                 <ul class="buttons_buttom place_button" id="d2">
                     <a href="javascript:tt_place(1)" class="button_ts" id="d2p1b"><li class="button_li">ここクリック21</li></a>
