@@ -15,6 +15,9 @@ h1{
 .sp_nav{
     display: none;
 }
+a{
+    color: #c53d43;
+}
 html {
     scroll-behavior: smooth;
     max-width: calc(100vw - 20px);
