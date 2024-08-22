@@ -15,7 +15,7 @@
     <div class="main_content">
         <div class="inner_content inner_top" id="time_table">
             <h1>タイムテーブル</h1>
-            <div class="buttons">
+            <div class="buttons303">
                 <ul class="buttons_top">
                     <a href="javascript:tt_day(1)" class="button_ts b_days" id="d1b"><li class="button_li">壱日目   .13日</li></a>
                     <a href="javascript:tt_day(2)" class="button_ts b_days" id="d2b"><li class="button_li">弐日目   .14日</li></a>
@@ -29,9 +29,19 @@
                     <a href="javascript:tt_place(5)" class="button_ts" id="d1p5b"><li class="button_li">多目的教室</li></a>
                 </ul>
                 <ul class="buttons_buttom place_button" id="d2">
-                    <a href="javascript:tt_place(1)" class="button_ts" id="d2p1b"><li class="button_li">ここクリック21</li></a>
-                    <a href="javascript:tt_place(2)" class="button_ts" id="d2p2b"><li class="button_li">ここクリック22</li></a>
-                    <a href="javascript:tt_place(3)" class="button_ts" id="d2p3b"><li class="button_li">ここクリック23</li></a>
+                    <a href="javascript:tt_place(1)" class="button_ts" id="d2p1b"><li class="button_li">大講堂</li></a>
+                    <a href="javascript:tt_place(2)" class="button_ts" id="d2p2b"><li class="button_li">ライブ<br>@第一音楽室</br></li></a>
+                    <a href="javascript:tt_place(3)" class="button_ts" id="d2p3b"><li class="button_li">大階段下</li></a>
+                    <a href="javascript:tt_place(4)" class="button_ts" id="d2p4b"><li class="button_li">小講堂</li></a>
+                    <a href="javascript:tt_place(5)" class="button_ts" id="d2p5b"><li class="button_li">ケベックホール</li></a>
+                    <a href="javascript:tt_place(6)" class="button_ts" id="d2p6b"><li class="button_li">和室</li></a>
+                    <a href="javascript:tt_place(7)" class="button_ts" id="d2p7b"><li class="button_li">リヨンホール</li></a>
+                    <a href="javascript:tt_place(8)" class="button_ts" id="d2p8b"><li class="button_li">選択1.2教室</li></a>
+                    <a href="javascript:tt_place(9)" class="button_ts" id="d2p9b"><li class="button_li">選択3.4教室</li></a>
+                    <a href="javascript:tt_place(10)" class="button_ts" id="d2p10b"><li class="button_li">大教室</li></a>
+                    <a href="javascript:tt_place(11)" class="button_ts" id="d2p11b"><li class="button_li">多目的教室</li></a>
+                    <a href="javascript:tt_place(12)" class="button_ts" id="d2p12b"><li class="button_li">家庭科室</li></a>
+                    <a href="javascript:tt_place(13)" class="button_ts" id="d2p13b"><li class="button_li">テラス.ピロティ</li></a>
                 </ul>
                 <ul class="buttons_buttom place_button" id="d3">
                     <a href="javascript:tt_place(1)" class="button_ts" id="d3p1b"><li class="button_li">ここクリック31</li></a>
@@ -51,31 +61,64 @@ $event_list = [[   [["s_time"=> "8:30","f_time"=> "9:00","title"=> "開会式","
                     [["s_time"=> "9:30","f_time"=> "12:00","title"=> "高校生徒会企画","txt"=> "GOT TALENT"],
                     ["s_time"=> "13:30","f_time"=> "15:45","title"=> "中学生徒会企画","txt"=> "IPOON GRAND PRIX"]],//d1p2
 
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム3","txt"=> "新庄田宮万波マルティネス郡司中島"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜3","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日3","txt"=> "立浪細川中田カリステ大島石川岡林木下"]],//d1p3
+                    [["s_time"=> "9:00","f_time"=> "10:45","title"=> "映像コンテスト","txt"=> "詳細未定"],
+                    ["s_time"=> "11:00","f_time"=> "14:00","title"=> "昼食会場","txt"=> "生徒専用の昼食会場 <u><br>保護者立ち入り不可</br></u> "],
+                    ["s_time"=> "14:00","f_time"=> "16:00","title"=> "映像コンテスト","txt"=> "映像を見よう"]],//d1p3
 
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム4","txt"=> "新庄田宮万波マルティネス郡司中島"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜4","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日4","txt"=> "立浪細川中田カリステ大島石川岡林木下"]],//d1p4
+                    [["s_time"=> "9:15","f_time"=> "12:30","title"=> "高校チャレンジクッキング","txt"=> "洛星No.1のキャラ弁を作るのは誰なのか？！？！？"]],//d1p4
 
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム5","txt"=> "新庄田宮万波マルティネス郡司中島"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜5","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日5","txt"=> "立浪細川中田カリステ大島石川岡林木下"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日5-2","txt"=> "立浪細川中田カリステ大島石川岡林木下"]]//d1p5
+                    [["s_time"=> "9:30","f_time"=> "12:30","title"=> "プラネタリウム","txt"=> "神秘なる星の世界へ<br>※毎年人気なので事前予約性になってます。東棟2階多目的教室前で整理券を受け取ってください</br>"]]//d1p5
                 ],//d1
                 [
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],//d2p1
-
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム2","txt"=> "新庄田宮万波マルティネス郡司中島2"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜2","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎2"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中2","txt"=> "立浪細川中田カリステ大島石川岡林木下2"]],//d2p2
+                    [["s_time"=> "9:00","f_time"=> "11:45","title"=> "中学演劇","txt"=> "M1「タイトル」<br>M2「タイトル」</br>M3「タイトル」"],
+                    ["s_time"=> "13:30","f_time"=> "15:00","title"=> "室内楽","txt"=> "ヴィヴァルディ「秋」の第一楽章など<u><br>ぜひ聞きに来てください！</br></u>"]],//d2p1　
+                    
+                    [["s_time"=> "11:00","f_time"=> "12:30","title"=> "ライブ会場","txt"=> "ここどうしよう"],
+                    ["s_time"=> "13:30","f_time"=> "15:30","title"=> "ライブ会場","txt"=> "ここどうしよう"]],//d2p2
 
                     [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム3","txt"=> "新庄田宮万波マルティネス郡司中島3"],
                     ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜3","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎3"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日3","txt"=> "立浪細川中田カリステ大島石川岡林木下3"]]//d2p3
+                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日3","txt"=> "立浪細川中田カリステ大島石川岡林木下3"]],//d2p3
+
+                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
+                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
+                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],//d2p3
+
+                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
+                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
+                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],//d2p4
+
+                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
+                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
+                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],//d2p5
+
+                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
+                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
+                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],
+
+                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
+                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
+                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],
+
+                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
+                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
+                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],
+
+                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
+                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
+                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],
+
+                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
+                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
+                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],
+
+                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
+                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
+                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],
+
+                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
+                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
+                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]]
                 ],//d2
                 [
                     [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島11"],
