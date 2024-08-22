@@ -208,6 +208,7 @@ a.Select_cancel::before{
     padding: 5px 20px;
     border: 5px solid #CEA34F;
     z-index: 10;
+    box-shadow: 15px 15px 5px black;
     & a.batsu_hanteiyou{
         position: absolute;
         top: 5px;
