@@ -26,7 +26,7 @@
                         [],
                         [],
                         [],
-                        ["#tenzi","#mogiten","#engeki","#","#","#"],
+                        ["#tenzi","#mogiten","#engeki","#","#live","#smallgekizyou"],
                         []];
     
     $var_id = ["first","second","third","fourth","fifth","sixth","sevn","eight"];

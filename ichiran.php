@@ -105,38 +105,22 @@
                     <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href="#">ココダヨ(マップで見る)</a></p>
                 </section>
             </div>
-            <div class="view" id="engeki0">
-                <div>
-                    <a href='javascript:view_list("engeki0")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○部</h3><h4>○○の歴史</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
-                </div>
-                <section>
-                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href="#">ココダヨ(マップで見る)</a></p>
-                </section>
-            </div>
-            <div class="view" id="engeki1">
-                <div>
-                    <a href='javascript:view_list("engeki1")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○部</h3><h4>○○の歴史</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
-                </div>
-                <section>
-                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href="#">ココダヨ(マップで見る)</a></p>
-                </section>
-            </div>
-            <div class="view" id="engeki2">
-                <div>
-                    <a href='javascript:view_list("engeki2")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○部</h3><h4>○○の歴史</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
-                </div>
-                <section>
-                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href="#">ココダヨ(マップで見る)</a></p>
-                </section>
-            </div>
-            <div class="view" id="engeki3">
-                <div>
-                    <a href='javascript:view_list("engeki3")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○部</h3><h4>○○の歴史</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
-                </div>
-                <section>
-                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href="#">ココダヨ(マップで見る)</a></p>
-                </section>
-            </div>
+        </div>
+        </div>
+        <div class="inner_content" id="live" style="position: relative; z-index: 2;">
+        <h1>ライブ</h1>
+        <div style="border: 3px solid #CEA34F; padding:20px">
+            <h5 style="color: white;font-size:20pt;margin-bottom:20px">各グループ詳細ページ</h5>
+            <p>会場：<a href='javascript:map_jump("F4")' style="font-size:14pt">M3A(マップで見る)</a></p>
+            <a href="live_intro.php" style="color: #c53d43;font-size:16pt">詳細はこちらから！！</a>
+        </div>
+        </div>
+        <div class="inner_content" id="smallgekizyou" style="position: relative; z-index: 1;">
+        <h1>小劇場</h1>
+        <div style="border: 3px solid #CEA34F; padding:20px">
+            <h5 style="color: white;font-size:20pt;margin-bottom:20px">各グループ詳細ページ</h5>
+            <p>会場：<a href='javascript:map_jump("F4")' style="font-size:14pt">M3A(マップで見る)</a></p>
+            <a href="#" style="color: #c53d43;font-size:16pt">詳細はこちらから！！</a>
         </div>
         </div>
     <!-- <div class="inner_content" id="page0-2">
