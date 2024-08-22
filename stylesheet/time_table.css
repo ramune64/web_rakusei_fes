@@ -4,13 +4,13 @@
     text-align: center;
 }
 
-.button_ts{
+.button_ts1000{
     border: 2px solid red;
     position: relative;
     text-decoration: none;
     color: black;
     background-color: red;
-    border-radius: 80px;
+    /* border-radius: 80px; */
     margin: 0 5px 10px 5px;
     text-align: center;
 }
@@ -24,7 +24,7 @@
     margin-bottom: 0px;
     justify-content: center;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     list-style: none;
 }
 .b_days{
@@ -36,7 +36,9 @@
     margin-bottom: 30px;
 }
 .button_li{
+    text-align: center;
     position:relative;
+    display: block;
     margin: 10px 10px;
 }
 /* #d2{
@@ -58,11 +60,15 @@
     display: inline-block;
 }
 .time_fi{
+    display: block;
     font-size: 16px;
     text-align: right;
     width: 5em;
-    margin-left: -6em;
+    margin-left: -7.9em;
     position: relative;
+}
+.time_st,.time_fi{
+    color: white;
 }
 .time_fi::after{
     /* content: "";
@@ -83,41 +89,146 @@
     content: "";
     position: absolute;
     top: 2px;
-    right: -2.125em;
+    right: -1.55em;
     display: inline-block;
     width: 15px;
     height: 15px;
-    border: 2px solid purple;
+    border: 2px solid #4d5aaf;
     /* border-right: 13px solid transparent;
     border-bottom: 13px solid transparent;
     border-left: 13px solid transparent; */
     border-radius: 50%;
-    background-color: purple;
+    background-color: #4d5aaf;
 }
 .time_table_ul{
-    min-width: 393px;
-    margin:0 100px 0 100px;
-    border-left: 8px solid purple;
-    background-color: white;
+    max-width: 650px;
+    margin:20px auto 0 auto;
+    border-left: 8px solid #4d5aaf;
     list-style: none;
 }
 .sch_box{
-    min-width: 410px;
+    /* min-width: 410px; */
     display: block;
     /* padding-left: 30px; */
     font-size: 25px;
 }
 .time_table_ul li{
     
-    background-color: lightslategray;
+    background-color: rgb(205, 205, 205);
     padding: 5px;
     padding-left: 20px;
     margin-bottom: 25px;
+    margin-left: 10px;
     border-radius: 10px;
+    width: 100%;
 }
 p.sch_title{
     font-weight: 600;
 }
 p.sch_txt{
     font-size: 20px;
+}
+p.sch_title,p.sch_txt{
+    color: black;
+}
+
+.button_ts{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    position: relative;
+    width: 200px;
+    height: 60px;
+    padding: 8px 10px;
+    /* border: 2px solid #CEA34F; */
+    background-color: #CEA34F;
+    /* clip-path: polygon(5px 0,0% 50%,5px 100%,calc(100%-5px) 100%,100% 50%,calc(100%-5px) 0%); */
+    clip-path: polygon(20px 0,0 50%,20px 100%,calc(100% - 20px) 100%,100% 50%,calc(100% - 20px) 0);
+    /* box-shadow: 10px 5px 5px white; */
+    transform-origin: center;
+    color: white;
+    text-decoration: none;
+    animation: down 0.3s forwards;
+    margin-top: 10px;
+}
+.button_ts::before{
+    content: "";
+    position: absolute;
+    inset: 6px;
+    background-color: #4d5aaf;
+    clip-path: inherit;
+    z-index: -1;
+    box-shadow: 5px 5px 5px gray;
+}
+.button_ts:hover{
+    animation: down2 0.3s forwards;
+}
+.button_ts:hover::before{
+    animation: down4 0.3s forwards;
+}
+@keyframes down2{
+    0%{
+        transform: translateX(0) translateY(0);
+        background-color: #CEA34F;
+        color: white;
+    }
+    100%{
+        transform: translateX(3px) translateY(3px);
+        background-color: #932e33;
+        color: black;
+    }
+}
+@keyframes down{
+    100%{
+        transform: translateX(0) translateY(0);
+        background-color: #CEA34F;
+        color: white;
+    }
+    0%{
+        transform: translateX(3px) translateY(3px);
+        background-color: #932e33;
+        color: black;
+    }
+}
+@keyframes down4{
+    0%{
+        /* transform: translateX(0) translateY(0); */
+        background-color: #4d5aaf;
+    }
+    100%{
+        /* transform: translateX(3px) translateY(3px); */
+        background-color: #CEA34F;
+    }
+}
+@keyframes down3{
+    100%{
+        /* transform: translateX(0) translateY(0); */
+        background-color: #4d5aaf;
+    }
+    0%{
+        /* transform: translateX(3px) translateY(3px); */
+        background-color: #CEA34F;
+    }
+}
+
+.wrapper_timetable{
+    background-color: #c53d43;
+    padding: 20px;
+    clip-path: polygon(0 30px,0 calc(100% - 30px),30px 100%,calc(100% - 30px) 100%,100% calc(100% - 30px),100% 30px,calc(100% - 30px) 0,30px 0);
+    
+    margin: 0 3vh 70px 3vh;
+}
+
+a.Select{
+    animation: down2 0.3s forwards;
+}
+a.Select::before{
+    animation: down4 0.3s forwards;
+}
+
+a.Select_cancel{
+    animation: down 0.3s forwards;
+}
+a.Select_cancel::before{
+    animation: down3 0.3s forwards;
 }

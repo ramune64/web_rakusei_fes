@@ -555,3 +555,12 @@ div.Row h3{
 .slider_content{
     width: 98%;
 }
+
+
+
+.time_table_ul{
+    max-width: none;
+    margin:20px 0 0 37px;
+    border-left: 8px solid #CEA34F;
+    list-style: none;
+}

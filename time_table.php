@@ -15,6 +15,7 @@
     <div class="main_content">
         <div class="inner_content inner_top" id="time_table">
             <h1>タイムテーブル</h1>
+            <div class="wrapper_timetable">
             <div class="buttons303">
                 <ul class="buttons_top">
                     <a href="javascript:tt_day(1)" class="button_ts b_days" id="d1b"><li class="button_li">壱日目   .13日</li></a>
@@ -30,7 +31,7 @@
                 </ul>
                 <ul class="buttons_buttom place_button" id="d2">
                     <a href="javascript:tt_place(1)" class="button_ts" id="d2p1b"><li class="button_li">大講堂</li></a>
-                    <a href="javascript:tt_place(2)" class="button_ts" id="d2p2b"><li class="button_li">ライブ<br>@第一音楽室</br></li></a>
+                    <a href="javascript:tt_place(2)" class="button_ts" id="d2p2b"><li class="button_li">ライブ@第一音楽室</li></a>
                     <a href="javascript:tt_place(3)" class="button_ts" id="d2p3b"><li class="button_li">大階段下</li></a>
                     <a href="javascript:tt_place(4)" class="button_ts" id="d2p4b"><li class="button_li">小講堂</li></a>
                     <a href="javascript:tt_place(5)" class="button_ts" id="d2p5b"><li class="button_li">ケベックホール</li></a>
@@ -67,7 +68,7 @@ $event_list = [[   [["s_time"=> "8:30","f_time"=> "9:00","title"=> "開会式","
 
                     [["s_time"=> "9:15","f_time"=> "12:30","title"=> "高校チャレンジクッキング","txt"=> "洛星No.1のキャラ弁を作るのは誰なのか？！？！？"]],//d1p4
 
-                    [["s_time"=> "9:30","f_time"=> "12:30","title"=> "プラネタリウム","txt"=> "神秘なる星の世界へ<br>※毎年人気なので事前予約性になってます。東棟2階多目的教室前で整理券を受け取ってください</br>"]]//d1p5
+                    [["s_time"=> "9:30","f_time"=> "12:30","title"=> "プラネタリウム","txt"=> "神秘なる星の世界へ<br>※毎年人気なので事前予約制になってます。東棟2階多目的教室前で整理券を受け取ってください</br>"]]//d1p5
                 ],//d1
                 [
                     [["s_time"=> "9:00","f_time"=> "11:45","title"=> "中学演劇","txt"=> "M1「タイトル」<br>M2「タイトル」</br>M3「タイトル」"],
@@ -252,6 +253,7 @@ $event_list = [[   [["s_time"=> "8:30","f_time"=> "9:00","title"=> "開会式","
                 </li>
             </ul> -->
         </div>
+    </div>
     </div>
     <div class="side_content">
     <?php include "Side_bar.html" ?>

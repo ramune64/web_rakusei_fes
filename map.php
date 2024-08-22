@@ -74,6 +74,11 @@
                 <?php
                     include "map_2nd.html";
                 ?>
+            </div>   
+            <div id="F1">
+                <?php
+                    include "map_1st.html";
+                ?>
             </div>          
         </div>
         </div>

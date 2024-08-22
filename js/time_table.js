@@ -43,14 +43,20 @@ ele_tt = document.getElementById("d1p1");
 ele_tt.style.display = "";
 
 function c_color_d(){
-    document.getElementById(legacy_ccd).style.backgroundColor = "";
-    document.getElementById(legacy_ccp).style.backgroundColor = "";
-    document.getElementById(c_change_d).style.backgroundColor = "yellow";
-    document.getElementById(c_change_p).style.backgroundColor = "yellow";
+    document.getElementById(legacy_ccd).classList.remove("Select");
+    document.getElementById(legacy_ccp).classList.remove("Select");
+    document.getElementById(legacy_ccd).classList.add("Select_cancel");
+    document.getElementById(legacy_ccp).classList.add("Select_cancel");
+    document.getElementById(c_change_d).classList.remove("Select_cancel");
+    document.getElementById(c_change_p).classList.remove("Select_cancel");
+    document.getElementById(c_change_d).classList.add("Select");
+    document.getElementById(c_change_p).classList.add("Select");
 }
 function c_color_p(){
-    document.getElementById(legacy_ccp).style.backgroundColor = "";
-    document.getElementById(c_change_p).style.backgroundColor = "yellow";
+    document.getElementById(legacy_ccp).classList.remove("Select");
+    document.getElementById(legacy_ccp).classList.add("Select_cancel");
+    document.getElementById(c_change_p).classList.remove("Select_cancel");
+    document.getElementById(c_change_p).classList.add("Select");
 }
 
 function show_tt(){
@@ -97,4 +103,9 @@ function tt_place(place){
     show_tt();
     c_color_p();
     legacy_ccp = c_change_p;
+}
+
+window.onload = function() {
+    document.getElementById(c_change_d).classList.add("Select");
+    document.getElementById(c_change_p).classList.add("Select");
 }

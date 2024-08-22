@@ -67,12 +67,12 @@ function onResize(){
 }
 
 window.addEventListener('resize',onResize)
-var floor_list = ["F2","F3","F4"];
+var floor_list = ["F1","F2","F3","F4"];
 function map_chenge(floor){
     del_ovb();
     //console.log(floor)
     const choices = document.getElementsByClassName("Map_choices");
-    var cc = 1;
+    var cc = 0;
     floor_list.forEach(e => {
         var floor_element = document.getElementsByClassName(e)[0];
         if(floor == e){
@@ -81,6 +81,7 @@ function map_chenge(floor){
             choices[cc].classList.remove("Select_cancel");
             choices[cc].classList.add("Select");
         }else{
+            console.log(choices[cc]);
             floor_element.style.display = "none";
             choices[cc].classList.remove("Select");
             choices[cc].classList.add("Select_cancel");
@@ -105,11 +106,17 @@ window.onload = function() {
     console.log(val_name);
     if(typeof(val_name)!="undefined"){
         map_chenge(val_name);
+        const choices = document.getElementsByClassName("Map_choices");
+        console.log(floor_list.findIndex(val_name));
+        choices[floor_list.findIndex(val_name)].classList.add("Select");
         //const url = new URL(window.location.href) // URLを取得
         //history.replaceState(null, '', url.pathname) // URLからクエリパラメータを削除
     }else{
         onResize();
+        const choices = document.getElementsByClassName("Map_choices");
+        choices[0].classList.add("Select");
     }
+    
 };
 const ovb = document.getElementById("ovb1");
 function del_ovb(){
