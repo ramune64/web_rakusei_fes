@@ -282,7 +282,7 @@ h1{
     padding-top: 6px;
 }
 .view h4{
-    display: none;
+    display: block;
 }
 h2{
     /* min-width: 20%; */
@@ -358,7 +358,7 @@ h2{
 }
 .wrap{
     position: relative;
-    min-height: 91vh;
+    min-height: 100vh;
     padding-bottom: 80px;
     width: 98vw;
 }
@@ -551,4 +551,7 @@ div.Row h3{
     transform: rotateX(180deg);
 }
 }
+}
+.slider_content{
+    width: 98%;
 }
