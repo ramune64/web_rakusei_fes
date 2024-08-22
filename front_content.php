@@ -9,12 +9,12 @@
 				</div>
                 <div class="inner_content front_content" style="position: relative;z-index:10;">
                     <h1 class="front">理念</h1>
-                    <div><p>宴っていいよね。<br>うたげ【宴】さかもり。宴会。<br>えん〖宴〗エン うたげ<br>1.さかもり。酒食を設け、人々を会して楽しむ。<br>2.安楽にする。おちついた気分で楽しむ。</p></div>
+                    <div><p>宴　タイトルの由来</p></div>
                 </div>
                 <div class="inner_content front_content" style="position: relative;z-index:9;">
                     <h1 class="front">ひとこと</h1>
                     <div>
-                        <p>戦争反対！<br>軍拡反対！<br>ワクチン反対！<br>5Gは体に悪影響!!</p>
+                        <p>来校者の方々はさることながら<br>文化祭をともに作り上げた生徒全員<br>そして協力してくださった教職員の方々にとっての最高の経験になり<br>素敵な思い出としてずっと皆さんの心に残るような文化祭を作り上げます。</br><u><br>文化祭実行委員長  栗田 亮平</br></u></p>
                     </div>
                 </div>
                 <div class="inner_content front_content Info_index inner_top">
