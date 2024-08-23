@@ -36,21 +36,20 @@
                     <a href="javascript:tt_place(4)" class="button_ts" id="d2p4b"><li class="button_li">小講堂</li></a>
                     <a href="javascript:tt_place(5)" class="button_ts" id="d2p5b"><li class="button_li">ケベックホール</li></a>
                     <a href="javascript:tt_place(6)" class="button_ts" id="d2p6b"><li class="button_li">和室</li></a>
-                    <a href="javascript:tt_place(7)" class="button_ts" id="d2p7b"><li class="button_li">リヨンホール</li></a>
-                    <a href="javascript:tt_place(8)" class="button_ts" id="d2p8b"><li class="button_li">選択1.2教室</li></a>
-                    <a href="javascript:tt_place(9)" class="button_ts" id="d2p9b"><li class="button_li">選択3.4教室</li></a>
-                    <a href="javascript:tt_place(10)" class="button_ts" id="d2p10b"><li class="button_li">大教室</li></a>
-                    <a href="javascript:tt_place(11)" class="button_ts" id="d2p11b"><li class="button_li">多目的教室</li></a>
-                    <a href="javascript:tt_place(12)" class="button_ts" id="d2p12b"><li class="button_li">家庭科室</li></a>
-                    <a href="javascript:tt_place(13)" class="button_ts" id="d2p13b"><li class="button_li">テラス.ピロティ</li></a>
+                    <a href="javascript:tt_place(7)" class="button_ts" id="d2p7b"><li class="button_li">小劇場@選択3.4教室</li></a>
+                    <a href="javascript:tt_place(8)" class="button_ts" id="d2p8b"><li class="button_li">大教室</li></a>
+                    <a href="javascript:tt_place(9)" class="button_ts" id="d2p9b"><li class="button_li">家庭科室</li></a>
+                    <a href="javascript:tt_place(10)" class="button_ts" id="d2p10b"><li class="button_li">テラス.リヨンホール</li></a>
                 </ul>
                 <ul class="buttons_buttom place_button" id="d3">
-                    <a href="javascript:tt_place(1)" class="button_ts" id="d3p1b"><li class="button_li">ここクリック31</li></a>
-                    <a href="javascript:tt_place(2)" class="button_ts" id="d3p2b"><li class="button_li">ここクリック32</li></a>
-                    <a href="javascript:tt_place(3)" class="button_ts" id="d3p3b"><li class="button_li">ここクリック33</li></a>
-                    <a href="javascript:tt_place(4)" class="button_ts" id="d3p4b"><li class="button_li">ここクリック34</li></a>
-                    <a href="javascript:tt_place(5)" class="button_ts" id="d3p5b"><li class="button_li">ここクリック35</li></a>
-                    <a href="javascript:tt_place(6)" class="button_ts" id="d3p6b"><li class="button_li">ここクリック36</li></a>
+                    <a href="javascript:tt_place(1)" class="button_ts" id="d3p1b"><li class="button_li">大講堂</li></a>
+                    <a href="javascript:tt_place(2)" class="button_ts" id="d3p2b"><li class="button_li">第1音楽室</li></a>
+                    <a href="javascript:tt_place(3)" class="button_ts" id="d3p3b"><li class="button_li">小講堂</li></a>
+                    <a href="javascript:tt_place(4)" class="button_ts" id="d3p4b"><li class="button_li">ケベックホール</li></a>
+                    <a href="javascript:tt_place(5)" class="button_ts" id="d3p5b"><li class="button_li">和室</li></a>
+                    <a href="javascript:tt_place(6)" class="button_ts" id="d3p6b"><li class="button_li">小劇場@選択3.4教室</li></a>
+                    <a href="javascript:tt_place(7)" class="button_ts" id="d3p7b"><li class="button_li">大教室</li></a>
+                    <a href="javascript:tt_place(8)" class="button_ts" id="d3p8b"><li class="button_li">テラス.リヨンホール</li></a>
                 </ul>
             </div>
             <?php
@@ -68,83 +67,70 @@ $event_list = [[   [["s_time"=> "8:30","f_time"=> "9:00","title"=> "開会式","
 
                     [["s_time"=> "9:15","f_time"=> "12:30","title"=> "高校チャレンジクッキング","txt"=> "洛星No.1のキャラ弁を作るのは誰なのか？！？！？"]],//d1p4
 
-                    [["s_time"=> "9:30","f_time"=> "12:30","title"=> "プラネタリウム","txt"=> "神秘なる星の世界へ<br>※毎年人気なので事前予約制になってます。東棟2階多目的教室前で整理券を受け取ってください</br>"]]//d1p5
+                    [["s_time"=> "9:30","f_time"=> "12:30","title"=> "プラネタリウム","txt"=> "神秘なる星の世界へ<br>※毎年人気なので事前予約制になってます。東棟2階多目的教室前で整理券を受け取ってください</br>(以降三日間同様)"]]//d1p5
                 ],//d1
                 [
-                    [["s_time"=> "9:00","f_time"=> "11:45","title"=> "中学演劇","txt"=> "M1「タイトル」<br>M2「タイトル」</br>M3「タイトル」"],
+                    [["s_time"=> "9:00","f_time"=> "9:45","title"=> "中学演劇Ⅰ","txt"=> "M1「タイトル」"],
+                    ["s_time"=> "10:00","f_time"=> "10:45","title"=> "中学演劇Ⅱ","txt"=> "M2「タイトル」"],
+                    ["s_time"=> "11:00","f_time"=> "11:45","title"=> "中学演劇Ⅲ","txt"=> "M3「タイトル」"],    
                     ["s_time"=> "13:30","f_time"=> "15:00","title"=> "室内楽","txt"=> "ヴィヴァルディ「秋」の第一楽章など<u><br>ぜひ聞きに来てください！</br></u>"]],//d2p1　
                     
                     [["s_time"=> "11:00","f_time"=> "12:30","title"=> "ライブ会場","txt"=> "ここどうしよう"],
                     ["s_time"=> "13:30","f_time"=> "15:30","title"=> "ライブ会場","txt"=> "ここどうしよう"]],//d2p2
 
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム3","txt"=> "新庄田宮万波マルティネス郡司中島3"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜3","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎3"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日3","txt"=> "立浪細川中田カリステ大島石川岡林木下3"]],//d2p3
+                    [["s_time"=> "9:30","f_time"=> "10:30","title"=> "室内楽","txt"=> "大講堂で13:30~15:00でも行います"]],//d2p3
+ 
+                    [["s_time"=> "9:00","f_time"=> "12:00","title"=> "アミューズ","txt"=> "ケルブ講堂を貸切って、大人から子供まで楽しめるアミューズパークにしました！！"],
+                    ["s_time"=> "13:00","f_time"=> "13:45","title"=> "高校演校Ⅰ","txt"=> "HⅠ 「高一学年演劇」"],
+                    ["s_time"=> "14:00","f_time"=> "14:45","title"=> "高校演劇Ⅱ","txt"=> "HⅡ 「狂気」"],
+                    ["s_time"=> "15:00","f_time"=> "15:45","title"=> "高校演校Ⅲ","txt"=> "HⅢ 「SIAMO TUTTIUN PO, PAZZI.」"]],//d2p4
 
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],//d2p3
+                    [["s_time"=> "12:30","f_time"=> "13:00","title"=> "グリー部公演","txt"=> "セトリ不明"],
+                    ["s_time"=> "13:30","f_time"=> "15:30","title"=> "小劇場ライブビューイング","txt"=> "なんかやります"]],//d2p5
 
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],//d2p4
+                    [["s_time"=> "13:00","f_time"=> "15:45","title"=> "茶会","txt"=> "茶道部主催の茶会を行います<br><u>※参加費500円(現金のみ)</u></br>"]],//d2p6
 
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],//d2p5
+                    [["s_time"=> "10:00","f_time"=> "11:00","title"=> "Piano man in Rakusei","txt"=> "第一部（約10分）"],
+                    ["s_time"=> "11:00","f_time"=> "12:00","title"=> "ピアノ同好会","txt"=> ""],
+                    ["s_time"=> "12:00","f_time"=> "13:00","title"=> "弾き語り","txt"=> "だれかやります"],
+                    ["s_time"=> "13:00","f_time"=> "14:00","title"=> "お笑い","txt"=> "フリップネタや大喜利などやります"],
+                    ["s_time"=> "14:00","f_time"=> "15:00","title"=> "ビートボックス","txt"=> ""],
+                    ["s_time"=> "15:00","f_time"=> "16:00","title"=> "Piano man in Rakusei","txt"=> "第二部（約10分）"]],//d2p7
 
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],
+                    [["s_time"=> "9:00","f_time"=> "10:45","title"=> "映像コンテスト","txt"=> "映像を見よう！"],
+                    ["s_time"=> "11:00","f_time"=> "14:00","title"=> "昼食会場","txt"=> "生徒専用の昼食会場 <u><br>保護者立ち入り不可</br></u>"],
+                    ["s_time"=> "14:00","f_time"=> "15:45","title"=> "映像コンテスト","txt"=> "映像をみよう！"]],//d2p8
 
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],
+                    [["s_time"=> "13:30","f_time"=> "15:30","title"=> "中学チャレンジクッキング","txt"=> "オムライス王の称号を手にするのは誰か？！？"]],//d2p9
 
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],
-
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],
-
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],
-
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]],
-
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島1"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎1"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下1"]]
+                    [["s_time"=> "10:00","f_time"=> "16:00","title"=> "模擬店","txt"=> "<u>基本的に会計は交通系ＩＣか⾦券のどちらかです</u><br>詳細はこちら</br>"],
+                    ["s_time"=> "10:00","f_time"=> "16:00","title"=> "喫茶,食堂","txt"=> "模擬店会場からの通り抜けはできません<br>二階からのご入場のみなのでご注意ください</br>詳細はこちら"]]//d2p10
                 ],//d2
                 [
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム","txt"=> "新庄田宮万波マルティネス郡司中島11"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎13"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日","txt"=> "立浪細川中田カリステ大島石川岡林木下11"]],//d3p1
+                    [["s_time"=> "9:30","f_time"=> "10:30","title"=> "演劇部公演","txt"=> "「ぼくらの檻」"],
+                    ["s_time"=> "12:00","f_time"=> "14:00","title"=> "オーケストラ部公演","txt"=> "「セリビアの理髪師」序曲<br>ヴォカリーズ  etc...</br>※曲目間での入退場は可能です"]],//d3p1
 
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム2","txt"=> "新庄田宮万波マルティネス郡司中島22"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜2","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎22"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中2","txt"=> "立浪細川中田カリステ大島石川岡林木下22"]],//d3p2
+                    [["s_time"=> "10:00","f_time"=> "14:00","title"=> "ライブ会場","txt"=> "coming soon..."]],//d3p2
 
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム3","txt"=> "新庄田宮万波マルティネス郡司中島33"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜3","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎33"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日3","txt"=> "立浪細川中田カリステ大島石川岡林木下33"]],//d3p3
+                    [["s_time"=> "9:00","f_time"=> "9:30","title"=> "謡曲部公演","txt"=> ""],
+                    ["s_time"=> "10:00","f_time"=> "11:30","title"=> "アミューズ","txt"=> "アミューズパーク！！"],
+                    ["s_time"=> "12:15","f_time"=> "13:45","title"=> "高校生徒会企画","txt"=> "GOT TALENT Ⅱ"]],//d3p3
 
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム4","txt"=> "新庄田宮万波マルティネス郡司中島44"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜4","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎44"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日4","txt"=> "立浪細川中田カリステ大島石川岡林木下44"]],//d3p4
+                    [["s_time"=> "9:00","f_time"=> "11:30","title"=> "小劇場ライブビューイング","txt"=> "coming soon..."],
+                    ["s_time"=> "12:00","f_time"=> "13:45","title"=> "映像コンテスト","txt"=> "映像を見よう 最終編"]],//d3p4
 
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム5","txt"=> "新庄田宮万波マルティネス郡司中島55"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜5","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎55"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日5","txt"=> "立浪細川中田カリステ大島石川岡林木下55"]],//d3p5
+                    [["s_time"=> "9:00","f_time"=> "14:00","title"=> "茶会","txt"=> "茶道部主催の茶会を行います<br><u>※参加費500円(現金のみ)</u></br>"]],//d3p5
 
-                    [["s_time"=> "11:11","f_time"=> "22:02","title"=> "日ハム4","txt"=> "新庄田宮万波マルティネス郡司中島66"],
-                    ["s_time"=> "22:22","f_time"=> "33:13","title"=> "横浜4","txt"=> "三浦桑原牧佐野宮崎関根筒香蝦名山崎66"],
-                    ["s_time"=> "33:33","f_time"=> "44:24","title"=> "中日4","txt"=> "立浪細川中田カリステ大島石川岡林木下66"]]//d3p6
+                    [["s_time"=> "10:00","f_time"=> "11:00","title"=> "落語","txt"=> ""],
+                    ["s_time"=> "11:00","f_time"=> "12:00","title"=> "ピアノ同好会","txt"=> ""],
+                    ["s_time"=> "12:00","f_time"=> "13:00","title"=> "漫才","txt"=> ""],
+                    ["s_time"=> "13:00","f_time"=> "14:00","title"=> "弾き語り","txt"=> "約30~60分"]],//d3p6
+
+                    [["s_time"=> "9:00","f_time"=> "10:45","title"=> "映像コンテスト","txt"=> "映像を見よう！"],
+                    ["s_time"=> "11:00","f_time"=> "14:00","title"=> "昼食会場","txt"=> "生徒専用の昼食会場 <u><br>保護者立ち入り不可</br></u>"]],//d3p7
+                    
+                    [["s_time"=> "10:00","f_time"=> "14:00","title"=> "模擬店","txt"=> "<u>基本的に会計は交通系ＩＣか⾦券のどちらかです</u><br>14時を過ぎると食券が無効となってしまうのでお早めにご利用ください。</br>"],
+                    ["s_time"=> "10:00","f_time"=> "14:00","title"=> "喫茶,食堂","txt"=> "模擬店会場からの通り抜けはできません<br>二階からのご入場のみなのでご注意ください</br>詳細はこちら"]]//d3p8
                 ]//d3
                 ];
                 $day = 1;
