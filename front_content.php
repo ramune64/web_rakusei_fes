@@ -14,7 +14,7 @@
                 <div class="inner_content front_content" style="position: relative;z-index:9;">
                     <h1 class="front">ひとこと</h1>
                     <div>
-                        <p>来校者の方々はさることながら<br>文化祭をともに作り上げた生徒全員<br>そして協力してくださった教職員の方々にとっての最高の経験になり<br>素敵な思い出としてずっと皆さんの心に残るような文化祭を作り上げます。</br><u><br>文化祭実行委員長  栗田 亮平</br></u></p>
+                        <p>来校者の方々はさることながら<br>文化祭をともに作り上げた生徒全員<br>そして協力してくださった教職員の方々にとっての最高の経験になり<br>素敵な思い出としてずっと皆さんの心に残るような文化祭を作り上げます。</br><u><br>文化祭企画委員長  栗田 亮平</br></u></p>
                     </div>
                 </div>
                 <div class="inner_content front_content Info_index inner_top">
