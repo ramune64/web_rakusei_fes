@@ -19,69 +19,20 @@
                     <a href='javascript:view_list("歴史部")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>歴史部</h3></div><h4 style="font-size: 15pt;">歴史の何が楽しいというのかね</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href='javascript:map_jump("F3")'>M3A(マップで見る)</a></p>
+                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href='javascript:map_jump("F4")'>M3A(マップで見る)</a></p>
                 </section>
             </div>
-            <div class="view" id="山岳部">
-                <div>
-                    <a href='javascript:view_list("山岳部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>山岳部</h3></div><h4>鬼ごっこは終わりだ</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
-                </div>
-                <section>
-                    <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ<br>場所：<a href='javascript:map_jump("F3")'>M3B(マップで見る)</a></p>
-                </section>
-            </div>
-            <div class="view" id="鉄道研究会">
-                <div>
-                    <a href='javascript:view_list("鉄道研究会")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>鉄道研究会</h3></div><h4>命乞いをしろ</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
-                </div>
-                <section>
-                    <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ<br>場所：<a href='javascript:map_jump("F3")'>M3C(マップで見る)</a></p>
-                </section>
-            </div>
-            <div class="view" id="地理部">
-                <div>
-                    <a href='javascript:view_list("地理部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>地理部</h3></div><h4>ラピュタのセリフわからん</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
-                </div>
-                <section>
-                    <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ<br>場所：<a href='javascript:map_jump("F3")'>M3D(マップで見る)</a></p>
-                </section>
-            </div>
-            <div class="view" id="水泳部">
-                <div>
-                    <a href='javascript:view_list("水泳部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>水泳部</h3></div><h4>読める..読めるぞ...!!</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
-                </div>
-                <section>
-                    <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ<br>場所：<a href='javascript:map_jump("F3")'>M3D(マップで見る)</a></p>
-                </section>
-            </div>
-            
         </div>
         </div>
         <div class="inner_content inner_top" id="mogiten" style="position:relative ; z-index: 103;">
         <h1>模擬店</h1>
         <div class="all_view intro_groupe Flex Flex_wrap">
-            <div class="view" id="歴史部">
+            <div class="view" id="歴史部2">
                 <div>
-                    <a href='javascript:view_list("歴史部")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>歴史部</h3></div><h4 style="font-size: 15pt;">歴史の何が楽しいというのかね</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("歴史部2")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>歴史部2</h3></div><h4 style="font-size: 15pt;">歴史の何が楽しいというのかね</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href='javascript:map_jump("F3")'>M3A(マップで見る)</a></p>
-                </section>
-            </div>
-            <div class="view" id="山岳部">
-                <div>
-                    <a href='javascript:view_list("山岳部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>山岳部</h3></div><h4>鬼ごっこは終わりだ</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
-                </div>
-                <section>
-                    <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ<br>場所：<a href='javascript:map_jump("F3")'>M3B(マップで見る)</a></p>
-                </section>
-            </div>
-            <div class="view" id="鉄道研究会">
-                <div>
-                    <a href='javascript:view_list("鉄道研究会")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>鉄道研究会</h3></div><h4>命乞いをしろ</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
-                </div>
-                <section>
-                    <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ<br>場所：<a href='javascript:map_jump("F3")'>M3C(マップで見る)</a></p>
                 </section>
             </div>
         </div>
@@ -89,12 +40,12 @@
         <div class="inner_content inner_top" id="engeki" style="position:relative ; z-index: 103;">
         <h1>演劇</h1>
         <div class="all_view intro_groupe Flex Flex_wrap">
-            <div class="view" id="歴史部">
+            <div class="view" id="歴史部3">
                 <div>
-                    <a href='javascript:view_list("歴史部")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>歴史部</h3></div><h4 style="font-size: 15pt;">歴史の何が楽しいというのかね</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("歴史部3")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>歴史部3</h3></div><h4 style="font-size: 15pt;">歴史の何が楽しいというのかね</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href='javascript:map_jump("F3")'>M3A(マップで見る)</a></p>
+                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href='javascript:map_jump("F1")'>M3A(マップで見る)</a></p>
                 </section>
             </div>
         </div>
