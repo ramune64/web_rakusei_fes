@@ -373,7 +373,7 @@
         </div>
         <div class="inner_content inner_top" id="mogiten" style="position:relative ; z-index: 103;">
         <h1>模擬店</h1>
-        <div class="all_view intro_groupe">
+        <div class="all_view intro_groupe Flex Flex_wrap">
             <div class="view" id="注意">
                 <div>
                     <a href='javascript:view_list("注意")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>注意</h3><h4>支払方法</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
@@ -382,35 +382,100 @@
                     <p>⾦券販売は⼊⼝で⾏います。  基本的に会計は交通系ＩＣか⾦券のどちらかです。<u>PiTaPa（ポストペイは利用できません）</u></a></p>
                 </section>
             </div>
-            <div class="view" id="mogiten1">
+            <div class="view" id="おさるのキッチン">
                 <div>
-                    <a href='javascript:view_list("mogiten1")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○部</h3><h4>○○の歴史</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("おさるのキッチン")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>おさるのキッチン</h3><h4>HⅢA</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href="#">ココダヨ(マップで見る)</a></p>
+                    <p>販売品目：チャーハン<br>場所：<a href="#">マップで見る</a></p>
                 </section>
             </div>
-            <div class="view" id="mogiten2">
+            <div class="view" id="ヨシタンブール">
                 <div>
-                    <a href='javascript:view_list("mogiten2")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○部</h3><h4>○○の歴史</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("ヨシタンブール")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>ヨシタンブール</h3><h4>HⅢB</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href="#">ココダヨ(マップで見る)</a></p>
+                    <p>販売品目：ラッシー,ケバブ<br>場所：<a href="#">マップで見る</a></p>
                 </section>
             </div>
-            <div class="view" id="mogiten3">
+            <div class="view" id="四宮組">
                 <div>
-                    <a href='javascript:view_list("mogiten3")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○部</h3><h4>○○の歴史</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("四宮組")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>四宮組</h3><h4>HⅢC</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href="#">ココダヨ(マップで見る)</a></p>
-        <div class="all_view intro_groupe Flex Flex_wrap">
-            <div class="view" id="歴史部2">
+                    <p>販売品目：フランクフルト,ホットドック<br>場所：<a href="#">マップで見る</a></p>
+                </section>
+            </div>
+            <div class="view" id="果糖ポン一郎">
                 <div>
-                    <a href='javascript:view_list("歴史部2")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>歴史部2</h3></div><h4 style="font-size: 15pt;">歴史の何が楽しいというのかね</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("果糖ポン一郎")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>果糖ポン一郎</h3><h4>HⅢD</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href='javascript:map_jump("F3")'>M3A(マップで見る)</a></p>
+                    <p>販売品目：フルーツポンチ,スムージー<br>場所：<a href="#">マップで見る</a></p>
+                </section>
+            </div>
+            <div class="view" id="一平ちゃん">
+                <div>
+                    <a href='javascript:view_list("一平ちゃん")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>一平ちゃん</h3><h4>HⅢE</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>販売品目：焼きそば<br>場所：<a href="#">マップで見る</a></p>
+                </section>
+            </div>
+            <div class="view" id="小石屋">
+                <div>
+                    <a href='javascript:view_list("小石屋")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>小石屋</h3><h4>HⅢクラス混合</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>射的<br>場所：<a href="#">マップで見る</a></p>
+                </section>
+            </div>
+            <div class="view" id="たこやす">
+                <div>
+                    <a href='javascript:view_list("たこやす")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>たこやす</h3><h4>硬式テニス部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>販売品目：たこ焼き<br>場所：<a href="#">マップで見る</a></p>
+                </section>
+            </div>
+            <div class="view" id="ニクのハコ">
+                <div>
+                    <a href='javascript:view_list("ニクのハコ")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>ニクのハコ</h3><h4>バドミントン部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>販売品目：焼き鳥,肉巻き,焼きおにぎり<br>場所：<a href="#">マップで見る</a></p>
+                </section>
+            </div>
+            <div class="view" id="イニエスタバ">
+                <div>
+                    <a href='javascript:view_list("イニエスタバ")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>イニエスタバ</h3><h4>サッカー部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>販売品目：パンケーキ,レモネード<br>場所：<a href="#">マップで見る</a></p>
+                </section>
+            </div>
+            <div class="view" id="わたあめ ゆうた">
+                <div>
+                    <a href='javascript:view_list("わたあめ ゆうた")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>わたあめ ゆうた</h3><h4>バスケットボール部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>販売品目：わたあめ<br>場所：<a href="#">マップで見る</a></p>
+                </section>
+            </div>
+            <div class="view" id="変な店">
+                <div>
+                    <a href='javascript:view_list("変な店")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>変な店</h3><h4>ハンドボール部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>販売品目：はしまき<br>場所：<a href="#">マップで見る</a></p>
+                </section>
+            </div>
+            <div class="view" id="Café＆メイド OFFu">
+                <div>
+                    <a href='javascript:view_list("Café＆メイド OFFu")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3 style="font-size: 20pt;">Café＆メイド OFFu</h3><h4>数理研・バレー部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>販売品目：パンケーキ<br><u>店はリヨンホールで模擬店会場から直接いけないので注意してください！</u><br>場所：<a href="#">マップで見る</a></p>
                 </section>
             </div>
         </div>
@@ -418,21 +483,115 @@
         <div class="inner_content inner_top" id="engeki" style="position:relative ; z-index: 103;">
         <h1>演劇</h1>
         <div class="all_view intro_groupe Flex Flex_wrap">
-            <div class="view" id="歴史部3">
+            <div class="view" id="中1学年演劇">
                 <div>
-                    <a href='javascript:view_list("歴史部3")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>歴史部3</h3></div><h4 style="font-size: 15pt;">歴史の何が楽しいというのかね</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("中1学年演劇")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>中1学年演劇</h3></div><h4 style="font-size: 15pt;">中1学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href='javascript:map_jump("F1")'>M3A(マップで見る)</a></p>
+                    <p>coming soon...<br>場所：<a href='javascript:map_jump("F1")'>マップで見る</a></p>
+                </section>
+            </div>
+            <div class="view" id="中2学年演劇">
+                <div>
+                    <a href='javascript:view_list("中2学年演劇")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>中2学年演劇</h3></div><h4 style="font-size: 15pt;">中2学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>coming soon...<br>場所：<a href='javascript:map_jump("F1")'>マップで見る</a></p>
+                </section>
+            </div>
+            <div class="view" id="中３学年演劇">
+                <div>
+                    <a href='javascript:view_list("中３学年演劇")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>中３学年演劇</h3></div><h4 style="font-size: 15pt;">中３学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>coming soon...<br>場所：<a href='javascript:map_jump("F1")'>マップで見る</a></p>
+                </section>
+            </div>
+            <div class="view" id="高Ⅰ学年演劇">
+                <div>
+                    <a href='javascript:view_list("高Ⅰ学年演劇")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>高Ⅰ学年演劇</h3></div><h4 style="font-size: 15pt;">高Ⅰ学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>去年までの経験から、70期学年演劇初の独⾃脚本に挑戦しました。⽂化祭も絡む、我々渾⾝のエピソードを、是非お楽しみください！<br>場所：<a href='javascript:map_jump("F1")'>M3A(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="狂気">
+                <div>
+                    <a href='javascript:view_list("狂気")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>狂気</h3></div><h4 style="font-size: 15pt;">高Ⅱ学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>みなさんは⽣活に困るほどお⾦が無くなったことはあるだろうか。もし⾃分がそんな状況に陥ってしまったらどうなってしまうか想像できるだろうか。強盗?殺⼈?横領?いや、そんなもので済まないのかもしれない<br>場所：<a href='javascript:map_jump("F1")'>M3A(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="SIAMO TUTTIUN PO, PAZZI.">
+                <div>
+                    <a href='javascript:view_list("SIAMO TUTTIUN PO, PAZZI.")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3 style="font-size: 15pt;">SIAMO TUTTIUN PO, PAZZI.</h3></div><h4 style="font-size: 15pt;">高Ⅲ学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>⾼Ⅲ14⼈が集結した学年演劇。中央に存在する死体。その異様な空間で繰り広げられる会話。これは狂気か、ただの喜劇か。題はイタリアの諺。「我々は皆、どこかおかしい」<br>場所：<a href='javascript:map_jump("F1")'>マップで見る</a></p>
                 </section>
             </div>
         </div>
         </div>
+        <div class="inner_content inner_top" id="kikaku" style="position:relative ; z-index: 103;">
+        <h1>企画</h1>
+        <div class="all_view intro_groupe Flex Flex_wrap">
+            <div class="view" id="高校生徒会企画">
+                <div>
+                    <a href='javascript:view_list("高校生徒会企画")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>高校生徒会企画</h3></div><h4 style="font-size: 15pt;">GOT TARENT</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>洛星生によるエンターテイメントショー！！<br>カラオケ部門(13日 10:00~)<br>GOD TARENT部門(15日 12:45~)<br>場所：<a href='javascript:map_jump("F1")'>ケルブ講堂(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="中学生徒会企画">
+                <div>
+                    <a href='javascript:view_list("中学生徒会企画")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>中学生徒会企画</h3></div><h4 style="font-size: 15pt;">IPOON GRANT PRIX</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>あの大人気番組が洛星で復活？！？！(13日 13:30~15:30)<br>場所：<a href='javascript:map_jump("F1")'>ケルブ講堂(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="FM RAKUSEI">
+                <div>
+                    <a href='javascript:view_list("FM RAKUSEI")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>FM RAKUSEI</h3></div><h4 style="font-size: 15pt;">R-station</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>今年も例年に習い、FR-STATIONにて生徒制作のラジオ番組を文化祭期間中に放送します。ラジオパート一同この日のために楽しめるような番組を制作しました!ぜひお聞きください!!<br>場所：<a href='javascript:map_jump("F2")'>HⅠE(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="洛星交響楽団">
+                <div>
+                    <a href='javascript:view_list("洛星交響楽団")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>洛星交響楽団</h3></div><h4 style="font-size: 15pt;">文化祭公演</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>オーケストラ部による公演です(15日 12:00~)<br>場所：<a href='javascript:map_jump("F1")'>大講堂(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="高校料理研究部">
+                <div>
+                    <a href='javascript:view_list("高校料理研究部")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>高校料理研究部</h3></div><h4 style="font-size: 15pt;">チャレンジクッキング</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>料研部員以外が料理の腕を競うチャレンジクッキング。今回のテーマは「キャラ弁」!出場者たちがそれぞれのアイデアを詰め込んだ弁当を作ります。一日目午前中に家庭科室で開催します<br>場所：<a href='javascript:map_jump("F2")'>家庭科室(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="中学料理研究会">
+                <div>
+                    <a href='javascript:view_list("中学料理研究会")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>中学料理研究会</h3></div><h4 style="font-size: 15pt;">オムライス王</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>今年もオムライス王開催します！多種多様なオムライスをどうぞお楽しみください。場所は２階、家庭科室です。<br>場所：<a href='javascript:map_jump("F2")'>家庭科室(マップで見る)</a></p>
+                </section>
+            </div>
+        </div>
+        </div>
+
         <div class="inner_content" id="live" style="position: relative; z-index: 2;">
         <h1>ライブ</h1>
         <div style="border: 3px solid #CEA34F; padding:20px">
             <h5 style="color: white;font-size:20pt;margin-bottom:20px">各グループ詳細ページ</h5>
-            <p>会場：<a href='javascript:map_jump("F3")' style="font-size:14pt">M3A(マップで見る)</a></p>
+            <p>会場：<a href='javascript:map_jump("F1")' style="font-size:14pt">第一音楽室(マップで見る)</a></p>
             <a href="live_intro.php" style="color: #c53d43;font-size:16pt">詳細はこちらから！！</a>
         </div>
         </div>
@@ -440,7 +599,7 @@
         <h1>小劇場</h1>
         <div style="border: 3px solid #CEA34F; padding:20px">
             <h5 style="color: white;font-size:20pt;margin-bottom:20px">各グループ詳細ページ</h5>
-            <p>会場：<a href='javascript:map_jump("F3")' style="font-size:14pt">M3A(マップで見る)</a></p>
+            <p>会場：<a href='javascript:map_jump("F3")' style="font-size:14pt">選択3.4教室(マップで見る)</a></p>
             <a href="#" style="color: #c53d43;font-size:16pt">詳細はこちらから！！</a>
         </div>
         </div>
