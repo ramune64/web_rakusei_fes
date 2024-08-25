@@ -14,58 +14,372 @@
         <div class="inner_content inner_top" id="tenzi" style="position:relative ; z-index: 203;">
         <h1>展示団体</h1>
         <div class="all_view intro_groupe Flex Flex_wrap">
-            <div class="view" id="歴史部">
+            <div class="view" id="中一学年展示">
                 <div>
-                    <a href='javascript:view_list("歴史部")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>歴史部</h3></div><h4 style="font-size: 15pt;">歴史の何が楽しいというのかね</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("中一学年展示")' class="Groupes_top"><div class=""><img src="image\roboken_logo.png" alt="" class="Logo_Img"><h3>中一学年展示</h3></div><h4 style="font-size: 15pt;">中一学年展示</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href='javascript:map_jump("F4")'>M3A(マップで見る)</a></p>
+                    <p>中学一年生にとって初めての文化祭。災害など、多様なテーマについて調査しました。<br>場所：<a href='javascript:map_jump("F2")'>M1B,M1C(マップで見る)</a></p>
                 </section>
             </div>
-            <div class="view" id="山岳部">
+            <div class="view" id="中三学年展示">    
                 <div>
-                    <a href='javascript:view_list("山岳部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>山岳部</h3></div><h4>鬼ごっこは終わりだ</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("中三学年展示")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>中三学年展示</h3></div><h4>coming soon</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ<br>場所：<a href='javascript:map_jump("F4")'>M3B(マップで見る)</a></p>
+                    <p>coming soon...<br>場所：<a href='javascript:map_jump("F2")'>M1D(マップで見る)</a></p>
                 </section>
             </div>
-            <div class="view" id="鉄道研究会">
+            <div class="view" id="スポーツデータ解析研究会">
                 <div>
-                    <a href='javascript:view_list("鉄道研究会")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>鉄道研究会</h3></div><h4>命乞いをしろ</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("スポーツデータ解析研究会")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3 style="font-size: 18pt;">スポーツデータ<br>解析研究会</h3></div><h4>datum。。。</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ<br>場所：<a href='javascript:map_jump("F4")'>M3C(マップで見る)</a></p>
+                    <p>サッカー、野球、バスケなどのスポーツの疑問をデータ分析の観点から解析します！日本一の作品も多数あるのでぜひ見にきてください！<br>場所：<a href='javascript:map_jump("F2")'>M1E(マップで見る)</a></p>
                 </section>
             </div>
-            <div class="view" id="地理部">
+
+
+
+             
+
+            <div class="view" id="クイズ同好会">
                 <div>
-                    <a href='javascript:view_list("地理部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>地理部</h3></div><h4>ラピュタのセリフわからん</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("クイズ同好会")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>クイズ同好会</h3></div><h4>早押しクイズをひもとく</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ<br>場所：<a href='javascript:map_jump("F4")'>M3D(マップで見る)</a></p>
+                    <p>早押しクイズは、本当に頭の良い人だけが楽しむ遊びなのでしょうか？実は奥深く、誰でもいつでも始められる、そんな早押しクイズの面白さをぜひご堪能ください。<br>場所：<a href='javascript:map_jump("F3")'>M2A(半教室)(マップで見る)</a></p>
                 </section>
             </div>
-            <div class="view" id="水泳部">
+            <div class="view" id="中二学年展示Ⅰ">
                 <div>
-                    <a href='javascript:view_list("水泳部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>水泳部</h3></div><h4>読める..読めるぞ...!!</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("中二学年展示Ⅰ")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>中二学年展示Ⅰ</h3></div><h4>手品</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>ああああああああああああああああああああああああああああ先週ああああああああああああああああああああああああああああああ<br>場所：<a href='javascript:map_jump("F4")'>M3D(マップで見る)</a></p>
+                    <p>色々な種類の手品や、その歴史について調べてまとめました。手品の深い知識があれば、さらに楽しんで手品を見ていただけると思います。実演も多く行いますので、ぜひ見に来てください。<br>場所：<a href='javascript:map_jump("F3")'>M2A(半教室)(マップで見る)</a></p>
+            </div>
+            
+            <div class="view" id="中二学年展示Ⅱ">
+                <div>
+                    <a href='javascript:view_list("中二学年展示Ⅱ")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>中二学年展示Ⅱ</h3></div><h4>創作ピクトグラム</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>ピクトグラムとは、情報や注意などを表す案内表示です。ピクトグラムはオリンピックや、街中などさまざまなところでつかわれています。今回の展示では歴史・学校紹介などのテーマを扱います。<br>場所：<a href='javascript:map_jump("F3")'>M2B(マップで見る)</a></p>
                 </section>
             </div>
             
+            <div class="view" id="高一学年展示">
+                <div>
+                    <a href='javascript:view_list("高一学年展示")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>高一学年展示</h3></div><h4>ホログラム</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>新札にも使われるホログラムについて色々と調べました。またそれ以外にもほかの原理で見え方が変わるものについての展示もあります。<br>場所：<a href='javascript:map_jump("F3")'>M2C(半教室)(マップで見る)</a></p>
+                </section>
+            </div>
+
+            <div class="view" id="高二学年展示">
+                <div>
+                    <a href='javascript:view_list("高二学年展示")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>高二学年展示</h3></div><h4>高二学年展示</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>coming soon...<br>場所：<a href='javascript:map_jump("F3")'>M2C(半教室)(マップで見る)</a></p>
+                </section>
+            </div>
+
+            <div class="view" id="資産形成同好会">
+                <div>
+                    <a href='javascript:view_list("資産形成同好会")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3 style="font-size: 25pt;">資産形成同好会</h3></div><h4 style="font-size: 15pt;">徹底分析AI株価バブル!<br>オススメ銘柄はこれだ!</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>新NISAで注目の株式投資。実際に始めたり、興味を持っている方は多いはず。今回は今年株で80%超のリターンを上げている部員が投資の基礎から、急騰銘柄が続出のAI株価バブル銘柄の詳細分析まで徹底解説!<br>場所：<a href='javascript:map_jump("F3")'>M2D（半教室）(マップで見る)</a></p>
+                </section>
+            </div>
+
+            <div class="view" id="IT人材育成同好会">
+                <div>
+                    <a href='javascript:view_list("IT人材育成同好会")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>IT人材育成同好会</h3></div><h4>生成AI活用大全</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>ChatGPTなどで話題の生成AI。今後社会はAIを使えるかどうかで二極化していきます。今回は分野別（文章生成、動画生成、ロゴ製作など）に生成AIを徹底比較!これであなたも未来を見据えたIT人材に!<br>場所：<a href='javascript:map_jump("F3")'>M2D(半教室)(マップで見る)</a></p>
+                </section>
+            </div>
+
+            <div class="view" id="囲碁将棋部">
+                <div>
+                    <a href='javascript:view_list("囲碁将棋部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>囲碁将棋部</h3></div><h4>指導対局</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>囲碁将棋部では、初心者から経験者まで和気あいあいと将棋や囲碁を楽しんでいます。指導対局では部員と囲碁・将棋好きな方で対局して頂きます！詳しくない方にはお教えするので、興味をお持ちの方はぜひお越しくだい<br>場所：<a href='javascript:map_jump("F4")'>M3D(マップで見る)</a></p>
+                </section>
+            </div>
+
+
+
+
+
+
+            <div class="view" id="歴史同好会">
+                <div>
+                    <a href='javascript:view_list("歴史同好会")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>歴史同好会</h3></div><h4>平安時代の書き物</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>平安時代に書かれた歌集や物語などを成立した時代ごとに分けて、パネルを使って細かく紹介します。平安時代に興味がある人もない人もぜひ来てください！<br>場所：<a href='javascript:map_jump("F4")'>M3A(マップで見る)</a></p>
+                </section>
+            </div>
+
+            <div class="view" id="山岳部">
+                <div>
+                    <a href='javascript:view_list("山岳部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>山岳部</h3></div><h4>「岳」</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>「岳」——それは、この国の雄大な自然を形作る雄大な山々。私達は、岳を目指し岳に登り岳を感じて来ました。本展示では、皆様にその様子をお見せしています。是非お越しください<br>場所：<a href='javascript:map_jump("F4")'>M3B(マップで見る)</a></p>
+                </section>
+            </div>
+
+            <div class="view" id="鉄道研究会">
+                <div>
+                    <a href='javascript:view_list("鉄道研究会")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>鉄道研究会</h3></div><h4>鉄道ジオラマ</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>鉄道研究会伝統の鉄道ジオラマを展示します。外来の方向けに鉄道模型の運転体験も実施します。ぜひお越しください。<br>場所：<a href='javascript:map_jump("F4")'>Mラウンジ(マップで見る)</a></p>
+                </section>
+            </div>
+
+            <div class="view" id="鉄道研究会">
+                <div>
+                    <a href='javascript:view_list("鉄道研究会")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>鉄道研究会</h3></div><h4>展示「貨物列車」</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>鉄道の開業以来、日本の物流を支えてきた貨物列車。その歴史や特徴を解説し、将来の在り方を考察します。運転シミュレータ体験もございます(外来の方向け、要予約)。<br>場所：<a href='javascript:map_jump("F4")'>M3C(マップで見る)</a></p>
+                </section>
+            </div>
+
+            <div class="view" id="地理部">
+                <div>
+                    <a href='javascript:view_list("地理部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>地理部</h3></div><h4>四万十川のうつろい</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>「最後の清流」と呼ばれている四万十川。しかし近年、本来の「清流」ではなくなってきており、その影響は漁業にも及んでいます。本展示では四万十川の漁業の現状を紹介し、将来の漁業の在り方を考察します。<br>場所：<a href='javascript:map_jump("F4")'>M3D(マップで見る)</a></p>
+                </section>
+            </div>
+
+            <div class="view" id="水泳部">
+                <div>
+                    <a href='javascript:view_list("水泳部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>水泳部</h3></div><h4 style="font-size: 15pt;">世界で活躍する日本のスポーツ選手</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>野球、サッカー、水泳などいろいろな競技で活躍しているスポーツ選手を調べました。是非見に来てください。<br>場所：<a href='javascript:map_jump("F4")'>M3E(マップで見る)</a></p>
+                </section>
+            </div>
+
+
+
+
+
+
+            <div class="view" id="無線部">
+                <div>
+                    <a href='javascript:view_list("無線部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>無線部</h3></div><h4>FM RAKUSEI 「R-station」</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>coming soon...<br>場所：<a href='javascript:map_jump("F2")'>HⅠE(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="天文部">
+                <div>
+                    <a href='javascript:view_list("天文部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>天文部</h3></div><h4>星座の起源</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>皆さんも少しは知っているであろう星座。星座がどのように決められ、いつから使われていたのか。そんな星座の起源を紹介しています。気軽にお越しください。<br>場所：<a href='javascript:map_jump("F2")'>HⅠD(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="料理研究部">
+                <div>
+                    <a href='javascript:view_list("料理研究部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>料理研究部</h3></div><h4>アニメ飯</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>ジブリの筆頭に、魅力的で食欲をそそるアニメ飯を再現してみました。個性豊かな料理の数々、ぜひ見に来てください！<br>場所：<a href='javascript:map_jump("F2")'>HⅠC(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="文芸部">
+                <div>
+                    <a href='javascript:view_list("文芸部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>文芸部</h3></div><h4>上からの目、下からの目</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>規制の主体が変わろうとしている。国による発禁から、大衆的検閲へー。炎上、自主規制など身近な話題から、芸術の姿を問う。<br>場所：<a href='javascript:map_jump("F2")'>HⅠB,HⅠA(マップで見る)</a></p>
+                </section>
+            </div>
+             <div class="view" id="天文部">
+                <div>
+                    <a href='javascript:view_list("天文部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>天文部</h3></div><h4>プラネタリウム</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>毎年大盛況のプラネタリウム、今年も上映します。ぜひお越しください！予約は多目的教室前にて、お早めに！！<br>場所：<a href='javascript:map_jump("F2")'>M3D(マップで見る)</a></p>
+                </section>
+            </div>
+
+
+
+
+
+
+            <div class="view" id="中高模型同好会">
+                <div>
+                    <a href='javascript:view_list("中高模型同好会")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>中高模型同好会</h3></div><h4>ラジコン飛行機の世界</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>日々制作しているラジコン飛行機の展示や、シミュレーターでの操作体験を行います。実際に飛ばしている様子の動画などもご覧いただけます。ぜひお立ち寄りくださ<br>場所：<a href='javascript:map_jump("F3")'>HⅡE(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="生物部">
+                <div>
+                    <a href='javascript:view_list("生物部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>生物部</h3></div><h4>大生物部展</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>中高生物部の一年間の活動の成果を、どうぞご覧にいらして下さい！<br>場所：<a href='javascript:map_jump("F3")'>HⅡD,HⅡC(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="高校ロボット研究部">
+                <div>
+                    <a href='javascript:view_list("高校ロボット研究部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3 style="font-size: 28pt;">高校ロボット研究部</h3></div><h4>超スマート社会</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>最近耳にすることが多くなった「超スマート社会」これは一体私たちの生活にどのような変化をもたらすのか。オリジナルキャラクターの音声ガイドや、体験型の展示などを通してわかりやすく解説します<br>場所：<a href='javascript:map_jump("F3")'>HⅡB(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="スケート部">
+                <div>
+                    <a href='javascript:view_list("スケート部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>スケート部</h3></div><h4>Science of Skating</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>今回はスケートのジャンプに焦点を当てて調べてみました。この展示にお越しになればテレビでのフィギュアスケートの観戦がより楽しくなるはずです！<br>場所：<a href='javascript:map_jump("F3")'>HⅡA(半教室)(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="図書委員会">
+                <div>
+                    <a href='javascript:view_list("図書委員会")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>図書委員会</h3></div><h4>図書委員会展示</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>2018年以来6年ぶりに展示をすることになった図書委員会です。私たちは今回、図書委員が推薦する本を紹介します。本好きの方も、そうでない方も、お好みに合う本が見つかれば幸いです。<br>場所：<a href='javascript:map_jump("F3")'>HⅡA(半教室)(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="中学ロボット研究部">
+                <div>
+                    <a href='javascript:view_list("中学ロボット研究部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3 style="font-size: 28pt;">中学ロボット研究部</h3></div><h4>ロボ研の日常</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>ロボット研究部の部員たちが自由に作った製作物を展示しています。ロボットアームや自律型ロボットなど、実際に動くものがたくさんあります。是非来てください！<br>場所：<a href='javascript:map_jump("F3")'>第二実験室(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="折り紙同好会">
+                <div>
+                    <a href='javascript:view_list("折り紙同好会")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>折り紙同好会</h3></div><h4>折り紙同好会展示</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>昨年度は多くの方にご満足頂きました。その上で我々はよりよい展示を行うつもりです。1枚の紙から創られる、想像をはるかに超える作品の数々をあなたの目で確かめてみてください!<br>場所：<a href='javascript:map_jump("F3")'>第三実験室（半分）(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="作曲研究会">
+                <div>
+                    <a href='javascript:view_list("作曲研究会")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>作曲研究会</h3></div><h4>マスター、トラック見せて？</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>「マスター、トラック見せて？」ミクの言葉に驚いた。曲の内側、曲作りの秘密を見せるのはなんだか恥ずかしい。けれどミクが言うなら、見せるのも悪くないか。<br>場所：<a href='javascript:map_jump("F3")'>第三実験室（半分）(マップで見る)</a></p>
+                </section>
+            </div>
+
+
+
+
+
+
+            <div class="view" id="戦史同好会">
+                <div>
+                    <a href='javascript:view_list("戦史同好会")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>戦史同好会</h3></div><h4>突撃隣の戦車戦！！</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>第二次世界大戦期の戦車や航空機、艦船を展示します。その他にも自作のフィールドを使用したラジコン戦車による体験型擬似戦闘も指定の時間帯に体験して頂けます。木材を使用した工作などもするつもりなので是非ごらんください<br>場所：<a href='javascript:map_jump("F4")'>HⅢE(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="中学アミューズ">
+                <div>
+                    <a href='javascript:view_list("中学アミューズ")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>中学アミューズ</h3></div><h4>中学アミューズ</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>射的やストラックアウトなど、幼稚園生から大人まで、楽しく遊べるアミューズを作りました！絶対後悔させないから来てね！<br>場所：<a href='javascript:map_jump("F4")'>HⅢD(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="アミュ―ズ">
+                <div>
+                    <a href='javascript:view_list("アミュ―ズ")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>アミュ―ズ</h3></div><h4>ジェットコースター</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>ジェットコースターに乗ってみたい人は4階、高3のCクラスまで!<br>場所：<a href='javascript:map_jump("F4")'>HⅢC(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="高校アミュ―ズ">
+                <div>
+                    <a href='javascript:view_list("高校アミュ―ズ")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>高校アミュ―ズ</h3></div><h4>しゅうてぃんぐ</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>体験型アトラクションとして体を動かして遊べるもの「しゅうてぃんぐ」を作りました。動く的にボールを当てて倒し点数を競うという単純かつ満足できるものになっています。内部生だけでなく外部のお客様もお待ちしているのでぜひ来てください‼<br>場所：<a href='javascript:map_jump("F4")'>HⅢB(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="アミューズ">
+                <div>
+                    <a href='javascript:view_list("アミューズ")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>アミューズ</h3></div><h4>photo spot</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>最高の文化祭で最高の思い出を残したい人はここに集結！一生心に残るような映え写真を撮ろう！<br>場所：<a href='javascript:map_jump("F4")'>Hラウンジ(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="ピアノ同好会">
+                <div>
+                    <a href='javascript:view_list("ピアノ同好会")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>ピアノ同好会</h3></div><h4>"Raku" Piano</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>ピアノ同好会員がホップスからクラシックまで幅広く弾きます！普段楽にやってるピアノ同好会も文化祭では本気で弾きます！<br>場所：<a href='javascript:map_jump("F4")'>Hラウンジ(マップで見る)</a></p>
+                </section>
+            </div>
+
+
+
+            <div class="view" id="中高写真部">
+                <div>
+                    <a href='javascript:view_list("中高写真部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>中高写真部</h3></div><h4>大写真部展</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>写真部員が1年間通して撮影した写真を展示しています。是非ともお楽しみください。地下、ホワイエでお待ちしています。<br>場所：<a href='javascript:map_jump("F1")'>ホワイエ(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="美術部">
+                <div>
+                    <a href='javascript:view_list("美術部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>美術部</h3></div><h4>Rakusei Art Gallery</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>一年を通して制作した作品を展示しております。絵の向こうにある世界を感じ取ってください。<br>場所：<a href='javascript:map_jump("F1")'>ホワイエ(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="茶道部">
+                <div>
+                    <a href='javascript:view_list("茶道部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>茶道部</h3></div><h4>茶道の道具</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>茶道では様々な道具を使いますが、メジャーなものからマイナーなものまで多種多様です。そんな道具にフォーカスした展示です。是非ご覧ください！<br>場所：<a href='javascript:map_jump("F1")'>茶室(マップで見る)</a></p>
+                </section>
+            </div>
+
         </div>
         </div>
         <div class="inner_content" id="mogiten" style="position: relative; z-index: 103;">
         <h1>模擬店</h1>
         <div class="all_view intro_groupe">
-            <div class="view" id="mogiten0">
+            <div class="view" id="注意">
                 <div>
-                    <a href='javascript:view_list("mogiten0")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>○○部</h3><h4>○○の歴史</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("注意")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>注意</h3><h4>支払方法</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>あああああああうあああああああええええええええええええええええええええええココああああああああああああああああああああああああああああああああああああああ野球あ<br>場所：<a href="#">ココダヨ(マップで見る)</a></p>
+                    <p>⾦券販売は⼊⼝で⾏います。  基本的に会計は交通系ＩＣか⾦券のどちらかです。<u>PiTaPa（ポストペイは利用できません）</u></a></p>
                 </section>
             </div>
             <div class="view" id="mogiten1">
