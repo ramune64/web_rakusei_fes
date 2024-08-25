@@ -9,7 +9,7 @@
 				</div>
                 <div class="inner_content front_content" style="position: relative;z-index:10;">
                     <h1 class="front">理念</h1>
-                    <div><p>宴　タイトルの由来</p></div>
+                    <div><p>今年度の文化祭のテーマは「宴」です。<br>このテーマには「遊び楽しむ」といった意味があります。<br>それゆえに、今年の文化祭に関係したすべての人が<br>誰一人余すことなく最後には楽しかったといえる文化祭にしたい<br>という思いでこのテーマにしました。</p>
                 </div>
                 <div class="inner_content front_content" style="position: relative;z-index:9;">
                     <h1 class="front">ひとこと</h1>
