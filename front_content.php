@@ -69,7 +69,8 @@
     <?php include "Side_bar.html" ?>
     </div>
     </div>
-    <?php include "footer.html" ?>
     </div>
+    <?php include "footer.html" ?>
+    
     
         
