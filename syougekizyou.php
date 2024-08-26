@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="stylesheet/slick-theme.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <?php include "links.html" ?>
+  <link rel="stylesheet" href="../stylesheet/live.css" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="UTF-8">
 </head>
@@ -27,8 +28,22 @@
             </div>
             </div>
             </div>
-            <div class="inner_content" id="page1-3">
-                
+            <div class="inner_content 演目" id="page1-3">
+                <h1>会場:選択3・4</h1>
+                <section>
+                  <h3>演目名</h3>
+                  <p class="live_time">時間：<b>n日目　09:00~15:00</b></p>
+                  <p>メンバー名</p>
+                  <p>メンバー名</p>
+                  <p>こんな内容の公演をするよ～</p>
+                </section>
+                <section>
+                  <h3>バンド名</h3>
+                  <p class="live_time">時間：<b>n日目　09:00~15:00</b></p>
+                  <p>メンバー名</p>
+                  <p>メンバー名</p>
+                  <p>こんな内容の公演をするよ～</p>
+                </section>
             </div>
         </div>
     </div>
