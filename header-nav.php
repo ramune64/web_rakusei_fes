@@ -5,6 +5,7 @@
                     "時刻表",
                     "校内地図",
                     "団体一覧",
+                    "お知らせ",
                     "ホーム"];
     $var_name_list = [[],
                         [],
@@ -12,6 +13,7 @@
                         [],
                         [],
                         ["展示","模擬店","演劇","企画","ライブ","小劇場"],
+                        [],
                         []];
 
     $var_link_list = ["download.php",
@@ -20,6 +22,7 @@
                         "time_table.php",
                         "map.php",
                         "ichiran.php",
+                        "news_top.php",
                         "index_novideo.php"];
     $var_link_list_id = [[],
                         [],
@@ -27,6 +30,7 @@
                         [],
                         [],
                         ["#tenzi","#mogiten","#engeki","#","#live","#smallgekizyou"],
+                        [],
                         []];
     
     $var_id = ["first","second","third","fourth","fifth","sixth","sevn","eight"];

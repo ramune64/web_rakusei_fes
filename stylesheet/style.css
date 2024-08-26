@@ -722,7 +722,7 @@ div.news_topics{
     width: 90%;
     background-color: #44617b;
     box-shadow: 10px 10px 10px 0px black;
-    border: 3px solid black;
+    border: 3px solid #CEA34F;
     animation: news_hover_re 0.2s linear forwards;
 }
 
@@ -738,12 +738,12 @@ div.news_topics:hover{
     margin-bottom: 30px;
     width: 90%;
     box-shadow: 10px 10px 10px 0px black;
-    border: 3px solid black;
+    border: 3px solid #CEA34F;
     }
     100%{
         box-shadow: 15px 15px 10px 10px gray;
-    border: 3px solid black;
     transform: translateX(-10px) translateY(-10px);
+    border: 3px solid #f6d89c;
     }
 }
 @keyframes news_hover_re{
@@ -752,12 +752,12 @@ div.news_topics:hover{
     margin-bottom: 30px;
     width: 90%;
     box-shadow: 10px 10px 10px 0px black;
-    border: 3px solid black;
+    border: 3px solid #CEA34F;
     }
     0%{
         box-shadow: 15px 15px 10px 10px gray;
-    border: 3px solid black;
     transform: translateX(-10px) translateY(-10px);
+    border: 3px solid #f6d89c;
     }
 }
 
@@ -768,7 +768,7 @@ div.news_topics a{
 
 div.news_topics a h3{
     font-size: 30px;
-    border-bottom: 3px dotted black;
+    border-bottom: 3px dotted #CEA34F;
 }
 h4.over{
     font-size: 20px;
