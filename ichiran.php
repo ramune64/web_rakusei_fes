@@ -109,7 +109,7 @@
                     <a href='javascript:view_list("囲碁将棋部")' class="Groupes_top"><div class=""><img src="image/囲碁将棋.jpg" alt="" class="Logo_Img"><h3>囲碁将棋部</h3></div><h4>指導対局</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>囲碁将棋部では、初心者から経験者まで和気あいあいと将棋や囲碁を楽しんでいます。指導対局では部員と囲碁・将棋好きな方で対局して頂きます！詳しくない方にはお教えするので、興味をお持ちの方はぜひお越しくだい<br>場所：<a href='javascript:map_jump("F4")'>M3D(マップで見る)</a></p>
+                    <p>囲碁将棋部では、初心者から経験者まで和気あいあいと将棋や囲碁を楽しんでいます。指導対局では部員と囲碁・将棋好きな方で対局して頂きます！詳しくない方にはお教えするので、興味をお持ちの方はぜひお越しくだい<br>場所：<a href='javascript:map_jump("F3")'>M2E(マップで見る)</a></p>
                 </section>
             </div>
 
@@ -145,9 +145,9 @@
                 </section>
             </div>
 
-            <div class="view" id="鉄道研究会">
+            <div class="view" id="鉄道研究会2">
                 <div>
-                    <a href='javascript:view_list("鉄道研究会")' class="Groupes_top"><div class=""><img src="image/鉄道研究会.jpg" alt="" class="Logo_Img"><h3>鉄道研究会</h3></div><h4>展示「貨物列車」</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("鉄道研究会2")' class="Groupes_top"><div class=""><img src="image/鉄道研究会.jpg" alt="" class="Logo_Img"><h3>鉄道研究会</h3></div><h4>展示「貨物列車」</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>鉄道の開業以来、日本の物流を支えてきた貨物列車。その歴史や特徴を解説し、将来の在り方を考察します。運転シミュレータ体験もございます(外来の方向け、要予約)。<br>場所：<a href='javascript:map_jump("F4")'>M3C(マップで見る)</a></p>
@@ -209,12 +209,12 @@
                     <p>規制の主体が変わろうとしている。国による発禁から、大衆的検閲へー。炎上、自主規制など身近な話題から、芸術の姿を問う。<br>場所：<a href='javascript:map_jump("F2")'>HⅠB,HⅠA(マップで見る)</a></p>
                 </section>
             </div>
-             <div class="view" id="天文部">
+             <div class="view" id="天文部2">
                 <div>
-                    <a href='javascript:view_list("天文部")' class="Groupes_top"><div class=""><img src="image/プラネタリウム.png" alt="" class="Logo_Img"><h3>天文部</h3></div><h4>プラネタリウム</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("天文部2")' class="Groupes_top"><div class=""><img src="image/プラネタリウム.png" alt="" class="Logo_Img"><h3>天文部</h3></div><h4>プラネタリウム</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>毎年大盛況のプラネタリウム、今年も上映します。ぜひお越しください！予約は多目的教室前にて、お早めに！！<br>場所：<a href='javascript:map_jump("F2")'>M3D(マップで見る)</a></p>
+                    <p>毎年大盛況のプラネタリウム、今年も上映します。ぜひお越しください！予約は多目的教室前にて、お早めに！！<br>場所：<a href='javascript:map_jump("F2")'>多目的教室(マップで見る)</a></p>
                 </section>
             </div>
 
@@ -349,7 +349,7 @@
                     <a href='javascript:view_list("中高写真部")' class="Groupes_top"><div class=""><img src="image/写真部.png" alt="" class="Logo_Img"><h3>中高写真部</h3></div><h4>大写真部展</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>写真部員が1年間通して撮影した写真を展示しています。是非ともお楽しみください。地下、ホワイエでお待ちしています。<br>場所：<a href='javascript:map_jump("F1")'>ホワイエ(マップで見る)</a></p>
+                    <p>写真部員が1年間通して撮影した写真を展示しています。是非ともお楽しみください。地下、ホワイエでお待ちしています。<br>場所：<a href='javascript:map_jump("B1")'>ホワイエ(マップで見る)</a></p>
                 </section>
             </div>
             <div class="view" id="美術部">
@@ -357,7 +357,7 @@
                     <a href='javascript:view_list("美術部")' class="Groupes_top"><div class=""><img src="image/美術部.png" alt="" class="Logo_Img"><h3>美術部</h3></div><h4>Rakusei Art Gallery</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>一年を通して制作した作品を展示しております。絵の向こうにある世界を感じ取ってください。<br>場所：<a href='javascript:map_jump("F1")'>ホワイエ(マップで見る)</a></p>
+                    <p>一年を通して制作した作品を展示しております。絵の向こうにある世界を感じ取ってください。<br>場所：<a href='javascript:map_jump("B1")'>ホワイエ(マップで見る)</a></p>
                 </section>
             </div>
             <div class="view" id="茶道部">

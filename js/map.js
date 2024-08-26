@@ -55,7 +55,7 @@ function onResize(){
                 const choices = document.getElementById("Choices");
                 var choice_h = choices.getBoundingClientRect().height + 30
                 parent.style.height = `${choice_h + 40 + 40 + height2 + 30}px`;
-                maps.style.transform = `rotate(90deg) translateY(50%) translateX(${-1*width2/4*3}px)`;
+                maps.style.transform = `rotate(90deg) translateY(50%) translateX(${-1*width2}px)`;
             }
         
         //console.log(maps)
@@ -67,7 +67,7 @@ function onResize(){
 }
 
 window.addEventListener('resize',onResize)
-var floor_list = ["F1","F2","F3","F4"];
+var floor_list = ["B1","F1","F2","F3","F4"];
 function map_chenge(floor){
     del_ovb();
     //console.log(floor)
@@ -114,7 +114,7 @@ window.onload = function() {
     }else{
         onResize();
         const choices = document.getElementsByClassName("Map_choices");
-        choices[0].classList.add("Select");
+        choices[1].classList.add("Select");
     }
     
 };
@@ -131,6 +131,12 @@ function display_ovb(room,group0,group1){
     ovb_room.innerText = room;
     ovb_group0.innerText = group0;
     ovb_link1.href = `ichiran.php?group=${group0}`
+    if(group0 == "天文部2"){
+        ovb_group0.innerText = "天文部";
+    }
+    if(group0 == "鉄道研究会2"){
+        ovb_group0.innerText = "鉄道研究会";
+    }
     if(group1 != null){
         ovb_group1.innerText = group1;
         ovb_link2.innerText = "この団体の展示紹介を一覧で見る"

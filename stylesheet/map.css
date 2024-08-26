@@ -99,6 +99,7 @@ td img{
     color: white;
     text-decoration: none;
     animation: down 0.3s forwards;
+    margin-top: 5px;
 }
 .Map_choices::before{
     content: "";
@@ -261,4 +262,14 @@ tr{
 img.hanen{
     width: 105%;
     height: 115%;
+}
+img.b1_m{
+    object-fit:unset;
+    width: 70%;
+    height: 500%;
+}
+img.b1_f{
+    object-fit:unset;
+    width: 20%;
+    height: 500%;
 }
