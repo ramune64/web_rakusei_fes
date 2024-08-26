@@ -11,6 +11,7 @@
     ?>
     <!-- <link rel="stylesheet" href="../stylesheet/map.css" type="text/css"> -->
     <link rel="stylesheet" href="../stylesheet/map.css" type="text/css">
+    <link rel="stylesheet" href="../stylesheet/map1st.css" type="text/css">
     <link rel="stylesheet" href="../stylesheet/map2nd.css" type="text/css">
     <link rel="stylesheet" href="../stylesheet/map3rd.css" type="text/css">
     <link rel="stylesheet" href="../stylesheet/map4th.css" type="text/css">

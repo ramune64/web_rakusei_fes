@@ -376,7 +376,7 @@
         <div class="all_view intro_groupe Flex Flex_wrap">
             <div class="view" id="注意">
                 <div>
-                    <a href='javascript:view_list("注意")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>注意</h3><h4>支払方法</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("注意")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>注意</h3></div><h4>支払方法</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>⾦券販売は⼊⼝で⾏います。  基本的に会計は交通系ＩＣか⾦券のどちらかです。<u>PiTaPa（ポストペイは利用できません）</u></a></p>
@@ -384,7 +384,7 @@
             </div>
             <div class="view" id="おさるのキッチン">
                 <div>
-                    <a href='javascript:view_list("おさるのキッチン")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>おさるのキッチン</h3><h4>HⅢA</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("おさるのキッチン")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>おさるのキッチン</h3></div><h4>HⅢA</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>販売品目：チャーハン<br>場所：<a href="#">マップで見る</a></p>
@@ -392,7 +392,7 @@
             </div>
             <div class="view" id="ヨシタンブール">
                 <div>
-                    <a href='javascript:view_list("ヨシタンブール")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>ヨシタンブール</h3><h4>HⅢB</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("ヨシタンブール")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>ヨシタンブール</h3></div><h4>HⅢB</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>販売品目：ラッシー,ケバブ<br>場所：<a href="#">マップで見る</a></p>
@@ -400,7 +400,7 @@
             </div>
             <div class="view" id="四宮組">
                 <div>
-                    <a href='javascript:view_list("四宮組")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>四宮組</h3><h4>HⅢC</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("四宮組")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>四宮組</h3></div><h4>HⅢC</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>販売品目：フランクフルト,ホットドック<br>場所：<a href="#">マップで見る</a></p>
@@ -408,7 +408,7 @@
             </div>
             <div class="view" id="果糖ポン一郎">
                 <div>
-                    <a href='javascript:view_list("果糖ポン一郎")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>果糖ポン一郎</h3><h4>HⅢD</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("果糖ポン一郎")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>果糖ポン一郎</h3></div><h4>HⅢD</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>販売品目：フルーツポンチ,スムージー<br>場所：<a href="#">マップで見る</a></p>
@@ -416,7 +416,7 @@
             </div>
             <div class="view" id="一平ちゃん">
                 <div>
-                    <a href='javascript:view_list("一平ちゃん")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>一平ちゃん</h3><h4>HⅢE</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("一平ちゃん")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>一平ちゃん</h3></div><h4>HⅢE</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>販売品目：焼きそば<br>場所：<a href="#">マップで見る</a></p>
@@ -424,7 +424,7 @@
             </div>
             <div class="view" id="小石屋">
                 <div>
-                    <a href='javascript:view_list("小石屋")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>小石屋</h3><h4>HⅢクラス混合</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("小石屋")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>小石屋</h3></div><h4>HⅢクラス混合</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>射的<br>場所：<a href="#">マップで見る</a></p>
@@ -432,7 +432,7 @@
             </div>
             <div class="view" id="たこやす">
                 <div>
-                    <a href='javascript:view_list("たこやす")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>たこやす</h3><h4>硬式テニス部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("たこやす")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>たこやす</h3></div><h4>硬式テニス部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>販売品目：たこ焼き<br>場所：<a href="#">マップで見る</a></p>
@@ -440,7 +440,7 @@
             </div>
             <div class="view" id="ニクのハコ">
                 <div>
-                    <a href='javascript:view_list("ニクのハコ")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>ニクのハコ</h3><h4>バドミントン部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("ニクのハコ")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>ニクのハコ</h3></div><h4>バドミントン部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>販売品目：焼き鳥,肉巻き,焼きおにぎり<br>場所：<a href="#">マップで見る</a></p>
@@ -448,7 +448,7 @@
             </div>
             <div class="view" id="イニエスタバ">
                 <div>
-                    <a href='javascript:view_list("イニエスタバ")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>イニエスタバ</h3><h4>サッカー部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("イニエスタバ")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>イニエスタバ</h3></div><h4>サッカー部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>販売品目：パンケーキ,レモネード<br>場所：<a href="#">マップで見る</a></p>
@@ -456,7 +456,7 @@
             </div>
             <div class="view" id="わたあめ ゆうた">
                 <div>
-                    <a href='javascript:view_list("わたあめ ゆうた")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>わたあめ ゆうた</h3><h4>バスケットボール部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("わたあめ ゆうた")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>わたあめ ゆうた</h3></div><h4>バスケットボール部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>販売品目：わたあめ<br>場所：<a href="#">マップで見る</a></p>
@@ -464,7 +464,7 @@
             </div>
             <div class="view" id="変な店">
                 <div>
-                    <a href='javascript:view_list("変な店")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3>変な店</h3><h4>ハンドボール部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("変な店")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>変な店</h3></div><h4>ハンドボール部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>販売品目：はしまき<br>場所：<a href="#">マップで見る</a></p>
@@ -472,7 +472,7 @@
             </div>
             <div class="view" id="Café＆メイド OFFu">
                 <div>
-                    <a href='javascript:view_list("Café＆メイド OFFu")' class="Groupes_top"><img src="image/logo.png" alt="" class="Logo_Img"><h3 style="font-size: 20pt;">Café＆メイド OFFu</h3><h4>数理研・バレー部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("Café＆メイド OFFu")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3 style="font-size: 20pt;">Café＆メイド OFFu</h3></div><h4>数理研・バレー部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>販売品目：パンケーキ<br><u>店はリヨンホールで模擬店会場から直接いけないので注意してください！</u><br>場所：<a href="#">マップで見る</a></p>
