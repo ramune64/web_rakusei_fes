@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <title>練習中2</title>
+  <title>第73回洛星文化祭～宴～</title>
   <!-- <link rel="stylesheet" href="aaa.css" type="text/css">
   <link rel="icon" href="image\favicon.ico"> -->
   <!-- 幅1100px以下でタブレット用デザイン -->

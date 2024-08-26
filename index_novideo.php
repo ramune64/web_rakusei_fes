@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <title></title>
+  <title>第73回洛星文化祭～宴～</title>
   <?php include "links.html" ?>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../stylesheet/front.css" type="text/css">

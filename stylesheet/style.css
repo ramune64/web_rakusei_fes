@@ -598,11 +598,13 @@ header ul li ul li:hover{
     border-left: 20px double rgb(186, 199, 203);
     margin-bottom: 20px;
 }
-
 div.news p{
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-size: 25px;
     margin-bottom: 10px;
+    border: 3px solid #CEA34F;
+    padding: 20px;
 }
 
 

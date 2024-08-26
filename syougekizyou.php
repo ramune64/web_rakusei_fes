@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <title></title>
+  <title>第73回洛星文化祭～宴～</title>
   <!-- css -->
   <link rel="stylesheet" href="stylesheet/slick.css">
   <link rel="stylesheet" href="stylesheet/slick-theme.css">

@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta charset="UTF-8">
-  <title>タイムテーブル</title>
+  <title>第73回洛星文化祭～宴～</title>
   <!-- <link rel="stylesheet" href="aaa.css" type="text/css"> -->
   <?php include "links.html" ?>
   <!-- <link rel="stylesheet" href="../stylesheet/time_table.css" type="text/css"> -->

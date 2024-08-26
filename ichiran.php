@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta charset="UTF-8">
-  <title>練習中1</title>
+  <title>第73回洛星文化祭～宴～</title>
   <?php include "links.html" ?>
 </head>
 <body>
