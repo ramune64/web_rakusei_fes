@@ -592,7 +592,7 @@
         <div style="border: 3px solid #CEA34F; padding:20px">
             <h5 style="color: white;font-size:20pt;margin-bottom:20px">各グループ詳細ページ</h5>
             <p>会場：<a href='javascript:map_jump("F1")' style="font-size:14pt">第一音楽室(マップで見る)</a></p>
-            <a href="live_intro.php" style="color: #c53d43;font-size:16pt">詳細はこちらから！！</a>
+            <a href="live.php" style="color: #c53d43;font-size:16pt">詳細はこちらから！！</a>
         </div>
         </div>
         <div class="inner_content" id="smallgekizyou" style="position: relative; z-index: 1;">
@@ -600,7 +600,7 @@
         <div style="border: 3px solid #CEA34F; padding:20px">
             <h5 style="color: white;font-size:20pt;margin-bottom:20px">各グループ詳細ページ</h5>
             <p>会場：<a href='javascript:map_jump("F3")' style="font-size:14pt">選択3.4教室(マップで見る)</a></p>
-            <a href="#" style="color: #c53d43;font-size:16pt">詳細はこちらから！！</a>
+            <a href="syougekizyou.php" style="color: #c53d43;font-size:16pt">詳細はこちらから！！</a>
         </div>
         </div>
     <!-- <div class="inner_content" id="page0-2">
