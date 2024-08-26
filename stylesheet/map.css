@@ -64,7 +64,7 @@ td img{
     object-fit: fill;
 }
 .background_darkgray{
-    background-color:rgb(97, 95, 95);
+    background-color:rgb(97, 95, 95) !important;
 }
 .background_palegray{
     background-color:rgb(220, 220, 220);
@@ -250,4 +250,15 @@ td{
 }
 tr{
     border-color: black;
+}
+
+.hokensitu{
+    display: block;
+    width: 60%;
+    margin: 5px auto 0px auto;
+}
+
+img.hanen{
+    width: 105%;
+    height: 115%;
 }
