@@ -28,7 +28,7 @@
                     </div>
                 </section>
                 <section>
-                    <h2>その他部誌・会誌</h2>
+                    <h2>部誌・会誌</h2>
                     <div class="Else_pamphlet">
                         <div class="Row Left">
                             <div class="Each_Club" id="club1">

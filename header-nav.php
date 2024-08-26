@@ -16,7 +16,7 @@
 
     $var_link_list = ["download.php",
                         "intro_part.php",
-                        "test.php",
+                        "goods.php",
                         "time_table.php",
                         "map.php",
                         "ichiran.php",
