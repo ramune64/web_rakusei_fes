@@ -9,13 +9,13 @@
 				</div>
                 <div class="inner_content front_content" style="position: relative;z-index:10;">
                     <h1 class="front">理念</h1>
-                    <div><p style="font-size: 17pt;">今年度の文化祭のテーマは「宴」です。<br>このテーマには「遊び楽しむ」といった意味があります。<br>それゆえに、今年の文化祭に関係したすべての人が<br>誰一人余すことなく最後には楽しかったといえる文化祭にしたい<br>という思いでこのテーマにしました。</p>
+                    <div><p style="font-size: 15pt;">今年度の文化祭のテーマは「宴」です。<br>宴は単に「手を打って楽しむ」という楽しみの場というだけでなく<br>日ごろの研鑽の成果や才能の披露の場でもありました。<br>それゆえに、各々全力で準備してきたものを全力で発表し、<br>それを心から「手を打って（拍手して）」讃えあえるような文化祭にしたいという思いがこめられています。</p>
                 </div>
                 </div>
                 <div class="inner_content front_content" style="position: relative;z-index:5;">
                     <h1 class="front">ひとこと</h1>
                     <div>
-                        <p style="font-size: 17pt;">来校者の方々はさることながら<br>文化祭をともに作り上げた生徒全員<br>そして協力してくださった教職員の方々にとっての最高の経験になり<br>素敵な思い出としてずっと皆さんの心に残るような文化祭を作り上げます。</br><u><br>文化祭企画委員長  栗田 亮平</br></u></p>
+                        <p style="font-size: 15pt;">来校者の方々はさることながら<br>文化祭をともに作り上げた生徒全員<br>そして協力してくださった教職員の方々にとっての最高の経験になり<br>素敵な思い出としてずっと皆さんの心に残るような文化祭を作り上げます。</br><u><br>文化祭企画委員長  栗田 亮平</br></u></p>
                     </div>
                 </div>
                 <div class="inner_content front_content Info_index inner_top"style="position: relative;z-index:3;">

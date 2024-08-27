@@ -179,7 +179,7 @@
 
             <div class="view" id="無線部">
                 <div>
-                    <a href='javascript:view_list("無線部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>無線部</h3></div><h4>FM RAKUSEI 「R-station」</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("無線部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>無線部</h3></div><h4>coming soon </h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>coming soon...<br>場所：<a href='javascript:map_jump("F2")'>HⅠE(マップで見る)</a></p>
@@ -546,7 +546,7 @@
             </div>
             <div class="view" id="中学生徒会企画">
                 <div>
-                    <a href='javascript:view_list("中学生徒会企画")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>中学生徒会企画</h3></div><h4 style="font-size: 15pt;">IPOON GRANT PRIX</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("中学生徒会企画")' class="Groupes_top"><div class=""><img src="image/中学生徒会.png" alt="" class="Logo_Img"><h3>中学生徒会企画</h3></div><h4 style="font-size: 15pt;">IPOON GRANT PRIX</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>あの大人気番組が洛星で復活？！？！(13日 13:30~15:30)<br>場所：<a href='javascript:map_jump("F1")'>ケルブ講堂(マップで見る)</a></p>
@@ -554,7 +554,7 @@
             </div>
             <div class="view" id="FM RAKUSEI">
                 <div>
-                    <a href='javascript:view_list("FM RAKUSEI")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>FM RAKUSEI</h3></div><h4 style="font-size: 15pt;">R-station</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("FM RAKUSEI")' class="Groupes_top"><div class=""><img src="image/FM.png" alt="" class="Logo_Img"><h3>FM RAKUSEI</h3></div><h4 style="font-size: 15pt;">R-station</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>今年も例年に習い、FR-STATIONにて生徒制作のラジオ番組を文化祭期間中に放送します。ラジオパート一同この日のために楽しめるような番組を制作しました!ぜひお聞きください!!<br>場所：<a href='javascript:map_jump("F2")'>HⅠE(マップで見る)</a></p>
@@ -562,7 +562,7 @@
             </div>
             <div class="view" id="洛星交響楽団">
                 <div>
-                    <a href='javascript:view_list("洛星交響楽団")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>洛星交響楽団</h3></div><h4 style="font-size: 15pt;">文化祭公演</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("洛星交響楽団")' class="Groupes_top"><div class=""><img src="image/オケ.jpg" alt="" class="Logo_Img"><h3>洛星交響楽団</h3></div><h4 style="font-size: 15pt;">文化祭公演</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>オーケストラ部による公演です(15日 12:00~)<br>場所：<a href='javascript:map_jump("F1")'>大講堂(マップで見る)</a></p>
