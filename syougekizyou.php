@@ -20,29 +20,67 @@
                 <h1>小劇場</h1>
                 <div class="container">
             <div class="slider">
-                <div class="slick-img"><img src="image/slide_img.png" alt=""></div>
-                <div class="slick-img"><img src="image/flower.png" alt=""></div>
-                <div class="slick-img"><img src="image/slide_img.png" alt=""></div>
-                <div class="slick-img"><img src="image/slide_img.png" alt=""></div>
-                <div class="slick-img"><img src="image/slide_img.png" alt=""></div>
+                <div class="slick-img"><img src="image/logo.png" alt=""></div>
+                <div class="slick-img"><img src="image/logo.png" alt=""></div>
+                <div class="slick-img"><img src="image/logo.png" alt=""></div>
+                <div class="slick-img"><img src="image/logo.png" alt=""></div>
+                <div class="slick-img"><img src="image/logo.png" alt=""></div>
             </div>
             </div>
             </div>
             <div class="inner_content 演目" id="page1-3">
                 <h1>会場:選択3・4</h1>
                 <section>
-                  <h3>演目名</h3>
-                  <p class="live_time">時間：<b>n日目　09:00~15:00</b></p>
-                  <p>メンバー名</p>
-                  <p>メンバー名</p>
-                  <p>こんな内容の公演をするよ～</p>
+                  <h3>Piano man in Rakusei 第一部</h3>
+                  <p class="live_time">時間：<b>2日目　10:00~11:00</b></p>
+                  <p>メンバー：不明</p>
+                  <p>約10分程度</p>
+                </section>
+                <section>
+                  <h3>ピアノ同好会</h3>
+                  <p class="live_time">時間：<b>2日目　11:00~12:00</b></p>
+                  <p>ピアノ同好会による公演をします</p>
+                </section>
+                <section>
+                  <h3>弾き語り</h3>
+                  <p class="live_time">時間：<b>2日目　12:00~13:00</b></p>
+                  <p></p>
+                </section>
+                <section>
+                  <h3>お笑い</h3>
+                  <p class="live_time">時間：<b>2日目　13:00~14:00</b></p>
+                  <p>大喜利やフリップネタを通じて、みんなを笑わせます</p>
+                </section>
+                <section>
+                  <h3>ビートボックス</h3>
+                  <p class="live_time">時間：<b>2日目　14:00~15:00</b></p>
+                  <p>約40分程度で行います</p>
                 </section>
                 <section>
                   <h3>バンド名</h3>
-                  <p class="live_time">時間：<b>n日目　09:00~15:00</b></p>
-                  <p>メンバー名</p>
-                  <p>メンバー名</p>
-                  <p>こんな内容の公演をするよ～</p>
+                  <p class="live_time">時間：<b>2日目　15:00~16:00</b></p>
+                  <p>10時からしたものの第二部として行いますぜひ来てください!</p>
+                </section>
+                <section>
+                  <h3>落語</h3>
+                  <p class="live_time">時間：<b>3日目　10:00~11:00</b></p>
+                  <p>落語をします</p>
+                </section>
+                <section>
+                  <h3>バンド名</h3>
+                  <p class="live_time">時間：<b>3日目　11:00~12:00</b></p>
+                  <p>二日目同様ピアノ同好会による公演をします</p>
+                </section>
+                <section>
+                  <h3>漫才</h3>
+                  <p class="live_time">時間：<b>3日目　12:00~13:00</b></p>
+                  <p>漫才をします</p>
+                </section>
+                <section>
+                  <h3>バンド名</h3>
+                  <p class="live_time">時間：<b>3日目　13:00~14:00</b></p>
+                  <p>メンバー：徳見</p>
+                  <p>30~60分程度弾き語りします</p>
                 </section>
             </div>
         </div>
