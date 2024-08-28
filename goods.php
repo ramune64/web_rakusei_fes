@@ -16,6 +16,7 @@
         <div class="main_content">
             <div class="inner_content inner_top goods" id="page1-1">
             <h1>グッズ販売</h1>
+             <h2>＠選択1,2教室</h2>
                 <section>
                     <h2><u>寄贈品</u></h2>
                     <div class="goods_img">
@@ -42,7 +43,7 @@
                     <div class="goods_img">
                         <img src="image/smash.jpg" alt="">
                     </div>
-                    <p>毎年大人気な書きやすさを重視したシャーペンのsmash！今年も、ブラック、レッド、ダークグレーの３色ご用意しております第73回洛星文化祭の印字が入った今年しか買えない品物です。<br>一本1000円</p>
+                    <p>毎年大人気な書きやすさを重視したシャーペンのsmash！今年も、ブラック、レッド、ダークグレーの３色ご用意しております。第73回洛星文化祭の印字が入った今年しか買えない品物です。<br>一本1000円</p>
                 </section>
                 <section>
                     <h2><u>シャープペンシル(ピュアモルト)</u></h2>

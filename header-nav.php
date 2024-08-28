@@ -1,10 +1,10 @@
 <?php 
-    $var_list = ["ダウンロード",
+    $var_list = ["パンフレット",
                     "パート紹介",
                     "雑貨",
                     "時刻表",
                     "校内地図",
-                    "団体一覧",
+                    "催し一覧",
                     "お知らせ",
                     "ホーム"];
     $var_name_list = [[],
@@ -29,7 +29,7 @@
                         [],
                         [],
                         [],
-                        ["#tenzi","#mogiten","#engeki","#","#live","#smallgekizyou"],
+                        ["#tenzi","#mogiten","#engeki","#kikaku","#live","#smallgekizyou"],
                         [],
                         []];
     

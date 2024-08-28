@@ -15,7 +15,7 @@
                 <div class="inner_content front_content" style="position: relative;z-index:5;">
                     <h1 class="front">ひとこと</h1>
                     <div>
-                        <p style="font-size: 15pt;">来校者の方々はさることながら<br>文化祭をともに作り上げた生徒全員<br>そして協力してくださった教職員の方々にとっての最高の経験になり<br>素敵な思い出としてずっと皆さんの心に残るような文化祭を作り上げます。</br><u><br>文化祭企画委員長  栗田 亮平</br></u></p>
+                        <p style="font-size: 15pt;">文化祭をともに作り上げた生徒全員、<br>協力してくださった教職員の方々そして来校された人々の<br>素敵な思い出として残るような文化祭を作り上げます。</br><u><br>文化祭企画委員長  栗田 亮平</br></u></p>
                     </div>
                 </div>
                 <div class="inner_content front_content Info_index inner_top"style="position: relative;z-index:3;">
@@ -26,6 +26,7 @@
                             <div class="each_turm">
                                 <p><b style="font-size: 19pt;">壱日目</b></p>
                                 <p>9月13日(金)<br>9時00分~<br>16時00分</p>
+                                
                             </div>
                             <div class="each_turm">
                                 <p><b style="font-size: 19pt;">弐日目</b></p>
@@ -33,9 +34,10 @@
                             </div>
                             <div class="each_turm">
                                 <p><b style="font-size: 19pt;">参日目</b></p>
-                                <p>9月15日(日)<br>9時00分~<br>16時00分</p>
+                                <p>9月15日(日)<br>9時00分~<br><u>14時00分</u></p>
                             </div>
                         </section>
+                        <p style="font-size: 15pt;">※13日は在校生および保護者のみのご来場に制限させていただいています。<p>
                     <h2 class="front">場所</h2>
                     <section class="place Flex Flex_wrap">
                     <div>

@@ -198,7 +198,7 @@
                     <a href='javascript:view_list("料理研究部")' class="Groupes_top"><div class=""><img src="image/料理研究部.png" alt="" class="Logo_Img"><h3>料理研究部</h3></div><h4>アニメ飯</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>ジブリの筆頭に、魅力的で食欲をそそるアニメ飯を再現してみました。個性豊かな料理の数々、ぜひ見に来てください！<br>場所：<a href='javascript:map_jump("F2")'>HⅠC(マップで見る)</a></p>
+                    <p>ジブリを筆頭に、魅力的で食欲をそそるアニメ飯を再現してみました。個性豊かな料理の数々、ぜひ見に来てください！<br>場所：<a href='javascript:map_jump("F2")'>HⅠC(マップで見る)</a></p>
                 </section>
             </div>
             <div class="view" id="文芸部">
@@ -538,15 +538,15 @@
         <div class="all_view intro_groupe Flex Flex_wrap">
             <div class="view" id="高校生徒会企画">
                 <div>
-                    <a href='javascript:view_list("高校生徒会企画")' class="Groupes_top"><div class=""><img src="image/高校生徒会企画.png" alt="" class="Logo_Img"><h3>高校生徒会企画</h3></div><h4 style="font-size: 15pt;">GOT TARENT</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("高校生徒会企画")' class="Groupes_top"><div class=""><img src="image/高校生徒会企画.png" alt="" class="Logo_Img"><h3>高校生徒会企画</h3></div><h4 style="font-size: 15pt;">GOT TALENT</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>洛星生によるエンターテイメントショー！！<br>カラオケ部門(13日 10:00~)<br>GOD TARENT部門(15日 12:45~)<br>場所：<a href='javascript:map_jump("F1")'>ケルブ講堂(マップで見る)</a></p>
+                    <p>洛星生によるエンターテイメントショー！！<br>カラオケ部門(13日 10:00~)<br>GOT TALENT部門(15日 12:45~)<br>場所：<a href='javascript:map_jump("F1")'>ケルブ講堂(マップで見る)</a></p>
                 </section>
             </div>
             <div class="view" id="中学生徒会企画">
                 <div>
-                    <a href='javascript:view_list("中学生徒会企画")' class="Groupes_top"><div class=""><img src="image/中学生徒会.png" alt="" class="Logo_Img"><h3>中学生徒会企画</h3></div><h4 style="font-size: 15pt;">IPOON GRANT PRIX</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("中学生徒会企画")' class="Groupes_top"><div class=""><img src="image/中学生徒会.png" alt="" class="Logo_Img"><h3>中学生徒会企画</h3></div><h4 style="font-size: 15pt;">IPOON GRAND PRIX</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>あの大人気番組が洛星で復活？！？！(13日 13:30~15:30)<br>場所：<a href='javascript:map_jump("F1")'>ケルブ講堂(マップで見る)</a></p>
@@ -557,7 +557,7 @@
                     <a href='javascript:view_list("FM RAKUSEI")' class="Groupes_top"><div class=""><img src="image/FM.png" alt="" class="Logo_Img"><h3>FM RAKUSEI</h3></div><h4 style="font-size: 15pt;">R-station</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>今年も例年に習い、FR-STATIONにて生徒制作のラジオ番組を文化祭期間中に放送します。ラジオパート一同この日のために楽しめるような番組を制作しました!ぜひお聞きください!!<br>場所：<a href='javascript:map_jump("F2")'>HⅠE(マップで見る)</a></p>
+                    <p>今年も例年に習い、FM R-STATIONにて生徒制作のラジオ番組を文化祭期間中に放送します。ラジオパート一同この日のために楽しめるような番組を制作しました!ぜひお聞きください!!<br>場所：<a href='javascript:map_jump("F2")'>HⅠE(マップで見る)</a></p>
                 </section>
             </div>
             <div class="view" id="洛星交響楽団">

@@ -12,9 +12,9 @@
         <div id="hontai">
         <div class="main_content Download">
             <div class="inner_content inner_top" id="download">
-                <h1>ダウンロード</h1>
+                <h1>パンフレット系</h1>
                 <section class="Download_Section">
-                    <h2>パンフレット(プログラムパート)</h2>
+                    <h2>パンフレット</h2>
                     <div class="Pamphlet">
                         <div class="Cover item">
                             <img src="image/logo.png" alt="">
@@ -22,7 +22,7 @@
                         </div>
                         <div class="Download_intro item">
                             <h3>説明</h3>
-                            <p>第73回洛星文化祭～宴～<br>のパンフレットです！<br>プログラムパートが一生懸命作った集大成なので、文化祭来る前や文化祭まわってる間などにお使いください！！<br><u>9/5本邦初公開予定</u><!-- <br>試し読みは<a href="pamphlet.php">こちら</a> --></p>
+                            <p>第73回洛星文化祭～宴～<br>のパンフレットです！<br>プログラムパートが一生懸命作った集大成なので、文化祭に来る前や来校された際などにお使いください！！<br><u>9/5本邦初公開予定</u><!-- <br>試し読みは<a href="pamphlet.php">こちら</a> --></p>
                             <a href="pdfs/" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                         </div>
                     </div>
