@@ -46,48 +46,12 @@
                                 </section>
                                 </div>
                             </div>
-                            <div class="Each_Club" id="club2">
-                                <div class="Up_content">
-                                    <a href='javascript:magazine("club2")'><img src="image/logo.png" alt="logo" class="Club_logo"><h3>準備中</h3><img src="image/up_arrow.png" alt="" id="arrow" class="Arrow"></a>
-                                </div>
-                                <section>
-                                    <h4>準備中</h4>
-                                    <a href="pdfs/" class="Download_button Button_sonota" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
-                                </section>
-                            </div>
-                            <div class="Each_Club" id="club3">
-                                <div class="Up_content">
-                                    <a href='javascript:magazine("club3")'><img src="image/logo.png" alt="logo" class="Club_logo"><h3>準備中</h3><img src="image/up_arrow.png" alt="" id="arrow" class="Arrow"></a>
-                                </div>
-                                <section>
-                                    <h4>準備中</h4>
-                                    <a href="pdfs/" class="Download_button Button_sonota" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
-                                </section>
-                            </div>
                         </div>
                         <span class="Middle_line"></span>
                         <div class="Row Right">
-                        <div class="Each_Club" id="club4">
+                            <div class="Each_Club" id="club2">
                                 <div class="Up_content">
-                                    <a href='javascript:magazine("club4")'><img src="image/logo.png" alt="logo" class="Club_logo"><h3>準備中</h3><img src="image/up_arrow.png" alt="" id="arrow" class="Arrow"></a>
-                                </div>
-                                <section>
-                                    <h4>準備中</h4>
-                                    <a href="pdfs/" class="Download_button Button_sonota" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
-                                </section>
-                            </div>
-                            <div class="Each_Club" id="club5">
-                                <div class="Up_content">
-                                    <a href='javascript:magazine("club5")'><img src="image/logo.png" alt="logo" class="Club_logo"><h3>準備中</h3><img src="image/up_arrow.png" alt="" id="arrow" class="Arrow"></a>
-                                </div>
-                                <section>
-                                    <h4>準備中</h4>
-                                    <a href="pdfs/殺" class="Download_button Button_sonota" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
-                                </section>
-                            </div>
-                        <div class="Each_Club" id="club6">
-                                <div class="Up_content">
-                                    <a href='javascript:magazine("club6")'><img src="image/logo.png" alt="logo" class="Club_logo"><h3>準備中</h3><img src="image/up_arrow.png" alt="" id="arrow" class="Arrow"></a>
+                                    <a href='javascript:magazine("club2")'><img src="image/logo.png" alt="logo" class="Club_logo"><h3>準備中</h3><img src="image/up_arrow.png" alt="" id="arrow" class="Arrow"></a>
                                 </div>
                                 <section>
                                     <h4>準備中</h4>
