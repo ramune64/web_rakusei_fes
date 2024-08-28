@@ -35,12 +35,12 @@
                 <h1>会場:第一音楽室</h1>
                 <section>
                   <h3>√ZERO</h3>
-                  <p class="live_time">時間：<b>2日目　11:50~12:30</b></p>
+                  <p class="live_time">時間：<b>2日目(.14日)　11:50~12:30</b></p>
                   <p>全員サッカー部で結成された６人組バンドです！</p>
                 </section>
                 <section>
                   <h3>5BUCKS</h3>
-                  <p class="live_time">時間：<b>2日目　13:00~13:30</b></p>
+                  <p class="live_time">時間：<b>2日目(.14日)　13:00~13:30</b></p>
                   <p>Gu & Vo. 上水捻士</p>
                   <p>Gu. 萩野樹</p>
                   <p>Ba. 森下颯斗</p>
@@ -49,12 +49,12 @@
                 </section>
                 <section>
                   <h3>Band Boys</h3>
-                  <p class="live_time">時間：<b>2日目　13:55~14:35</b></p>
+                  <p class="live_time">時間：<b>2日目(.14日)　13:55~14:35</b></p>
                   <p>僕たちは高２生バンドです。Band Boysです。ここまで色々ありつつもなんとかやってきたんです。なので見てほしいんです。Band Boysです。</p>
                 </section>
                 <section>
                   <h3>Now Loading</h3>
-                  <p class="live_time">時間：<b>2日目　14:40~15:30</b></p>
+                  <p class="live_time">時間：<b>2日目(.14日)　14:40~15:30</b></p>
                   <p>Vo.三代 素輝</p>
                   <p>Gt.福光 航</p>
                   <p>Gt.大野 充稀</p>
@@ -65,12 +65,12 @@
 
                 <section>
                   <h3>3DSEREASE</h3>
-                  <p class="live_time">時間：<b>3日目　10:00~10:40</b></p>
+                  <p class="live_time">時間：<b>3日目(.15日)　10:00~10:40</b></p>
                   <p>多種多様な種類のEDM、初めて聞く神曲やリミックスされた邦楽・洋楽、ゲームサウンド等のショートミックスをDJします。叫びたい方、真のEDMを楽しみたい方是非！</p>
                 </section>
                 <section>
                   <h3>桂は市外</h3>
-                  <p class="live_time">時間：<b>3日目　11:00~11:40</b></p>
+                  <p class="live_time">時間：<b>3日目(.15日)　11:00~11:40</b></p>
                   <p>Vo./Gt. 真舟</p>
                   <p>Gt./Vo. A.Haruki</p>
                   <p>Ba. KONA</p>
@@ -79,7 +79,7 @@
                 </section>
                 <section>
                   <h3>第五線上の"AZ" </h3>
-                  <p class="live_time">時間：<b>3日目　12:00~12:40</b></p>
+                  <p class="live_time">時間：<b>3日目(.15日)　12:00~12:40</b></p>
                   <p>Gt.&Vo. @frennn._23</p>
                   <p>Gt. @tom.o_0727</p>
                   <p>Ba. @negaaaaaa_00</p>
@@ -88,7 +88,7 @@
                 </section>
                 <section>
                   <h3>20代目 おかあちゃんごめんね</h3>
-                  <p class="live_time">時間：<b>3日目　13:00~13:40</b></p>
+                  <p class="live_time">時間：<b>3日目(.15日)　13:00~13:40</b></p>
                   <p>子安先生と高３のみんなたち</p>
                 </section>
             </div>

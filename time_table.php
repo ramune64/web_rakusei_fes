@@ -43,7 +43,7 @@
                 </ul>
                 <ul class="buttons_buttom place_button" id="d3">
                     <a href="javascript:tt_place(1)" class="button_ts" id="d3p1b"><li class="button_li">大講堂</li></a>
-                    <a href="javascript:tt_place(2)" class="button_ts" id="d3p2b"><li class="button_li">第1音楽室</li></a>
+                    <a href="javascript:tt_place(2)" class="button_ts" id="d3p2b"><li class="button_li">ライブ＠第1音楽室</li></a>
                     <a href="javascript:tt_place(3)" class="button_ts" id="d3p3b"><li class="button_li">小講堂</li></a>
                     <a href="javascript:tt_place(4)" class="button_ts" id="d3p4b"><li class="button_li">ケベックホール</li></a>
                     <a href="javascript:tt_place(5)" class="button_ts" id="d3p5b"><li class="button_li">和室</li></a>
@@ -110,7 +110,7 @@ $event_list = [[   [["s_time"=> "8:30","f_time"=> "9:00","title"=> "開会式","
                     [["s_time"=> "9:30","f_time"=> "10:30","title"=> "演劇部公演","txt"=> "「ぼくらの檻」"],
                     ["s_time"=> "12:00","f_time"=> "14:00","title"=> "オーケストラ部公演","txt"=> "「セビリアの理髪師」序曲<br>交響曲第８番 「未完成」 etc...</br>※曲目間での入退場は可能です"]],//d3p1
 
-                    [["s_time"=> "10:00","f_time"=> "14:00","title"=> "ライブ会場","txt"=> ""]],//d3p2
+                    [["s_time"=> "10:00","f_time"=> "14:00","title"=> "ライブ会場","txt"=>  '<a href="live.php">詳細はこちら！</a>']],//d3p2
 
                     [["s_time"=> "9:00","f_time"=> "9:30","title"=> "謡曲部公演","txt"=> ""],
                     ["s_time"=> "10:00","f_time"=> "11:30","title"=> "アミューズ","txt"=> "アミューズパーク！！"],

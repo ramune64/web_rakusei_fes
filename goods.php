@@ -27,14 +27,14 @@
                 <section>
                     <h2><u>マフラータオル</u></h2>
                     <div class="goods_img">
-                        <img src="image/simple towel.jpg"  alt="">
+                        <img src="image/マフラータオル.png" alt="">
                     </div>
                     <p>触り心地の良いコットンシャーリングマフラータオルです。<br>1枚800円</p>
                 </section>
                 <section>
                     <h2><u>ハンドタオル（ハンカチ）</u></h2>
                     <div class="goods_img">
-                        <img src="image/handtowel.jpg" alt="">
+                        <img src="image/ハンドタオル.png" alt="">
                     </div>
                     <p>ハンカチサイズの普段使いにもってこいなタオルです。<br>1枚650円</p>
                 </section>
