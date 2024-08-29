@@ -24,10 +24,17 @@ header{
     /* height: fit-content; */
     min-height: 70px;
 & a,ul,div,p{
-    display: none;
+    display: none !important;
 }
-.table{
-    display: none;
+header ul{
+    display: none !important;
+    opacity: 0;
+    z-index: -10000;
+}
+header .ze{
+    display: none !important;
+    opacity: 0;
+    z-index: -10000;
 }
 }
 #logo{
