@@ -15,17 +15,17 @@ const excel = document.getElementsByClassName("Excel")
 const parent = document.getElementsByClassName("Map_parent")[0]
 
 
-function onResize(floor){
-    console.log(floor,"resize");
+function onResize(floors){
+    console.log(floors,"resize");
     const win_width = window.innerWidth;
     const os = getMobileOS();
     if(os == "iOS"){
-        if(floor!=null){
-        if(floor=="F1"){
+        if(floors!=null){
+        if(floors=="F1"){
             document.getElementById("abslute_arrow1").style.display = "none";
             document.getElementById("abslute_arrow2").style.display = "none";
             document.getElementById("abslute_arrow3").style.display = "none";
-        }else if(floor=="B1"){
+        }else if(floors=="B1"){
             document.getElementById("abslute_arrow4").style.display = "none";
             document.getElementById("abslute_arrow5").style.display = "none";
             document.getElementById("abslute_arrow6").style.display = "none";
@@ -40,6 +40,9 @@ function onResize(floor){
         if(floor.style.display == "block"){
             if (win_width > 1080){
                 var scaleValue = (1/1250) * win_width + (-8/125)
+                if(floors == "B1"){
+                    scaleValue -= 0.1
+                }
                 excel.style.transform = `scale(${scaleValue})`;
                 excel.style.webkitTransform = `scale(${scaleValue})`;
                 //console.log(scaleValue)
@@ -54,9 +57,16 @@ function onResize(floor){
                     var width2 = height3;
                 }
                 parent.style.height = `${60 + 40 + 40 + height2}px`;
+                if(os == "iOS"){
+                    console.log("iosyan");
+                    parent.style.height = `${60 + 40 + 40 + height2 + 460}px`;
+                }
                 maps.style.transform = "";
             }else{
                 var scaleValue = 0.6
+                if(floors == "B1"){
+                    var scaleValue = 0.4
+                }
                 excel.style.transform = `scale(${scaleValue})`;
                 excel.style.webkitTransform = `scale(${scaleValue})`;
                 var maps = excel.firstElementChild;
@@ -71,6 +81,9 @@ function onResize(floor){
                 }
                 const choices = document.getElementById("Choices");
                 var choice_h = choices.getBoundingClientRect().height + 30
+                if(os == "iOS"){
+                    parent.style.height = `${choice_h + 40 + 40 + height2 + 30 + 30}px`;    
+                }
                 parent.style.height = `${choice_h + 40 + 40 + height2 + 30}px`;
                 maps.style.transform = `rotate(90deg) translateY(50%) translateX(${-1*width2}px)`;
             }
