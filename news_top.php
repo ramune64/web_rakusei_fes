@@ -17,7 +17,7 @@
         <h1>お知らせ</h1>
         <?php
             /* session_cache_limiter("private_no_expire"); */
-            mb_internal_encoding("UTF-8");
+            /*mb_internal_encoding("UTF-8"); */
             $news_files = glob("*news.php");
             $index = 0;
             foreach($news_files as $news){
