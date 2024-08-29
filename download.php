@@ -22,7 +22,7 @@
                         </div>
                         <div class="Download_intro item">
                             <h3>説明</h3>
-                            <p>第73回洛星文化祭～宴～<br>のパンフレットです！<br>プログラムパートが一生懸命作った集大成なので、文化祭に来る前や来校された際などにお使いください！！<br><u>9/5本邦初公開予定</u><!-- <br>試し読みは<a href="pamphlet.php">こちら</a> --></p>
+                            <p>第73回洛星文化祭～宴～<br>のパンフレットです！<br>プログラムパートが一生懸命作った集大成なので、文化祭に来る前や来校された際などにお使いください！！<br><u>9/6本邦初公開予定</u><!-- <br>試し読みは<a href="pamphlet.php">こちら</a> --></p>
                             <a href="pdfs/" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                         </div>
                     </div>
