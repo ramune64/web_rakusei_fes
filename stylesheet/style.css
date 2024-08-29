@@ -27,7 +27,7 @@ html {
     max-width: calc(100vw - 20px);
 }
 #op_kotei{
-    display: none;
+    display:hidden;
 }
 .kotei{
     width: 95vw;
