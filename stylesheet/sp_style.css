@@ -292,6 +292,9 @@ h1{
 } */
 .view{
     margin-left: 0;
+    min-width: 300px;
+    max-width: 300px;
+    width: 300px;
 }
 .view h3{
     font-size: 20pt;

@@ -15,14 +15,24 @@ const excel = document.getElementsByClassName("Excel")
 const parent = document.getElementsByClassName("Map_parent")[0]
 
 
-function onResize(){
-    
+function onResize(floor){
+    console.log(floor,"resize");
     const win_width = window.innerWidth;
     const os = getMobileOS();
     if(os == "iOS"){
-        document.getElementById("abslute_arrow1").style.display = "none";
-        document.getElementById("abslute_arrow2").style.display = "none";
-        document.getElementById("abslute_arrow3").style.display = "none";
+        if(floor!=null){
+        if(floor=="F1"){
+            document.getElementById("abslute_arrow1").style.display = "none";
+            document.getElementById("abslute_arrow2").style.display = "none";
+            document.getElementById("abslute_arrow3").style.display = "none";
+        }else if(floor=="B1"){
+            document.getElementById("abslute_arrow4").style.display = "none";
+            document.getElementById("abslute_arrow5").style.display = "none";
+            document.getElementById("abslute_arrow6").style.display = "none";
+            document.getElementById("abslute_arrow7").style.display = "none";
+            document.getElementById("abslute_arrow8").style.display = "none";
+        }
+    }
     }
     Array.from(excel).forEach(excel => {
         const floor = document.getElementsByClassName(excel.classList[1])[0]
@@ -46,7 +56,7 @@ function onResize(){
                 parent.style.height = `${60 + 40 + 40 + height2}px`;
                 maps.style.transform = "";
             }else{
-                var scaleValue = 0.7
+                var scaleValue = 0.6
                 excel.style.transform = `scale(${scaleValue})`;
                 excel.style.webkitTransform = `scale(${scaleValue})`;
                 var maps = excel.firstElementChild;
@@ -98,7 +108,7 @@ function map_chenge(floor){
     const url = new URL(window.location.href)
     url.searchParams.set('floor', `${floor}`);
     window.history.replaceState({}, '', url);
-    onResize();
+    onResize(floor);
 }
 
 const getMobileOS = () => {
@@ -129,7 +139,7 @@ window.onload = function() {
         //const url = new URL(window.location.href) // URLを取得
         //history.replaceState(null, '', url.pathname) // URLからクエリパラメータを削除
     }else{
-        onResize();
+        onResize("F1");
         const choices = document.getElementsByClassName("Map_choices");
         choices[1].classList.add("Select");
     }
