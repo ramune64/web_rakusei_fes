@@ -26,6 +26,9 @@ header{
 & a,ul,div,p{
     display: none;
 }
+.table{
+    display: none;
+}
 }
 #logo{
     height: 70px;

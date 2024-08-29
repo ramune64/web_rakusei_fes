@@ -19,6 +19,11 @@ function onResize(){
     
     const win_width = window.innerWidth;
     const os = getMobileOS();
+    if(os == "iOS"){
+        document.getElementById("abslute_arrow1").style.display = "none";
+        document.getElementById("abslute_arrow2").style.display = "none";
+        document.getElementById("abslute_arrow3").style.display = "none";
+    }
     Array.from(excel).forEach(excel => {
         const floor = document.getElementsByClassName(excel.classList[1])[0]
         //console.log(floor.style.display)
@@ -41,7 +46,7 @@ function onResize(){
                 parent.style.height = `${60 + 40 + 40 + height2}px`;
                 maps.style.transform = "";
             }else{
-                var scaleValue = 0.8
+                var scaleValue = 0.7
                 excel.style.transform = `scale(${scaleValue})`;
                 excel.style.webkitTransform = `scale(${scaleValue})`;
                 var maps = excel.firstElementChild;
