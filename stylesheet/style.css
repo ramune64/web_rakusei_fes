@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face{
+    font-family: "行書体";
+    src: url("../font/HGRGY.TTC") format("truetype");
+}
 p,h2,h3{
     color: white;
 }
@@ -139,7 +143,7 @@ header a.utage{
 header p{
     color: white;    
     font-size: 30pt;
-    font-family: "HG行書体";
+    font-family: "行書体";
     overflow-wrap: break-word;
 }
 @media screen and (max-width:1415px){
@@ -292,7 +296,7 @@ header ul li ul li,header ul li ul div a li{
     text-align: center;
     width: fit-content;
     font-size: 20px;
-    font-family: "HG行書体";
+    font-family: "行書体";
     padding: 13.5px 0px 0 0px;
     margin: 0 10px;
     background-color:/* rgb(142, 233, 236) */#283A4D;
@@ -969,7 +973,7 @@ td.target_cell{
     border: none;
     margin: 30px auto;
     /* -webkit-text-stroke: 1px black; */
-    font-family: "HG行書体";
+    font-family: "行書体";
 }
 
 .inner_content h2.part_h1,.front_content h2.front{
