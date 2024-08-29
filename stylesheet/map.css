@@ -60,9 +60,14 @@ td.Homeroom a,td.Homeroom p{
 td p{
     color: black;
 }
+td{
+    padding: 0;
+    
+}
 td img{
     height: 101%;
     width: 101%;
+    object-fit: cover;
 }
 .background_darkgray{
     background-color:rgb(97, 95, 95) !important;
