@@ -26,6 +26,7 @@ function onResize(){
             if (win_width > 1080){
                 var scaleValue = (1/1250) * win_width + (-8/125)
                 excel.style.transform = `scale(${scaleValue})`;
+                excel.style.webkitTransform = `scale(${scaleValue})`;
                 //console.log(scaleValue)
                 var maps = excel.firstElementChild;
                 const height3 = maps.getBoundingClientRect().height;
@@ -42,6 +43,7 @@ function onResize(){
             }else{
                 var scaleValue = 0.8
                 excel.style.transform = `scale(${scaleValue})`;
+                excel.style.webkitTransform = `scale(${scaleValue})`;
                 var maps = excel.firstElementChild;
                 const height3 = maps.getBoundingClientRect().height;
                 const width3 = maps.getBoundingClientRect().width;
