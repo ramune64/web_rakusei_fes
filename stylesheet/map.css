@@ -97,6 +97,7 @@ td img{
     transform-origin: center;
     color: white;
     text-decoration: none;
+    -webkit-animation: down 0.3s forwards;
     animation: down 0.3s forwards;
     margin-top: 5px;
 }
@@ -110,9 +111,11 @@ td img{
     box-shadow: 5px 5px 5px gray;
 }
 .Map_choices:hover{
+    -webkit-animation: down2 0.3s forwards;
     animation: down2 0.3s forwards;
 }
 .Map_choices:hover::before{
+    -webkit-animation: down4 0.3s forwards;
     animation: down4 0.3s forwards;
 }
 @keyframes down2{
@@ -159,23 +162,73 @@ td img{
         background-color: #CEA34F;
     }
 }
+@-webkit-keyframes down2{
+    0%{
+        transform: translateX(0) translateY(0);
+        background-color: #CEA34F;
+        color: white;
+    }
+    100%{
+        transform: translateX(3px) translateY(3px);
+        background-color: #932e33;
+        color: black;
+    }
+}
+@-webkit-keyframes down{
+    100%{
+        transform: translateX(0) translateY(0);
+        background-color: #CEA34F;
+        color: white;
+    }
+    0%{
+        transform: translateX(3px) translateY(3px);
+        background-color: #932e33;
+        color: black;
+    }
+}
+@-webkit-keyframes down4{
+    0%{
+        /* transform: translateX(0) translateY(0); */
+        background-color: #4d5aaf;
+    }
+    100%{
+        /* transform: translateX(3px) translateY(3px); */
+        background-color: #CEA34F;
+    }
+}
+@-webkit-keyframes down3{
+    100%{
+        /* transform: translateX(0) translateY(0); */
+        background-color: #4d5aaf;
+    }
+    0%{
+        /* transform: translateX(3px) translateY(3px); */
+        background-color: #CEA34F;
+    }
+}
 a.Select{
+    -webkit-animation: down2 0.3s forwards;
     animation: down2 0.3s forwards;
 }
 a.Select::before{
+    -webkit-animation: down4 0.3s forwards;
     animation: down4 0.3s forwards;
 }
 
 a.Select_cancel{
+    -webkit-animation: down 0.3s forwards;
     animation: down 0.3s forwards;
 }
 a.Select_cancel::before{
+    -webkit-animation: down3 0.3s forwards;
     animation: down3 0.3s forwards;
 }
 .Tenziroom{
+    -webkit-animation: floats_re 0.3s forwards;
     animation: floats_re 0.3s forwards;
 }
 .Tenziroom:hover{
+    -webkit-animation: floats 0.3s forwards;
     animation: floats 0.3s forwards;
 }
 @keyframes floats{
