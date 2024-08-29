@@ -18,7 +18,7 @@ const parent = document.getElementsByClassName("Map_parent")[0]
 function onResize(){
     
     const win_width = window.innerWidth;
-    
+    const os = getMobileOS();
     Array.from(excel).forEach(excel => {
         const floor = document.getElementsByClassName(excel.classList[1])[0]
         //console.log(floor.style.display)
@@ -40,7 +40,7 @@ function onResize(){
                 parent.style.height = `${60 + 40 + 40 + height2}px`;
                 maps.style.transform = "";
             }else{
-                var scaleValue = 0.9
+                var scaleValue = 0.8
                 excel.style.transform = `scale(${scaleValue})`;
                 var maps = excel.firstElementChild;
                 const height3 = maps.getBoundingClientRect().height;
@@ -94,7 +94,17 @@ function map_chenge(floor){
     onResize();
 }
 
-
+const getMobileOS = () => {
+    const ua = navigator.userAgent
+    if (/android/i.test(ua)) {
+      return "Android"
+    }
+    else if ((/iPad|iPhone|iPod/.test(ua))||(navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)){
+      return "iOS"
+    }
+  
+    return "Other"
+  }
 
 
 window.onload = function() {
@@ -116,7 +126,8 @@ window.onload = function() {
         const choices = document.getElementsByClassName("Map_choices");
         choices[1].classList.add("Select");
     }
-    
+    const os = getMobileOS();
+    console.log(os);
 };
 const ovb = document.getElementById("ovb1");
 function del_ovb(){

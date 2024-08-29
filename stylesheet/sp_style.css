@@ -564,3 +564,7 @@ div.Row h3{
     border-left: 8px solid #CEA34F;
     list-style: none;
 }
+
+.over_view_box{
+    width: 80%;
+}
