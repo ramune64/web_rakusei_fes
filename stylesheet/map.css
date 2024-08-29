@@ -61,7 +61,6 @@ td p{
 td img{
     height: 101%;
     width: 101%;
-    object-fit: fill;
 }
 .background_darkgray{
     background-color:rgb(97, 95, 95) !important;
