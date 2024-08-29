@@ -26,9 +26,9 @@ html {
     scroll-behavior: smooth;
     max-width: calc(100vw - 20px);
 }
-#op_kotei{
+/* #op_kotei{
     display:hidden;
-}
+} */
 .kotei{
     width: 95vw;
     display: block;
@@ -91,7 +91,9 @@ html {
         transform: translateY(15px);
     }
 }
-
+#index_video{
+    position: fixed;
+}
 .sticky{
     position: sticky;
     top: 157px;
@@ -1055,7 +1057,7 @@ td.target_cell{
     width: 97vw;
     text-align: center;
 }
-.front_content,.opening{
+.front_content{
     position: relative;
     text-align: center;
 }

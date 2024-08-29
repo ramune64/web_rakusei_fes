@@ -234,10 +234,10 @@ function animation_index(){
     setTimeout(() => {
         other_op.style.display = "block";
         other_op.classList.add("in_anime");
-    }, 500);
+    }, 1500);
     setTimeout(()=>{
         op_kotei.style.display = "block";
-    },1000);
+    },2000);
 }
 
 index_video.addEventListener("ended",animation_index);

@@ -17,7 +17,7 @@
           </video>
           <div id="skip" class="skip"><span></span></div>
         </div>
-        <div id="op_kotei">
+        <div id="op_kotei" style="display: none;">
           <?php include "header-nav.php" ?>
         </div>
         <div id="other_op">
