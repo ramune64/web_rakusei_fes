@@ -22,7 +22,7 @@
                         "time_table.php",
                         "map.php",
                         "ichiran.php",
-                        "news_top.php",
+                        "news_top2.php",
                         "index_novideo.php"];
     $var_link_list_id = [[],
                         [],
