@@ -31,6 +31,7 @@
             </div>
             <div class="inner_content 演目" id="page1-3">
                 <h1>会場:選択3・4</h1>
+                <br><br><br><br><h1>14日(2日目)</h1>
                 <section>
                   <h3>Piano man in Rakusei 第一部</h3>
                   <p class="live_time">時間：<b>2日目(.14日)　10:00~11:00</b></p>
@@ -63,6 +64,8 @@
                   <p class="live_time">時間：<b>2日目(.14日)　15:00~16:00</b></p>
                   <p>同日朝10時からした内容の第二部として行いますぜひ来てください!</p>
                 </section>
+
+                <br><br><h1>15日(3日目)</h1>
                 <section>
                   <h3>落語</h3>
                   <p class="live_time">時間：<b>3日目(.15日)　10:00~11:00</b></p>

@@ -33,6 +33,7 @@
             </div>
             <div class="inner_content band" id="page1-3">
                 <h1>会場:第一音楽室</h1>
+                <br><br><br><br><h1>14日(2日目)</h1>
                 <section>
                   <h3>√ZERO</h3>
                   <p class="live_time">時間：<b>2日目(.14日)　11:50~12:30</b></p>
@@ -63,6 +64,8 @@
                   <p>Key.小山 賛</p>
                 </section>
 
+                
+                <br><br><h1>15日(3日目)</h1>
                 <section>
                   <h3>3DSEREASE</h3>
                   <p class="live_time">時間：<b>3日目(.15日)　10:00~10:40</b></p>
