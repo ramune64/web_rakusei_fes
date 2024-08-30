@@ -37,8 +37,11 @@
                                 <p>9月15日(日)<br>9時00分~<br><u>14時00分</u></p>
                             </div>
                         </section>
-                        <p style="font-size: 15pt;">※13日は在校生および保護者のみのご来場に制限させていただいています。<p>
-                    <h2 class="front">場所</h2>
+                        
+                        <br><p style="font-size: 15pt;">※入場の際には招待券が必要となります。<br>また、本校の受験をお考えの方と本校の卒業生の方は、<br><a href="https://2024-school-fes.peatix.com/" target="_blank">こちらから</a>来場予約を行ってください。<br>（外部サイトですのでアカウント登録の必要があります。）</p>
+                        <br><p style="font-size: 15pt;">※13日は在校生および保護者のみのご来場に制限させていただいています。</p>
+                     
+                        <br><h2 class="front">場所</h2>
                     <section class="place Flex Flex_wrap">
                     <div>
                         <p style="font-size: 23px;"><b>洛星中学・高等学校</b></p>

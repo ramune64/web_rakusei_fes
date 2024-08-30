@@ -12,7 +12,7 @@
         <div id="hontai">
         <div class="main_content Download">
             <div class="inner_content inner_top" id="download">
-                <h1>パンフレット系</h1>
+                <h1>パンフレット・部誌・会誌など</h1>
                 <section class="Download_Section">
                     <h2>パンフレット</h2>
                     <div class="Pamphlet">
@@ -28,7 +28,7 @@
                     </div>
                 </section>
                 <section>
-                    <h2>部誌・会誌</h2>
+                    <h2>部誌・会誌など</h2>
                     <div class="Else_pamphlet">
                         <div class="Row Left">
                             <div class="Each_Club" id="club1">
