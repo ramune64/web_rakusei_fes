@@ -55,7 +55,7 @@
                                 </div>
                                 <section>
                                     <h4>準備中</h4>
-                                    <a href="pdfs/" class="Download_button Button_sonota" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                    <a href="pdfs/" class="Download_button Button_sonota"download ><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                                 </section>
                             </div>
                         </div>
