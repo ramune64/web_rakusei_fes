@@ -45,6 +45,7 @@
                 <section>
                   <h3>弾き語り</h3>
                   <p class="live_time">時間：<b>2日目(.14日)　12:00~13:00</b></p>
+                  <p>メンバー：根来</p>
                   <p></p>
                 </section>
                 <section>
@@ -64,7 +65,8 @@
                 </section>
                 <section>
                   <h3>落語</h3>
-                  <p class="live_time">時間：<b>3日目(.15日)　10:00~11:00</b></p>二
+                  <p class="live_time">時間：<b>3日目(.15日)　10:00~11:00</b></p>
+                  <p>メンバー：上野</p>
                   <p>落語をします</p>
                 </section>
                 <section>
@@ -75,6 +77,7 @@
                 <section>
                   <h3>漫才</h3>
                   <p class="live_time">時間：<b>3日目(.15日)　12:00~13:00</b></p>
+                  <p>メンバー：後藤</p>
                   <p>漫才をします</p>
                 </section>
                 <section>
