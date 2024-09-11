@@ -35,7 +35,7 @@
                 </ul>
                 <ul class="buttons_buttom place_button" id="d1">
                     <a href="javascript:tt_place(1)" class="button_ts" id="d1p1b"><li class="button_li">大講堂</li></a>
-                    <a href="javascript:tt_place(2)" class="button_ts" id="d1p2b"><li class="button_li">ケルブ講堂</li></a>
+                    <a href="javascript:tt_place(2)" class="button_ts" id="d1p2b"><li class="button_li">小講堂</li></a>
                     <a href="javascript:tt_place(3)" class="button_ts" id="d1p3b"><li class="button_li">大教室</li></a>
                     <a href="javascript:tt_place(4)" class="button_ts" id="d1p4b"><li class="button_li">家庭科室</li></a>
                     <a href="javascript:tt_place(5)" class="button_ts" id="d1p5b"><li class="button_li">多目的教室</li></a>
@@ -66,8 +66,8 @@
             <?php
                 
 $event_list = [[   [["s_time"=> "8:30","f_time"=> "9:00","title"=> "開会式","txt"=> "始まりの合図"],
-                    ["s_time"=> "9:30","f_time"=> "11:45","title"=> "中学合唱","txt"=> "合唱順は後程発表"],
-                    ["s_time"=> "13:30","f_time"=> "15:45","title"=> "高校合唱","txt"=> "合唱順は後程発表"]],//d1p1
+                    ["s_time"=> "9:30","f_time"=> "11:45","title"=> "中学合唱","txt"=> '<a href="download.php">詳細はこちらから</a>'],
+                    ["s_time"=> "13:30","f_time"=> "15:45","title"=> "高校合唱","txt"=> '<a href="download.php">詳細はこちらから</a>']],//d1p1
 
                     [["s_time"=> "9:30","f_time"=> "12:00","title"=> "高校生徒会企画","txt"=> "GOT TALENT"],
                     ["s_time"=> "13:30","f_time"=> "15:45","title"=> "中学生徒会企画","txt"=> "IPOON GRAND PRIX"]],//d1p2
@@ -81,9 +81,9 @@ $event_list = [[   [["s_time"=> "8:30","f_time"=> "9:00","title"=> "開会式","
                     [["s_time"=> "9:30","f_time"=> "12:30","title"=> "プラネタリウム","txt"=> "神秘なる星の世界へ<br>※毎年人気なので事前予約制になってます。東棟2階多目的教室前で整理券を受け取ってください</br>(以降三日間同様)"]]//d1p5
                 ],//d1
                 [
-                    [["s_time"=> "9:00","f_time"=> "9:45","title"=> "中学演劇Ⅰ","txt"=> "M1「タイトル未定」"],
-                    ["s_time"=> "10:00","f_time"=> "10:45","title"=> "中学演劇Ⅱ","txt"=> "M2「タイトル未定」"],
-                    ["s_time"=> "11:00","f_time"=> "11:45","title"=> "中学演劇Ⅲ","txt"=> "M3「タイトル未定」"],    
+                    [["s_time"=> "9:00","f_time"=> "9:45","title"=> "中学演劇Ⅰ","txt"=> "M1「星を食べる」"],
+                    ["s_time"=> "10:00","f_time"=> "10:45","title"=> "中学演劇Ⅱ","txt"=> "M2「夜市」"],
+                    ["s_time"=> "11:00","f_time"=> "11:45","title"=> "中学演劇Ⅲ","txt"=> "M3「6人くらいの怒られる男たち」"],    
                     ["s_time"=> "13:30","f_time"=> "15:00","title"=> "室内楽","txt"=> "ヴィヴァルディ「秋」の第一楽章など<u><br>ぜひ聞きに来てください！</br></u>"]],//d2p1　
                     
                     [["s_time"=> "11:00","f_time"=> "12:30","title"=> "ライブ会場","txt"=> '<a href="live.php">詳細はこちら！</a>'],
@@ -92,7 +92,7 @@ $event_list = [[   [["s_time"=> "8:30","f_time"=> "9:00","title"=> "開会式","
                     [["s_time"=> "9:30","f_time"=> "10:30","title"=> "室内楽","txt"=> "大講堂で13:30~15:00でも行います"]],//d2p3
  
                     [["s_time"=> "9:00","f_time"=> "12:00","title"=> "アミューズ","txt"=> "ケルブ講堂を貸切って、大人から子供まで楽しめるアミューズパークにしました！！"],
-                    ["s_time"=> "13:00","f_time"=> "13:45","title"=> "高校演劇Ⅰ","txt"=> "HⅠ 「タイトル未定」"],
+                    ["s_time"=> "13:00","f_time"=> "13:45","title"=> "高校演劇Ⅰ","txt"=> "HⅠ 「アフター文化祭」"],
                     ["s_time"=> "14:00","f_time"=> "14:45","title"=> "高校演劇Ⅱ","txt"=> "HⅡ 「狂気」"],
                     ["s_time"=> "15:00","f_time"=> "15:45","title"=> "高校演劇Ⅲ","txt"=> "HⅢ 「SIAMO TUTTIUN PO, PAZZI.」"]],//d2p4
 
@@ -114,8 +114,8 @@ $event_list = [[   [["s_time"=> "8:30","f_time"=> "9:00","title"=> "開会式","
 
                     [["s_time"=> "13:30","f_time"=> "15:30","title"=> "中学チャレンジクッキング","txt"=> "オムライス王の称号を手にするのは誰か？！？"]],//d2p9
 
-                    [["s_time"=> "10:00","f_time"=> "16:00","title"=> "模擬店","txt"=> "<u>基本的に会計は交通系ＩＣか⾦券のどちらかです</u><br>詳細はこちら</br>"],
-                    ["s_time"=> "10:00","f_time"=> "16:00","title"=> "喫茶,食堂","txt"=> "模擬店会場からの通り抜けはできません<br>二階からのご入場のみなのでご注意ください</br>詳細はこちら"]]//d2p10
+                    [["s_time"=> "10:00","f_time"=> "16:00","title"=> "模擬店","txt"=> "<u>会計は⾦券のみです</u>"],
+                    ["s_time"=> "10:00","f_time"=> "16:00","title"=> "喫茶,食堂","txt"=> "模擬店会場からの通り抜けはできません<br>二階からのご入場のみかつ外来者様のみなのでご注意ください</br>"]]//d2p10
                 ],//d2
                 [
                     [["s_time"=> "9:30","f_time"=> "10:30","title"=> "演劇部公演","txt"=> "「ぼくらの檻」"],
@@ -139,8 +139,8 @@ $event_list = [[   [["s_time"=> "8:30","f_time"=> "9:00","title"=> "開会式","
 
                     [["s_time"=> "9:00","f_time"=> "10:45","title"=> "映像コンテスト","txt"=> "生徒自作の映像を見よう！"],
                     ["s_time"=> "11:00","f_time"=> "14:00","title"=> "昼食会場","txt"=> "生徒専用の昼食会場 <u><br>在校生徒のみ利用可</br></u>"]],//d3p7
-                    [["s_time"=> "10:00","f_time"=> "14:00","title"=> "模擬店","txt"=> "<u>基本的に会計は交通系ＩＣか⾦券のどちらかです</u><br>14時を過ぎると食券が無効となってしまうのでお早めにご利用ください。</br>"],
-                    ["s_time"=> "10:00","f_time"=> "14:00","title"=> "喫茶,食堂","txt"=> "模擬店会場からの通り抜けはできません<br>二階からのご入場のみなのでご注意ください</br>詳細はこちら"]]//d3p8
+                    [["s_time"=> "10:00","f_time"=> "14:00","title"=> "模擬店","txt"=> "<u>会計は⾦券のみです</u><br>13:30を過ぎると食券が無効となってしまうのでお早めにご利用ください。</br>"],
+                    ["s_time"=> "10:00","f_time"=> "14:00","title"=> "喫茶,食堂","txt"=> "模擬店会場からの通り抜けはできません<br>二階からのご入場のみかつ外来者様のみなのでご注意ください</br>詳細はこちら"]]//d3p8
                 ]//d3
                 ];
                 $day = 1;

@@ -20,8 +20,8 @@
                     <h2>パンフレット</h2>
                     <div class="Pamphlet">
                         <div class="Cover item">
-                            <img src="image/logo.png" alt="">
-                            <img src="image/logo.png" alt="">
+                            <img src="image/表紙.png" alt="">
+                            <img src="image/裏表紙.png" alt="">
                         </div>
                         <div class="Download_intro item">
                             <h3>説明</h3>
@@ -36,16 +36,16 @@
                         <div class="Row Left">
                             <div class="Each_Club" id="club1">
                                 <div class="Up_content">
-                                    <a href='javascript:magazine("club1")'><img src="image/logo.png" alt="logo" class="Club_logo"><h3>準備中</h3><img src="image/up_arrow.png" alt="" id="arrow" class="Arrow"></a>
+                                    <a href='javascript:magazine("club1")'><img src="image/logo.png" alt="logo" class="Club_logo"><h3>合唱順</h3><img src="image/up_arrow.png" alt="" id="arrow" class="Arrow"></a>
                                 </div>
                                 <div>
                                 <section>
-                                    <h4>準備中</h4>
-                                    <a href="pdfs/" class="Download_button Button_sonota" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                    <h4>中学合唱</h4>
+                                    <a href="image/中学合唱.png" class="Download_button Button_sonota" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                                 </section>
                                 <section>
-                                    <h4>準備中</h4>
-                                    <a href="pdfs/" class="Download_button Button_sonota" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                    <h4>高校合唱</h4>
+                                    <a href="image/高校合唱.png" class="Download_button Button_sonota" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                                 </section>
                                 </div>
                             </div>
