@@ -26,10 +26,10 @@
             </div>
             <div class="view" id="中三学年展示">    
                 <div>
-                    <a href='javascript:view_list("中三学年展示")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>中三学年展示</h3></div><h4>coming soon</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("中三学年展示")' class="Groupes_top"><div class=""><img src="image/M3学年展示.png" alt="" class="Logo_Img"><h3>中三学年展示</h3></div><h4>ゴム鉄砲</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>coming soon...<br>場所：<a href='javascript:map_jump("F2")'>M1D(マップで見る)</a></p>
+                    <p>中学三年生による学年展示です。ゲーム機などの普及に伴い、昔ながらの遊びが廃れつつある中でも未だ衰えぬ人気を誇っているゴム鉄砲、その魅力などについて徹底分析します！<br>場所：<a href='javascript:map_jump("F2")'>M1D(マップで見る)</a></p>
                 </section>
             </div>
             <div class="view" id="スポーツデータ解析研究会">
@@ -55,7 +55,7 @@
             </div>
             <div class="view" id="中二学年展示Ⅰ">
                 <div>
-                    <a href='javascript:view_list("中二学年展示Ⅰ")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>中二学年展示Ⅰ</h3></div><h4>手品</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("中二学年展示Ⅰ")' class="Groupes_top"><div class=""><img src="image/M2学年展示3.png" alt="" class="Logo_Img"><h3>中二学年展示Ⅰ</h3></div><h4>手品</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>色々な種類の手品や、その歴史について調べてまとめました。手品の深い知識があれば、さらに楽しんで手品を見ていただけると思います。実演も多く行いますので、ぜひ見に来てください。<br>場所：<a href='javascript:map_jump("F3")'>M2A(半教室)(マップで見る)</a></p>
@@ -63,10 +63,19 @@
             
             <div class="view" id="中二学年展示Ⅱ">
                 <div>
-                    <a href='javascript:view_list("中二学年展示Ⅱ")' class="Groupes_top"><div class=""><img src="image/M2学年展示.png" alt="" class="Logo_Img"><h3>中二学年展示Ⅱ</h3></div><h4>創作ピクトグラム</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("中二学年展示Ⅱ")' class="Groupes_top"><div class=""><img src="image/M2学年展示2.png" alt="" class="Logo_Img"><h3>中二学年展示Ⅱ</h3></div><h4>創作ピクトグラム</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>ピクトグラムとは、情報や注意などを表す案内表示です。ピクトグラムはオリンピックや、街中などさまざまなところでつかわれています。今回の展示では歴史・学校紹介などのテーマを扱います。<br>場所：<a href='javascript:map_jump("F3")'>M2B(マップで見る)</a></p>
+                </section>
+            </div>
+
+            <div class="view" id="中二学年展示3">
+                <div>
+                    <a href='javascript:view_list("中二学年展示3")' class="Groupes_top"><div class=""><img src="image/M2学年展示1.png" alt="" class="Logo_Img"><h3>中二学年展示Ⅲ</h3></div><h4>謝る</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>よく学校内でトラブルが起こってしまっているこの現状、そんな中でもしトラブルを起こしてしまったらやはり第一に謝るべきである。そんなときにどのように謝ればトラブルがこれ以上大きくならないか、それについて考察してみました。<br>場所：<a href='javascript:map_jump("F3")'>M2B(マップで見る)</a></p>
                 </section>
             </div>
             
@@ -84,7 +93,7 @@
                     <a href='javascript:view_list("高二学年展示")' class="Groupes_top"><div class=""><img src="image/H2学年展示.png" alt="" class="Logo_Img"><h3>高二学年展示</h3></div><h4>高二学年展示</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>coming soon...<br>場所：<a href='javascript:map_jump("F3")'>M2C(半教室)(マップで見る)</a></p>
+                    <p>北海道への研修旅行などの学年での取り組みや、個人の研究を発表しています。<br>場所：<a href='javascript:map_jump("F3")'>M2C(半教室)(マップで見る)</a></p>
                 </section>
             </div>
 
@@ -181,10 +190,10 @@
 
             <div class="view" id="無線部">
                 <div>
-                    <a href='javascript:view_list("無線部")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>無線部</h3></div><h4>coming soon </h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("無線部")' class="Groupes_top"><div class=""><img src="image/無線部.png" alt="" class="Logo_Img"><h3>無線部</h3></div><h4>無線部展示</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>coming soon...<br>場所：<a href='javascript:map_jump("F2")'>HⅠE(マップで見る)</a></p>
+                    <p>洛星の中でも指折りの何をやっているかわからない部活，無線部の展示です。ついでにラジオも聞きに来てください。<br>場所：<a href='javascript:map_jump("F2")'>HⅠE(マップで見る)</a></p>
                 </section>
             </div>
             <div class="view" id="天文部">
@@ -209,6 +218,14 @@
                 </div>
                 <section>
                     <p>規制の主体が変わろうとしている。国による発禁から、大衆的検閲へー。炎上、自主規制など身近な話題から、芸術の姿を問う。<br>場所：<a href='javascript:map_jump("F2")'>HⅠB,HⅠA(マップで見る)</a></p>
+                </section>
+            </div>
+            <div class="view" id="料理">
+                <div>
+                    <a href='javascript:view_list("料理")' class="Groupes_top"><div class=""><img src="image/スクリーンショット 2024-09-12 031638.png" alt="" class="Logo_Img"><h3>料理研究部</h3></div><h4>得意料理</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                </div>
+                <section>
+                    <p>日々家庭科室にて練習している料研部員たちが、各々の得意料理を実際に作ります。ぜひ見に来てください！＊高1廊下(13日・14日)や多目的実習室(15日)にて、本校の家庭科作品展示を行います。<br>場所：<a href='javascript:map_jump("F2")'>家庭科室(マップで見る)</a></p>
                 </section>
             </div>
              <div class="view" id="天文部2">
@@ -483,7 +500,7 @@
                     <a href='javascript:view_list("中1学年演劇")' class="Groupes_top"><div class=""><img src="image/M1学年演劇.png" alt="" class="Logo_Img"><h3>中1学年演劇</h3></div><h4 style="font-size: 15pt;">中1学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>ほとんど演劇経験のない中⼀が集まって、みんなで相談し、試⾏錯誤しながら作り上げた演劇をぜひ楽しんでください‼それでは、劇場でお会いしましょう。<br>場所：大講堂<a href='javascript:map_jump("F1")'>マップで見る</a></p>
+                    <p>ほとんど演劇経験のない中⼀が集まって、みんなで相談し、試⾏錯誤しながら作り上げた演劇をぜひ楽しんでください‼それでは、劇場でお会いしましょう。<br>場所：<a href='javascript:map_jump("F1")'>大講堂マップで見る</a></p>
                 </section>
             </div>
             <div class="view" id="中2学年演劇">
@@ -491,7 +508,7 @@
                     <a href='javascript:view_list("中2学年演劇")' class="Groupes_top"><div class=""><img src="image/M2学年演劇.png" alt="" class="Logo_Img"><h3>中2学年演劇</h3></div><h4 style="font-size: 15pt;">中2学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>今宵は夜市が開かれる。夜市は神社の森にて開かれる。夜市ではすばらしい品物が並ぶことだろう。夜市には北風と南風にのって多くの商⼈が現れるからだ。⻄の風と東の風が奇跡を運ぶだろう。今宵は夜市が開かれる......<br>場所：大講堂<a href='javascript:map_jump("F1")'>マップで見る</a></p>
+                    <p>今宵は夜市が開かれる。夜市は神社の森にて開かれる。夜市ではすばらしい品物が並ぶことだろう。夜市には北風と南風にのって多くの商⼈が現れるからだ。⻄の風と東の風が奇跡を運ぶだろう。今宵は夜市が開かれる......<br>場所：<a href='javascript:map_jump("F1")'>大講堂マップで見る</a></p>
                 </section>
             </div>
             <div class="view" id="中３学年演劇">
@@ -499,7 +516,7 @@
                     <a href='javascript:view_list("中３学年演劇")' class="Groupes_top"><div class=""><img src="image/M3.png" alt="" class="Logo_Img"><h3>中３学年演劇</h3></div><h4 style="font-size: 15pt;">中３学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>舞台はとある⼤学で⾏われた模擬裁判。そこに集まった素⼈集団が裁くのは⼀体何なのか、どんな結末が待っているのか。お楽しみに！<br>場所：大講堂<a href='javascript:map_jump("F1")'>マップで見る</a></p>
+                    <p>舞台はとある⼤学で⾏われた模擬裁判。そこに集まった素⼈集団が裁くのは⼀体何なのか、どんな結末が待っているのか。お楽しみに！<br>場所：大講堂<a href='javascript:map_jump("F1")'>大講堂マップで見る</a></p>
                 </section>
             </div>
             <div class="view" id="高Ⅰ学年演劇">
@@ -507,7 +524,7 @@
                     <a href='javascript:view_list("高Ⅰ学年演劇")' class="Groupes_top"><div class=""><img src="image/H1学年演劇.png" alt="" class="Logo_Img"><h3>高Ⅰ学年演劇</h3></div><h4 style="font-size: 15pt;">高Ⅰ学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>去年までの経験から、70期学年演劇初の独⾃脚本に挑戦しました。⽂化祭も絡む、我々渾⾝のエピソードを、是非お楽しみください！<br>場所：<a href='javascript:map_jump("F1")'>M3A(マップで見る)</a></p>
+                    <p>去年までの経験から、70期学年演劇初の独⾃脚本に挑戦しました。⽂化祭も絡む、我々渾⾝のエピソードを、是非お楽しみください！<br>場所：<a href='javascript:map_jump("F1")'>小講堂(マップで見る)</a></p>
                 </section>
             </div>
             <div class="view" id="狂気">
@@ -515,7 +532,7 @@
                     <a href='javascript:view_list("狂気")' class="Groupes_top"><div class=""><img src="image/H2学年演劇.png" alt="" class="Logo_Img"><h3>狂気</h3></div><h4 style="font-size: 15pt;">高Ⅱ学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>みなさんは⽣活に困るほどお⾦が無くなったことはあるだろうか。もし⾃分がそんな状況に陥ってしまったらどうなってしまうか想像できるだろうか。強盗?殺⼈?横領?いや、そんなもので済まないのかもしれない<br>場所：<a href='javascript:map_jump("F1")'>M3A(マップで見る)</a></p>
+                    <p>みなさんは⽣活に困るほどお⾦が無くなったことはあるだろうか。もし⾃分がそんな状況に陥ってしまったらどうなってしまうか想像できるだろうか。強盗?殺⼈?横領?いや、そんなもので済まないのかもしれない<br>場所：<a href='javascript:map_jump("F1")'>小講堂(マップで見る)</a></p>
                 </section>
             </div>
             <div class="view" id="SIAMO TUTTIUN PO, PAZZI.">
@@ -523,7 +540,7 @@
                     <a href='javascript:view_list("SIAMO TUTTIUN PO, PAZZI.")' class="Groupes_top"><div class=""><img src="image/H3学年演劇.png" alt="" class="Logo_Img"><h3 style="font-size: 15pt;">SIAMO TUTTIUN PO, PAZZI.</h3></div><h4 style="font-size: 15pt;">高Ⅲ学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>⾼Ⅲ14⼈が集結した学年演劇。中央に存在する死体。その異様な空間で繰り広げられる会話。これは狂気か、ただの喜劇か。題はイタリアの諺。「我々は皆、どこかおかしい」<br>場所：<a href='javascript:map_jump("F1")'>マップで見る</a></p>
+                    <p>⾼Ⅲ14⼈が集結した学年演劇。中央に存在する死体。その異様な空間で繰り広げられる会話。これは狂気か、ただの喜劇か。題はイタリアの諺。「我々は皆、どこかおかしい」<br>場所：<a href='javascript:map_jump("F1")'>小講堂マップで見る</a></p>
                 </section>
             </div>
         </div>
