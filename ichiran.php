@@ -4,20 +4,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta charset="UTF-8">
   <title>第73回洛星文化祭～宴～</title>
-  <!-- Google Tag Manager -->
- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
- new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
- j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
- 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
- })(window,document,'script','dataLayer','GTM-T5TBPZR5');</script>
- <!-- End Google Tag Manager -->
+  
   <?php include "links.html" ?>
 </head>
 <body>
-    <!-- Google Tag Manager (noscript) -->
- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5TBPZR5"
- height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
- <!-- End Google Tag Manager (noscript) -->
+    
     <?php include "header-nav.php" ?>
     <div class="wrap">
     <div id="hontai" class="hontai">
@@ -385,14 +376,7 @@
         <div class="inner_content inner_top" id="mogiten" style="position:relative ; z-index: 103;">
         <h1>模擬店</h1>
         <div class="all_view intro_groupe Flex Flex_wrap">
-            <div class="view" id="注意">
-                <div>
-                    <a href='javascript:view_list("注意")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>注意</h3></div><h4>支払方法</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
-                </div>
-                <section>
-                    <p>⾦券販売は⼊⼝で⾏います。  基本的に会計は交通系ＩＣか⾦券のどちらかです。<u>PiTaPa（ポストペイは利用できません）</u></a></p>
-                </section>
-            </div>
+
             <div class="view" id="おさるのキッチン">
                 <div>
                     <a href='javascript:view_list("おさるのキッチン")' class="Groupes_top"><div class=""><img src="image/H3A.png" alt="" class="Logo_Img"><h3>おさるのキッチン</h3></div><h4>HⅢA</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
@@ -496,31 +480,31 @@
         <div class="all_view intro_groupe Flex Flex_wrap">
             <div class="view" id="中1学年演劇">
                 <div>
-                    <a href='javascript:view_list("中1学年演劇")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>中1学年演劇</h3></div><h4 style="font-size: 15pt;">中1学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("中1学年演劇")' class="Groupes_top"><div class=""><img src="image/M1学年演劇.png" alt="" class="Logo_Img"><h3>中1学年演劇</h3></div><h4 style="font-size: 15pt;">中1学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>coming soon...<br>場所：<a href='javascript:map_jump("F1")'>マップで見る</a></p>
+                    <p>ほとんど演劇経験のない中⼀が集まって、みんなで相談し、試⾏錯誤しながら作り上げた演劇をぜひ楽しんでください‼それでは、劇場でお会いしましょう。<br>場所：大講堂<a href='javascript:map_jump("F1")'>マップで見る</a></p>
                 </section>
             </div>
             <div class="view" id="中2学年演劇">
                 <div>
-                    <a href='javascript:view_list("中2学年演劇")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>中2学年演劇</h3></div><h4 style="font-size: 15pt;">中2学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("中2学年演劇")' class="Groupes_top"><div class=""><img src="image/M2学年演劇.png" alt="" class="Logo_Img"><h3>中2学年演劇</h3></div><h4 style="font-size: 15pt;">中2学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>coming soon...<br>場所：<a href='javascript:map_jump("F1")'>マップで見る</a></p>
+                    <p>今宵は夜市が開かれる。夜市は神社の森にて開かれる。夜市ではすばらしい品物が並ぶことだろう。夜市には北風と南風にのって多くの商⼈が現れるからだ。⻄の風と東の風が奇跡を運ぶだろう。今宵は夜市が開かれる......<br>場所：大講堂<a href='javascript:map_jump("F1")'>マップで見る</a></p>
                 </section>
             </div>
             <div class="view" id="中３学年演劇">
                 <div>
-                    <a href='javascript:view_list("中３学年演劇")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>中３学年演劇</h3></div><h4 style="font-size: 15pt;">中３学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("中３学年演劇")' class="Groupes_top"><div class=""><img src="image/M3.png" alt="" class="Logo_Img"><h3>中３学年演劇</h3></div><h4 style="font-size: 15pt;">中３学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>coming soon...<br>場所：<a href='javascript:map_jump("F1")'>マップで見る</a></p>
+                    <p>舞台はとある⼤学で⾏われた模擬裁判。そこに集まった素⼈集団が裁くのは⼀体何なのか、どんな結末が待っているのか。お楽しみに！<br>場所：大講堂<a href='javascript:map_jump("F1")'>マップで見る</a></p>
                 </section>
             </div>
             <div class="view" id="高Ⅰ学年演劇">
                 <div>
-                    <a href='javascript:view_list("高Ⅰ学年演劇")' class="Groupes_top"><div class=""><img src="image/logo.png" alt="" class="Logo_Img"><h3>高Ⅰ学年演劇</h3></div><h4 style="font-size: 15pt;">高Ⅰ学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
+                    <a href='javascript:view_list("高Ⅰ学年演劇")' class="Groupes_top"><div class=""><img src="image/H1学年演劇.png" alt="" class="Logo_Img"><h3>高Ⅰ学年演劇</h3></div><h4 style="font-size: 15pt;">高Ⅰ学年演劇</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
                     <p>去年までの経験から、70期学年演劇初の独⾃脚本に挑戦しました。⽂化祭も絡む、我々渾⾝のエピソードを、是非お楽しみください！<br>場所：<a href='javascript:map_jump("F1")'>M3A(マップで見る)</a></p>
