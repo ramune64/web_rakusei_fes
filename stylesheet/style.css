@@ -1572,7 +1572,7 @@ figure{
     justify-content: center;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: #44617b;
+    background-color: #c53d43;
     clip-path: polygon(0 15px,0 calc(100% - 15px),15px 100%,calc(100% - 15px) 100%,100% calc(100% - 15px),100% 15px,calc(100% - 15px) 0,15px 0);
 }
 figcaption{
@@ -1585,7 +1585,7 @@ audio{
     border-radius: 30px;
 }
 audio::-webkit-media-controls-panel {
-    background-color: #c53d43; /* コントロールパネルの色を変更 */
+    background-color: #44617b; /* コントロールパネルの色を変更 */
 }
 h2.voice{
     border-style: none;
