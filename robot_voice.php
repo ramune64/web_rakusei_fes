@@ -26,7 +26,7 @@
     <div class="main_content">
     <div class="inner_content inner_top" id="pagevoice">
         <h1>音声ガイド</h1>
-        <h2 class="voice">ロボット研究部展示の音声ガイドのデータです。<br>展示をご覧になる時にぜひご利用ください。</h2>
+        <h2 class="voice">ロボット研究部展示の音声ガイドのデータです。<br>展示をご覧になる際にぜひご利用ください。</h2>
         <figure>
             <figcaption>音声1</figcaption>
             <audio controls src="voice/2024_A0.1.wav"></audio>
