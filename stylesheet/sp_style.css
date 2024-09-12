@@ -588,3 +588,12 @@ div.Row h3{
 .over_view_box{
     width: 80%;
 }
+
+figcaption{
+    color: white;
+    font-size: 15pt;
+    margin-right: 10px;
+}
+audio{
+    width: 200px;
+}
