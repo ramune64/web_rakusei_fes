@@ -392,6 +392,7 @@
         </div>
         <div class="inner_content inner_top" id="mogiten" style="position:relative ; z-index: 103;">
         <h1>模擬店</h1>
+        <h2>今年度の模擬店は昨年度と大幅に異なるため<a href="shop.php">詳細はこちらから</a>確認してください</h2>
         <div class="all_view intro_groupe Flex Flex_wrap">
 
             <div class="view" id="おさるのキッチン">
@@ -399,7 +400,7 @@
                     <a href='javascript:view_list("おさるのキッチン")' class="Groupes_top"><div class=""><img src="image/H3A.png" alt="" class="Logo_Img"><h3>おさるのキッチン</h3></div><h4>HⅢA</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>販売品目：チャーハン<br>場所：<a href="#">マップで見る</a></p>
+                    <p>販売品目：チャーハン<br>価格:300円</p>
                 </section>
             </div>
             <div class="view" id="ヨシタンブール">
@@ -407,7 +408,7 @@
                     <a href='javascript:view_list("ヨシタンブール")' class="Groupes_top"><div class=""><img src="image/H3B.png" alt="" class="Logo_Img"><h3>ヨシタンブール</h3></div><h4>HⅢB</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>販売品目：ラッシー,ケバブ<br>場所：<a href="#">マップで見る</a></p>
+                    <p>販売品目：ケバブ 価格:350円<br>マンゴーラッシー 価格:150円<br>ケバブ＆マンゴーラッシー 価格:450円<br><br>チーズのせは+50円</p>
                 </section>
             </div>
             <div class="view" id="四宮組">
@@ -415,7 +416,7 @@
                     <a href='javascript:view_list("四宮組")' class="Groupes_top"><div class=""><img src="image/H3C.png" alt="" class="Logo_Img"><h3>四宮組</h3></div><h4>HⅢC</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>販売品目：フランクフルト,ホットドック<br>場所：<a href="#">マップで見る</a></p>
+                    <p>販売品目：フランクフルト<br>価格:250円</p>
                 </section>
             </div>
             <div class="view" id="果糖ポン一郎">
@@ -423,7 +424,7 @@
                     <a href='javascript:view_list("果糖ポン一郎")' class="Groupes_top"><div class=""><img src="image/H3D.png" alt="" class="Logo_Img"><h3>果糖ポン一郎</h3></div><h4>HⅢD</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>販売品目：フルーツポンチ,スムージー<br>場所：<a href="#">マップで見る</a></p>
+                    <p>販売品目：フルーツポンチ<br>価格:300円<br>フルーリー 価格:200円</p>
                 </section>
             </div>
             <div class="view" id="一平ちゃん">
@@ -431,7 +432,7 @@
                     <a href='javascript:view_list("一平ちゃん")' class="Groupes_top"><div class=""><img src="image/H3E.png" alt="" class="Logo_Img"><h3>一平ちゃん</h3></div><h4>HⅢE</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>販売品目：焼きそば<br>場所：<a href="#">マップで見る</a></p>
+                    <p>販売品目：焼きそば<br>価格:350円</p>
                 </section>
             </div>
             <div class="view" id="小石屋">
@@ -439,7 +440,7 @@
                     <a href='javascript:view_list("小石屋")' class="Groupes_top"><div class=""><img src="image/H3混合.png" alt="" class="Logo_Img"><h3>小石屋</h3></div><h4>HⅢクラス混合</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>射的<br>場所：<a href="#">マップで見る</a></p>
+                    <p>射的5発<br>価格:200円</p>
                 </section>
             </div>
             <div class="view" id="たこやす">
@@ -447,7 +448,7 @@
                     <a href='javascript:view_list("たこやす")' class="Groupes_top"><div class=""><img src="image/硬式テニス部.png" alt="" class="Logo_Img"><h3>たこやす</h3></div><h4>硬式テニス部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>販売品目：たこ焼き<br>場所：<a href="#">マップで見る</a></p>
+                    <p>販売品目：たこ焼き(6個入り)<br>価格:300円</p>
                 </section>
             </div>
             <div class="view" id="ニクのハコ">
@@ -455,7 +456,7 @@
                     <a href='javascript:view_list("ニクのハコ")' class="Groupes_top"><div class=""><img src="image/バドミントン部.png" alt="" class="Logo_Img"><h3>ニクのハコ</h3></div><h4>バドミントン部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>販売品目：焼き鳥,肉巻き,焼きおにぎり<br>場所：<a href="#">マップで見る</a></p>
+                    <p>販売品目：焼き鳥(3本入り)<br>価格:250円</p>
                 </section>
             </div>
             <div class="view" id="イニエスタバ">
@@ -463,7 +464,7 @@
                     <a href='javascript:view_list("イニエスタバ")' class="Groupes_top"><div class=""><img src="image/イニエスタ.jpeg" alt="" class="Logo_Img"><h3>イニエスタバ</h3></div><h4>サッカー部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>販売品目：パンケーキ,レモネード<br>場所：<a href="#">マップで見る</a></p>
+                    <p>販売品目：パンケーキ　価格：200円<br>レモネード　価格:100円</p>
                 </section>
             </div>
             <div class="view" id="わたあめ ゆうた">
@@ -471,7 +472,7 @@
                     <a href='javascript:view_list("わたあめ ゆうた")' class="Groupes_top"><div class=""><img src="image/バスケ部.jpg" alt="" class="Logo_Img"><h3>わたあめ ゆうた</h3></div><h4>バスケットボール部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>販売品目：わたあめ<br>場所：<a href="#">マップで見る</a></p>
+                    <p>販売品目：わたあめ<br>価格：250円<br>色付き綿あめ　価格:300円</p>
                 </section>
             </div>
             <div class="view" id="変な店">
@@ -479,7 +480,7 @@
                     <a href='javascript:view_list("変な店")' class="Groupes_top"><div class=""><img src="image/ハンド部.png" alt="" class="Logo_Img"><h3>変な店</h3></div><h4>ハンドボール部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>販売品目：はしまき<br>場所：<a href="#">マップで見る</a></p>
+                    <p>販売品目：はしまき<br>価格：250円</p>
                 </section>
             </div>
             <div class="view" id="Café＆メイド OFFu">
@@ -487,7 +488,7 @@
                     <a href='javascript:view_list("Café＆メイド OFFu")' class="Groupes_top"><div class=""><img src="image/喫茶.png" alt="" class="Logo_Img"><h3 style="font-size: 20pt;">Café＆メイド OFFu</h3></div><h4>数理研・バレー部</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>販売品目：パンケーキ<br><u>店はリヨンホールで模擬店会場から直接いけないので注意してください！</u><br>場所：<a href="#">マップで見る</a></p>
+                    <p>販売品目：ワッフル価格：250円<br>コーヒー　価格：350円<br>ジュース　価格：200円<br>アイス 価格:250円<br><br><u>店はリヨンホールで模擬店会場から直接いけないので注意してください！</u></p>
                 </section>
             </div>
         </div>
