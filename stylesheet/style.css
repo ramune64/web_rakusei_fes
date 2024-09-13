@@ -13,9 +13,7 @@ p,h2,h3{
 h1{
     color: white;
 }
-h3{
-    text-align: center;
-}
+
 /* .humbergar{
     display: none;
 } */
@@ -1594,5 +1592,13 @@ audio::-webkit-media-controls-panel {
 }
 h2.voice{
     border-style: none;
+    text-align: center;
+}
+
+h3.shop {
+    text-align: center;
+}
+
+p.shop{
     text-align: center;
 }
