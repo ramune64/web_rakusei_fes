@@ -1568,3 +1568,31 @@ img.rorare_arrow_rev{
 .slick-next::before,.slick-prev::before{
     content: "";
 }
+figure{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #c53d43;
+    clip-path: polygon(0 15px,0 calc(100% - 15px),15px 100%,calc(100% - 15px) 100%,100% calc(100% - 15px),100% 15px,calc(100% - 15px) 0,15px 0);
+}
+figcaption{
+    color: white;
+    font-size: 20pt;
+    margin-right: 100px;
+}
+audio{
+    border: 3px solid #CEA34F;
+    border-radius: 30px;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #44617b; /* コントロールパネルの色を変更 */
+}
+h2.voice{
+    border-style: none;
+    text-align: center;
+}

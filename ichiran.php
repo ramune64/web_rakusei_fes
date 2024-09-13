@@ -263,7 +263,7 @@
                     <a href='javascript:view_list("高校ロボット研究部")' class="Groupes_top"><div class=""><img src="image/roboken_logo.png" alt="" class="Logo_Img"><h3 style="font-size: 28pt;">高校ロボット研究部</h3></div><h4>超スマート社会</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>最近耳にすることが多くなった「超スマート社会」これは一体私たちの生活にどのような変化をもたらすのか。オリジナルキャラクターの音声ガイドや、体験型の展示などを通してわかりやすく解説します<br>場所：<a href='javascript:map_jump("F3")'>HⅡB(マップで見る)</a></p>
+                    <p>最近耳にすることが多くなった「超スマート社会」これは一体私たちの生活にどのような変化をもたらすのか。オリジナルキャラクターの音声ガイドや、体験型の展示などを通してわかりやすく解説します<br><a href="robot_voice.php">音声案内ボイスはこちら！</a><br>場所：<a href='javascript:map_jump("F3")'>HⅡB(マップで見る)</a></p>
                 </section>
             </div>
             <div class="view" id="スケート部">
@@ -287,7 +287,7 @@
                     <a href='javascript:view_list("中学ロボット研究部")' class="Groupes_top"><div class=""><img src="image/ロボ研.png" alt="" class="Logo_Img"><h3 style="font-size: 28pt;">中学ロボット研究部</h3></div><h4>ロボ研の日常</h4><img src="image/up_arrow.png" alt="" class="Arrow"></a>
                 </div>
                 <section>
-                    <p>ロボット研究部の部員たちが自由に作った製作物を展示しています。ロボットアームや自律型ロボットなど、実際に動くものがたくさんあります。是非来てください！<br>場所：<a href='javascript:map_jump("F3")'>第二実験室(マップで見る)</a></p>
+                    <p>ロボット研究部の部員たちが自由に作った製作物を展示しています。ロボットアームや自律型ロボットなど、実際に動くものがたくさんあります。是非来てください！<br><a href="robot_voice.php">音声案内ボイスはこちら！</a><br>場所：<a href='javascript:map_jump("F3")'>第二実験室(マップで見る)</a></p>
                 </section>
             </div>
             <div class="view" id="折り紙同好会">
