@@ -129,39 +129,47 @@
         </figure>
         <figure>
             <figcaption>音声26</figcaption>
-            <audio controls src="voice/2024_05.26.wav"></audio>
+            <audio controls src="voice/2024_03.26.wav"></audio>
         </figure>
         <figure>
             <figcaption>音声27</figcaption>
-            <audio controls src="voice/2024_06.27.wav"></audio>
+            <audio controls src="voice/2024_05.27.wav"></audio>
         </figure>
         <figure>
             <figcaption>音声28</figcaption>
-            <audio controls src="voice/2024_11.28.wav"></audio>
+            <audio controls src="voice/2024_06.28.wav"></audio>
         </figure>
         <figure>
             <figcaption>音声29</figcaption>
-            <audio controls src="voice/2024_12.29.wav"></audio>
+            <audio controls src="voice/2024_11.29.wav"></audio>
         </figure>
         <figure>
             <figcaption>音声30</figcaption>
-            <audio controls src="voice/2024_13.30.wav"></audio>
+            <audio controls src="voice/2024_12.30.wav"></audio>
         </figure>
         <figure>
             <figcaption>音声31</figcaption>
-            <audio controls src="voice/2024_15.31.wav"></audio>
+            <audio controls src="voice/2024_13.31.wav"></audio>
         </figure>
         <figure>
             <figcaption>音声32</figcaption>
-            <audio controls src="voice/2024_20.32.wav"></audio>
+            <audio controls src="voice/2024_15.32.wav"></audio>
         </figure>
         <figure>
             <figcaption>音声33</figcaption>
-            <audio controls src="voice/2024_22.33.wav"></audio>
+            <audio controls src="voice/2024_17.33.wav"></audio>
         </figure>
         <figure>
             <figcaption>音声34</figcaption>
-            <audio controls src="voice/2024_24.34.wav"></audio>
+            <audio controls src="voice/2024_20.34.wav"></audio>
+        </figure>
+        <figure>
+            <figcaption>音声35</figcaption>
+            <audio controls src="voice/2024_22.35.wav"></audio>
+        </figure>
+        <figure>
+            <figcaption>音声36</figcaption>
+            <audio controls src="voice/2024_24.36.wav"></audio>
         </figure>
 
     </div>
