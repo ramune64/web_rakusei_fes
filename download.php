@@ -54,11 +54,11 @@
                         <div class="Row Right">
                             <div class="Each_Club" id="club2">
                                 <div class="Up_content">
-                                    <a href='javascript:magazine("club2")'><img src="image/logo.png" alt="logo" class="Club_logo"><h3>準備中</h3><img src="image/up_arrow.png" alt="" id="arrow" class="Arrow"></a>
+                                    <a href='javascript:magazine("club2")'><img src="image/logo.png" alt="logo" class="Club_logo"><h3>鉄道研究会</h3><img src="image/up_arrow.png" alt="" id="arrow" class="Arrow"></a>
                                 </div>
                                 <section>
-                                    <h4>準備中</h4>
-                                    <a href="pdfs/" class="Download_button Button_sonota"download ><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                    <h4>0キロポスト</h4>
+                                    <a href="洛星鉄研2024年度会誌(デジタル版).pdf" class="Download_button Button_sonota"download ><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                                 </section>
                             </div>
                         </div>
