@@ -26,7 +26,7 @@
                         <div class="Download_intro item">
                             <h3>説明</h3>
                             <p>第73回洛星文化祭～宴～<br>のパンフレットです！<br>プログラムパートが一生懸命作った集大成なので、文化祭に来る前や来校された際などにお使いください！！<br><!-- <br>試し読みは<a href="pamphlet.php">こちら</a> --></p>
-                            <a href="pdfs/パンフレット.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                            <a href="パンフレット2.pdf" class="Download_button" download><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                         </div>
                     </div>
                 </section>
@@ -54,11 +54,11 @@
                         <div class="Row Right">
                             <div class="Each_Club" id="club2">
                                 <div class="Up_content">
-                                    <a href='javascript:magazine("club2")'><img src="image/logo.png" alt="logo" class="Club_logo"><h3>準備中</h3><img src="image/up_arrow.png" alt="" id="arrow" class="Arrow"></a>
+                                    <a href='javascript:magazine("club2")'><img src="image/logo.png" alt="logo" class="Club_logo"><h3>鉄道研究会</h3><img src="image/up_arrow.png" alt="" id="arrow" class="Arrow"></a>
                                 </div>
                                 <section>
-                                    <h4>準備中</h4>
-                                    <a href="pdfs/" class="Download_button Button_sonota"download ><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
+                                    <h4>0キロポスト</h4>
+                                    <a href="洛星鉄研2024年度会誌(デジタル版).pdf" class="Download_button Button_sonota"download ><img src="image/download_red.png" alt="ダウンロードアイコン"><p>ダウンロード(PDF)</p></a>
                                 </section>
                             </div>
                         </div>

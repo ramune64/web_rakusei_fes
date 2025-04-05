@@ -35,14 +35,21 @@
                 </a>
             </div>
             <div class="news_topics">
-                <a href="0news.php">
+                <a href="1news .php">
                     <h3>2024/09/12 洛星文化祭ホームページ更新！</h3>
                     <p>
                         文化祭ホームページを更新しました!今まで未定だったところや...
                     </p>
                 </a>
             </div>
-    
+            <div class="news_topics">
+                <a href="2news.php">
+                    <h3>2024/09/12 【重要】模擬店について</h3>
+                    <p>
+                        今年度の模擬店についての更新が...
+                    </p>
+                </a>
+            </div>
     </div>
 </div>
 <div class="side_content">
